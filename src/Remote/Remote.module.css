@@ -1,0 +1,32 @@
+.remoteBlock {
+    min-height: 300px;
+    background-color: #7ce791;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remoteContainer {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    background-color: #ffadad;
+}
+
+.button {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 0 20px;
+    width: auto;
+    height: 50px;
+    font-size: 24px;
+    background-color: #2aa1ff;
+    text-decoration-color: red;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+}
+.button:hover {
+    transition: opacity 0.5s ease;
+}

@@ -17,6 +17,7 @@ export const Works = () => {
                     <Work title={"Work 1"} descryption={lorem}/>
                     <Work title={"Work 2"} descryption={lorem} />
                     <Work title={"Work 3"} descryption={lorem} />
+                    <Work title={"Work 4"} descryption={lorem} />
                 </div>
             </div>
         </div>
