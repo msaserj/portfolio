@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
+import {Skils} from "./Skills/Skils";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
+            <Skils/>
         </div>
     );
 }
