@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className={css.footerBlock}>
             <div className={`${styleContainer.container} ${css.footerContainer}`}>
-                <h2 className={css.title}>I'm considering remote work.</h2>
+                <h2 className={css.title}>Vasya Pupkin</h2>
                 <div className={css.social} >
                     <div>GitHub</div>
                     <div>LinkedIn</div>
