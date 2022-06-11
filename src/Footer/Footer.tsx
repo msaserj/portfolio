@@ -8,9 +8,9 @@ export const Footer = () => {
             <div className={`${styleContainer.container} ${css.footerContainer}`}>
                 <h2 className={css.title}>I'm considering remote work.</h2>
                 <div className={css.social} >
-                    <div>inst</div>
-                    <div>FB</div>
                     <div>GitHub</div>
+                    <div>LinkedIn</div>
+                    <div>itra.run</div>
                 </div>
                 <h3 className={css.title}>Gnu GPL</h3>
             </div>
