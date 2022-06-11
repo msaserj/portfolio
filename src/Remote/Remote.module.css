@@ -24,9 +24,10 @@
     font-size: 24px;
     background-color: #2aa1ff;
     text-decoration-color: red;
-    transition: opacity 0.5s ease;
+    transition:  background-color 0.5s ease;
     cursor: pointer;
 }
 .button:hover {
-    transition: opacity 0.5s ease;
+    transition:  background-color 0.5s ease;
+    background-color: #acc4ff;
 }
