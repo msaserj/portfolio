@@ -1,25 +1,19 @@
-.worksBlock {
-    min-height: 100vh;
+.contactsBlock {
+    min-height: 600px;
     background-color: #7cc7e7;
-
 }
-
-.worksContainer {
+.contactsContainer {
     flex-direction: column;
     justify-content: flex-start;
-
 }
-
 .title {
     background-color: #ffadad;
 }
-
-.works {
+.contacts {
     border: 4px solid #0056b9;
     width: 100%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }

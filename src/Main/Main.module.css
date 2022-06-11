@@ -16,3 +16,16 @@
     height: 400px;
     background-color: #c8ffff;
 }
+
+@media screen and (max-width: 754px) {
+    .text {
+        text-align: center;
+        margin: auto;
+    }
+    .photo {
+        margin: auto;
+    }
+    .mainBlock {
+        height: 75vh;
+    }
+}

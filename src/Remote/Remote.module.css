@@ -5,16 +5,14 @@
     justify-content: center;
     align-items: center;
 }
-
 .remoteContainer {
     flex-direction: column;
     justify-content: center;
 }
-
 .title {
+    text-align: center;
     background-color: #ffadad;
 }
-
 .button {
     border: 1px solid red;
     border-radius: 10px;

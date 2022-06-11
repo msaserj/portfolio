@@ -7,13 +7,6 @@
     text-align: center;
     margin: 40px 20px;
 }
-.imgItem {
-    height: 100%;
-    width: 100%;
-    background-color: #058100;
-
-}
-
 .imgBlock {
     background-image: url(https://kaifolog.ru/uploads/posts/2013-03/1363239425_023_2.jpg);
     background-size: cover;
@@ -23,7 +16,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .button {
     border: 1px solid red;
     border-radius: 10px;

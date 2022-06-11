@@ -14,10 +14,10 @@ export const Works = () => {
             <div className={`${styleContainer.container} ${css.worksContainer}`}>
                 <h2 className={css.title}>My works</h2>
                 <div className={css.works}>
-                    <Work title={"Work 1"} descryption={lorem}/>
-                    <Work title={"Work 2"} descryption={lorem} />
-                    <Work title={"Work 3"} descryption={lorem} />
-                    <Work title={"Work 4"} descryption={lorem} />
+                    <Work title={"Form 1"} descryption={lorem}/>
+                    <Work title={"Form 2"} descryption={lorem} />
+                    <Work title={"Form 3"} descryption={lorem} />
+                    <Work title={"Form 4"} descryption={lorem} />
                 </div>
             </div>
         </div>

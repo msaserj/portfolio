@@ -15,6 +15,8 @@ export const Skils = () => {
                 <div className={css.skils}>
                     <Skill title={"HTML"} descryption={lorem}/>
                     <Skill title={"CSS"} descryption={lorem}/>
+                    <Skill title={"JS"} descryption={lorem}/>
+                    <Skill title={"TS"} descryption={lorem}/>
                     <Skill title={"React"} descryption={lorem}/>
                     <Skill title={"Redux"} descryption={lorem}/>
                     <Skill title={"Storybook"} descryption={lorem}/>
