@@ -2,7 +2,7 @@
   "name": "it-inc-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://msaserj.github.io/it-incubator-portfolio",
+  "homepage": "https://msaserj.github.io/it-inc-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
