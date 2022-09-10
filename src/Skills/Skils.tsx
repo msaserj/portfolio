@@ -2,6 +2,7 @@ import React from 'react';
 import css from './Skills.module.css'
 import styleContainer from '../Common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
+import {Title} from "../Common/components/title/Title";
 
 export const Skils = () => {
     const lorem = 'Lorem ipsum dolor sit amet, ' +
@@ -11,7 +12,7 @@ export const Skils = () => {
     return (
         <div className={css.skillsBlock}>
             <div className={`${styleContainer.container} ${css.skillsContainer}`}>
-                <h2 className={css.title}>Skills</h2>
+                <Title title={"Skils"}/>
                 <div className={css.skils}>
                     <Skill title={"HTML"} descryption={lorem}/>
                     <Skill title={"CSS"} descryption={lorem}/>
@@ -21,7 +22,6 @@ export const Skils = () => {
                     <Skill title={"Redux"} descryption={lorem}/>
                     <Skill title={"Storybook"} descryption={lorem}/>
                     <Skill title={"TTD"} descryption={lorem}/>
-
                 </div>
             </div>
         </div>
