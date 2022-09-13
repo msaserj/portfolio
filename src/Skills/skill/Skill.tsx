@@ -1,5 +1,5 @@
 import React from 'react';
-import css from './Skill.module.css'
+import css from './Skill.module.scss'
 
 type SkillPrposType = {
     title: string

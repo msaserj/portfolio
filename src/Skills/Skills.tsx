@@ -1,10 +1,10 @@
 import React from 'react';
-import css from './Skills.module.css'
-import styleContainer from '../Common/styles/Container.module.css'
+import css from './Skills.module.scss'
+import styleContainer from '../Common/styles/Container.module.scss'
 import {Skill} from "./skill/Skill";
 import {Title} from "../Common/components/title/Title";
 
-export const Skils = () => {
+export const Skills = () => {
     const lorem = 'Lorem ipsum dolor sit amet, ' +
         'consectetur adipiscing elit, ' +
         'sed do eiusmod tempor incididunt ut ' +
@@ -12,8 +12,8 @@ export const Skils = () => {
     return (
         <div className={css.skillsBlock}>
             <div className={`${styleContainer.container} ${css.skillsContainer}`}>
-                <Title title={"Skils"}/>
-                <div className={css.skils}>
+                <Title title={"Skills"}/>
+                <div className={css.skills}>
                     <Skill title={"HTML"} descryption={lorem}/>
                     <Skill title={"CSS"} descryption={lorem}/>
                     <Skill title={"JS"} descryption={lorem}/>

@@ -1,29 +1,29 @@
 .form {
-    min-width: 250px;
+  min-width: 250px;
+  background-color: #a5dafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px;
 
-    background-color: #a5dafa;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 40px 20px;
-}
-.input {
+  .input {
     margin: 5px;
     height: 50px;
     min-width: 250px;
     border: 1px solid red;
     border-radius: 10px;
-}
-.textArea {
+  }
+
+  .textArea {
     margin: 5px;
     min-width: 250px;
     min-height: 150px;
     border: 1px solid red;
     border-radius: 10px;
-}
+  }
 
-.button {
+  .button {
     margin: 10px;
     border: 1px solid red;
     border-radius: 10px;
@@ -34,8 +34,14 @@
     text-decoration-color: red;
     transition: background-color 0.5s ease;
     cursor: pointer;
+
+    &:hover {
+      background-color: #3ac545;
+      transition: background-color 0.5s ease;
+    }
+  }
 }
-.button:hover {
-    background-color: #3ac545;
-    transition: background-color 0.5s ease;
-}
+
+
+
+

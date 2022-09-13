@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
-import {Skils} from "./Skills/Skils";
+import {Skills} from "./Skills/Skills";
 import {Works} from "./Works/Works";
 import {Remote} from "./Remote/Remote";
 import {Contacts} from "./Contacts/Contacts";
@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
-            <Skils/>
+            <Skills/>
             <Works/>
             <Remote/>
             <Contacts/>

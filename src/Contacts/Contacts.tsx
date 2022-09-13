@@ -1,6 +1,6 @@
 import React from 'react';
-import css from './Contacts.module.css'
-import styleContainer from '../Common/styles/Container.module.css'
+import css from './Contacts.module.scss'
+import styleContainer from '../Common/styles/Container.module.scss'
 import {Form} from "./work/Form";
 
 export const Contacts = () => {

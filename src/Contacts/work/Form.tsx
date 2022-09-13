@@ -1,10 +1,7 @@
 import React from 'react';
-import css from './Form.module.css'
-
-
+import css from './Form.module.scss'
 
 export const Form = () => {
-
     return (
         <div className={css.formBlock}>
             <form className={css.form} onSubmit={e=>e}>
