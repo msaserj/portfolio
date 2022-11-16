@@ -2,8 +2,11 @@
 .title {
   position: relative;
   margin: 0 0 30px;
+  padding: 5px;
   background-color: $bgColor;
-  font-family: 'Josefin Sans', sans-serif;
+  //font-family: 'Josefin Sans', sans-serif;
+  font-family: $matrixFontFamily;
+  text-shadow: 1px 1px 2px #565656, 0 0 1em #006b17, 0 0 0.2em #2ee700;
   color: $fontTitleColor;
   text-transform: capitalize;
   font-size: 30px;
@@ -22,6 +25,7 @@
     width: 55px;
     height: 1px;
     bottom: -30px;
+    //выровнять по середине
     left: 50%;
     transform: translate(-50%, 50%);
   }

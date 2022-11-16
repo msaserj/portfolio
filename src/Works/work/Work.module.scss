@@ -1,5 +1,5 @@
 @import "./src/Common/styles/sass/variables";
-@import "./src/Common/styles/sass/mixins";
+@import "../../Common/styles/sass/mixins";
 
 .work {
     width: 400px;
@@ -28,7 +28,7 @@
         }
         .button {
             border: 1px solid $primaryColor;
-            border-radius: 10px;
+            border-radius: 3px;
             padding: 0 20px;
             width: auto;
             height: 40px;
