@@ -1,7 +1,13 @@
 .header {
     height: 80px;
-    background-color: darkgrey;
+    background-color: rgba(33, 36, 40, 0.8705882353);
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    z-index: 999;
+    animation: headerSlideDown 0.5s ease forwards;
 }

@@ -1,7 +1,29 @@
 .nav {
-    border: 1px solid red;
-    background-color: darkgrey;
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
+  border: 1px solid red;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+
+  .item {
+    list-style-type: none;
+    cursor: pointer;
+    a {
+      outline: none;
+      margin: 10px 14px;
+      transition: 0.3s;
+      color: #c4cfde;
+      position: relative;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+    }
+    &:hover a {
+      color: #ff014f;
+    }
+  }
 }

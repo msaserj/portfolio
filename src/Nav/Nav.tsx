@@ -3,11 +3,15 @@ import css from './Nav.module.scss'
 
 export const Nav = () => {
     return (
-        <div className={css.nav}>
-            <a href="">Main</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contacts</a>
+        <div >
+            <ul className={css.nav}>
+                <li className={css.item}><a href="#home">HOME</a></li>
+                <li className={css.item}><a href="#skills">SKILLS</a></li>
+                <li className={css.item}><a href="#portfolio">PORTFOLIO</a></li>
+                <li className={css.item}><a href="#resume">RESUME</a></li>
+                <li className={css.item}><a href="#blog">BLOG</a></li>
+                <li className={css.item}><a href="#contacts">Contacts</a></li>
+            </ul>
         </div>
     );
 };
