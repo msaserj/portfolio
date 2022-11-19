@@ -14,6 +14,7 @@ export const Skills = () => {
             <div className={`${styleContainer.container} ${css.skillsContainer}`}>
                 <Title title={"Skills"}/>
                 <div className={css.skills}>
+
                     <Skill title={"HTML"} descryption={lorem}/>
                     <Skill title={"CSS"} descryption={lorem}/>
                     <Skill title={"JS"} descryption={lorem}/>
