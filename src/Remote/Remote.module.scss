@@ -1,6 +1,8 @@
+@import "./src/Common/styles/sass/variables";
+
 .remoteBlock {
   min-height: 300px;
-  background-color: #7ce791;
+  background-color: $bgColor;
   display: flex;
   justify-content: center;
   align-items: center;
