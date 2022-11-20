@@ -15,13 +15,25 @@ export const Main = () => {
                         veritatis vero tempore sequi at sed facere dolore. Quae obcaecati eius quasi doloribus
                         illum minus fugit.</p>
 
-                    <div>
-                        <ul>
-                            <li className={css.skill}>L</li>
-                            <li className={css.skill}>F</li>
-                            <li className={css.skill}>I</li>
-                        </ul>
+                    <div className={css.options}>
+                        <div>
+                            <h3>Find Me</h3>
+                            <ul>
+                                <li className={css.skill}>L</li>
+                                <li className={css.skill}>F</li>
+                                <li className={css.skill}>I</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Best Skills</h3>
+                            <ul className={css.ul}>
+                                <li className={css.skill}>L</li>
+                                <li className={css.skill}>F</li>
+                                <li className={css.skill}>I</li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
                 <div className={css.photo}>Photo</div>
             </div>
