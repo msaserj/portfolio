@@ -5,9 +5,9 @@
   flex-direction: row;
   .contacts {
     display: flex;
-    padding: 35px 40px 35px 40px;
-    width: 400px;
-    height: min(280px);
+    padding: 30px;
+    width: 300px;
+    min-height: 300px;
     background: $linearGradient_1;
     box-shadow: $boxShadow_1;
     border-radius: 10px;
@@ -17,11 +17,22 @@
     flex-direction: column;
     justify-content: flex-start;
     margin: 40px 20px;
-    cursor: pointer;
+    .imageBlock {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      .image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s;
+      }
+      .image:hover {
+        transform: scale(1.2);
+      }
+    }
   }
   .form {
-    min-width: 500px;
-
+    min-width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,9 +40,9 @@
     margin: 40px 20px;
 
     .input {
-      margin: 5px;
-      height: 50px;
-      min-width: 400px;
+      margin: 10px;
+      height: 55px;
+      min-width: 550px;
       border: 2px solid #191b1e;
       border-radius: 6px;
       background-color: #191b1e;
@@ -40,18 +51,21 @@
       padding: 0 15px;
       letter-spacing: 1px;
       color: #c4cfde !important;
+      &:focus {
+        border-color: blue;
+      }
     }
 
     .textArea {
       margin: 5px;
-      min-width: 400px;
-      min-height: 150px;
+      min-width: 550px;
+      min-height: 250px;
       border: 2px solid #191b1e;
       border-radius: 6px;
       background-color: #191b1e;
       box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
       font-size: 14px;
-      padding: 0 15px;
+      padding: 15px;
       letter-spacing: 1px;
       color: #c4cfde !important;
     }
@@ -73,7 +87,18 @@
         transition: background-color 0.5s ease;
       }
     }
+
   }
+  .links {
+    display: flex;
+    flex-direction: row;
+    .icon {
+      color: $fontColor;
+      font-size: 24px;
+      margin: auto;
+    }
+  }
+
 }
 
 

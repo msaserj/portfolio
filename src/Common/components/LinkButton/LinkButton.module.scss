@@ -1,0 +1,44 @@
+@import "./src/Common/styles/sass/variables";
+
+.link {
+  margin: 10px 10px;
+  line-height: 55px;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  background: $linearGradient_1;
+  box-shadow: $boxShadow_1;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  vertical-align: auto;
+  align-items: center;
+  justify-content: center;
+  //transition: background 0.5s ease, 0.5s;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    background: $linearGradient_2;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    z-index: -1;
+  }
+  &:hover {
+    transform: translateY(-3px);
+    &::before {
+      opacity: 1;
+    }
+  }
+
+}
