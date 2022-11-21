@@ -13,19 +13,21 @@ export const Form = () => {
                          src="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/contact1.png"
                          alt="connect"/></div>
                 <div>
-                    <h3>Sergei Minko</h3>
+                    <h2>Sergei Minko</h2>
                     <span>React Frontend Developer</span>
                 </div>
 
                 <div>
-                    <p>fdfdfdfdf</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. </p>
                 </div>
 
                 <div>
-                    <span className={css.span}>Phone: <a href="tel: +123456789">+123456789</a></span>
+                    <span className={css.span}>Phone: <a className={css.a} href="tel: +123456789">+123456789</a></span>
                 </div>
                 <div>
-                    <span className={css.span}>Email: <a href="mailto: serg.ks@gmail.com">serg.ks@gmail.com</a></span>
+                    <span className={css.span}>Email: <a className={css.a} href="mailto: serg.ks@gmail.com">serg.ks@gmail.com</a></span>
                 </div>
                 <div>
                     <h3>Find Me:</h3>

@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin: 40px 20px;
+    color: $fontColor;
     .imageBlock {
       width: 100%;
       border-radius: 10px;
@@ -28,6 +29,16 @@
       }
       .image:hover {
         transform: scale(1.2);
+      }
+
+    }
+    .a {
+      color: $textColor;
+      text-decoration: none;
+      transition: 0.5s;
+      &:hover {
+        text-decoration: $fontRedColor;
+        color: $fontRedColor;
       }
     }
   }
@@ -68,6 +79,8 @@
       padding: 15px;
       letter-spacing: 1px;
       color: #c4cfde !important;
+      resize: none;
+
     }
 
     .button {
