@@ -25,8 +25,8 @@
           letter-spacing: 2px;
           text-transform: uppercase;
           border-radius: 6px;
-          background: linear-gradient(145deg, #1e2024, #23272b);
-          box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+          background: $linearGradient_1;
+          box-shadow: $boxShadow_1;
           transition: 0.3s;
           position: relative;
           z-index: 1;
@@ -40,7 +40,7 @@
             border-radius: 6px;
             top: 0;
             left: 0;
-            background: linear-gradient(to right bottom, #212428, #16181c);
+            background: $linearGradient_2;
             opacity: 0;
             transition: opacity 0.5s linear;
             z-index: -1;

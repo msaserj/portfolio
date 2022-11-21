@@ -1,46 +1,82 @@
-.form {
-  min-width: 250px;
-  background-color: #a5dafa;
+@import "./src/Common/styles/sass/variables";
+
+.formBlock {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 40px 20px;
-
-  .input {
-    margin: 5px;
-    height: 50px;
-    min-width: 250px;
-    border: 1px solid red;
+  flex-direction: row;
+  .contacts {
+    display: flex;
+    padding: 35px 40px 35px 40px;
+    width: 400px;
+    height: min(280px);
+    background: $linearGradient_1;
+    box-shadow: $boxShadow_1;
     border-radius: 10px;
-  }
-
-  .textArea {
-    margin: 5px;
-    min-width: 250px;
-    min-height: 150px;
-    border: 1px solid red;
-    border-radius: 10px;
-  }
-
-  .button {
-    margin: 10px;
-    border: 1px solid red;
-    border-radius: 10px;
-    padding: 0 40px;
-    width: auto;
-    height: 50px;
-    background-color: #78fd91;
-    text-decoration-color: red;
-    transition: background-color 0.5s ease;
+    position: relative;
+    z-index: 1;
+    transition: 0.2s all ease-in-out;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 40px 20px;
     cursor: pointer;
+  }
+  .form {
+    min-width: 500px;
 
-    &:hover {
-      background-color: #3ac545;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px;
+
+    .input {
+      margin: 5px;
+      height: 50px;
+      min-width: 400px;
+      border: 2px solid #191b1e;
+      border-radius: 6px;
+      background-color: #191b1e;
+      box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+      font-size: 14px;
+      padding: 0 15px;
+      letter-spacing: 1px;
+      color: #c4cfde !important;
+    }
+
+    .textArea {
+      margin: 5px;
+      min-width: 400px;
+      min-height: 150px;
+      border: 2px solid #191b1e;
+      border-radius: 6px;
+      background-color: #191b1e;
+      box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+      font-size: 14px;
+      padding: 0 15px;
+      letter-spacing: 1px;
+      color: #c4cfde !important;
+    }
+
+    .button {
+      margin: 10px;
+      border: 1px solid red;
+      border-radius: 6px;
+      padding: 0 40px;
+      width: auto;
+      height: 50px;
+      background-color: #78fd91;
+      text-decoration-color: red;
       transition: background-color 0.5s ease;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #3ac545;
+        transition: background-color 0.5s ease;
+      }
     }
   }
 }
+
+
 
 
 

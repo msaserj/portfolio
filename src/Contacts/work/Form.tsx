@@ -4,6 +4,10 @@ import css from './Form.module.scss'
 export const Form = () => {
     return (
         <div className={css.formBlock}>
+            <div className={css.contacts}>
+                <h3>fdfdfdf</h3>
+                <p>fdfdfdfdf</p>
+            </div>
             <form className={css.form} onSubmit={e=>e}>
                 <input className={css.input} type="text" value={'Name'} />
                 <input className={css.input} type="email" value={'email'} />

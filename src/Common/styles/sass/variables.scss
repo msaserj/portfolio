@@ -4,10 +4,17 @@ $primaryColor: #0b6c00;
 $bgColor: #212428;
 $bgSecondColor: #252527;
 
+$linearGradient_1: linear-gradient(145deg, #1e2024, #23272b);
+$linearGradient_2: linear-gradient(to right bottom, #212428, #16181c);
+
+$boxShadow_1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+
 //$fontTitleColor: #0b7300;
 $fontTitleColor: #00ff2d;
 $fontColor: #c4cfde;
+$fontRedColor: #ff014f;
 
 $titleFontFamily: 'Josefin Sans', 'sans-serif';
 $textFontFamily: 'Poppins', 'sans-serif';
-$matrixFontFamily: 'Matrix', 'sans-serif'
+$matrixFontFamily: 'Matrix', 'sans-serif';
+$montserratFontFamily: "Montserrat", sans-serif;

@@ -14,12 +14,16 @@
     }
 
     .skills {
-      border: 4px solid #0056b9;
+      //border: 4px solid #0056b9;
       width: 100%;
       box-sizing: border-box;
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
+      .icon {
+        font-size: 40px;
+        color: $fontRedColor;
+      }
     }
   }
 }

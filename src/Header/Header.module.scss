@@ -1,3 +1,6 @@
+@import "./src/Common/styles/sass/variables";
+
+
 .header {
   height: 80px;
   background-color: rgba(33, 36, 40, 0.8705882353);
@@ -24,14 +27,14 @@
       img {
         width: 60px;
         border-radius: 50%;
-        border: 3px solid #fa0043;
+        border: 3px solid #12b602;
         //box-shadow: 10px 10px 10px #1c1e22, -10px -10px 10px #ff005e;
-        box-shadow: 0 0 0.8em 0 #fa0043;
+        box-shadow: 0 0 0.8em 0 #0e8600;
       }
       span {
         font-size: 15px;
         font-weight: 600;
-        font-family:  "Montserrat", sans-serif;
+        font-family:  $montserratFontFamily;
         color: #c4cfde;
       }
     }
