@@ -1,0 +1,21 @@
+@import "./src/Common/styles/sass/variables";
+@import "./src/Common/styles/sass/mixins";
+
+.options {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .optionsHeader {
+
+    @include text($montserratFontFamily, 16px, 1.0, $fontColor);
+  }
+
+  .ul {
+    margin-left: -10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+  }
+}

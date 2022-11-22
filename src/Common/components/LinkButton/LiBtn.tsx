@@ -11,7 +11,7 @@ type PropsType = {
 
 export const LiBtn: React.FC<PropsType> = ({children, link, pointer, blank}) => {
     return (
-        <a  style={pointer ? {cursor: "pointer"} : {cursor: "default"}} href={link} target={blank ? "_blank" : ""}>
+        <a style={pointer ? {cursor: "pointer"} : {cursor: "default"}} href={link} target={blank ? "_blank" : ""}>
             <li style={pointer ? {cursor: "pointer"} : {cursor: "default"}} className={css.link}>{children}</li>
         </a>
     );

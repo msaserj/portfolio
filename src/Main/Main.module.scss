@@ -4,36 +4,7 @@
 .mainBlock {
   height: 100vh;
   background-color: $bgColor;
-  .text {
-    width: 600px;
-    color: $fontColor;
-    .myName {
-      @include text($montserratFontFamily, 62px, 1.0, $fontWhiteColor);
-      .spanName {
-        color: $fontRedColor;
-      }
-      .spanProf {
-        font-size: 48px;
-      }
-    }
-    p {
-      @include text($montserratFontFamily, 16px, 1.8, $fontColor);
-    }
-    .options {
-      margin-top: 50px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      .ul {
-        display: flex;
-        flex-direction: row;
-        padding-left: 0;
-        .optionsHeader {
-          @include text($montserratFontFamily, 16px, 1.0, $fontColor);
-        }
-      }
-    }
-  }
+
   .photo {
     width: 400px;
     height: 500px;

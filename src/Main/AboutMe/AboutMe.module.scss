@@ -1,0 +1,20 @@
+@import "./src/Common/styles/sass/variables";
+@import "./src/Common/styles/sass/mixins";
+
+.text {
+  width: 600px;
+  color: $fontColor;
+  .myName {
+    @include text($montserratFontFamily, 62px, 1.0, $fontWhiteColor);
+    .spanName {
+      color: $fontRedColor;
+    }
+    .spanProf {
+      font-size: 48px;
+    }
+  }
+  p {
+    @include text($montserratFontFamily, 16px, 1.8, $fontColor);
+    text-align: justify;
+  }
+}
