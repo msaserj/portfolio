@@ -12,6 +12,7 @@ export const Skills = () => {
         'labore et dolore magna aliqua.'
     return (
         <div className={css.skillsBlock}>
+
             <div className={`${styleContainer.container} ${css.skillsContainer}`}>
                 <Title title={"WHAT I DO"}/>
 

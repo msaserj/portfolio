@@ -1,11 +1,14 @@
 import React from 'react';
 import css from './Main.module.scss'
 import styleContainer from '../Common/styles/Container.module.scss'
+import {Slide} from "react-awesome-reveal";
+
 
 export const Main = () => {
     return (
         <div className={css.mainBlock}>
             <div className={styleContainer.container}>
+                <Slide direction={"down"}>
                 <div className={css.text}>
                     <span>WELCOME TO MY WORLD</span>
                     <h1>I am Sergei Minko!</h1>
@@ -36,6 +39,7 @@ export const Main = () => {
 
                 </div>
                 <div className={css.photo}>Photo</div>
+                </Slide>
             </div>
 
         </div>
