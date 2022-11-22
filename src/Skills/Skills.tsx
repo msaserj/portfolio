@@ -22,6 +22,7 @@ export const Skills = () => {
                     <Skill title={"BlaBla"} description={lorem}><TfiAlignJustify className={css.icon}/></Skill>
                     <Skill title={"GYGY"} description={lorem}><TfiAlignJustify className={css.icon}/></Skill>
                     <Skill title={"AlyoBla"} description={lorem}><TfiAlignJustify className={css.icon}/></Skill>
+                    <Skill title={"AlyoBla"} description={lorem}><TfiAlignJustify className={css.icon}/></Skill>
                 </div>
             </div>
         </div>

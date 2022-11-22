@@ -7,6 +7,7 @@ import {Works} from "./Works/Works";
 import {Remote} from "./Remote/Remote";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
+import {Resume} from "./Resume/Resume";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
+            <Resume/>
             <Remote/>
             <Contacts/>
             <Footer/>
