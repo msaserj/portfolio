@@ -2,6 +2,7 @@ import React from 'react';
 import css from './Header.module.scss'
 import {Nav} from "../Nav/Nav";
 import photo from '../Common/assets/image/photo_fc.jpg'
+import {Slide} from "react-awesome-reveal";
 
 export const Header = () => {
     return (
@@ -12,7 +13,10 @@ export const Header = () => {
                     <span>MSASERJ</span>
                 </a>
             </div>
-            <Nav/>
+            <Slide direction={"up"}>
+                <Nav/>
+            </Slide>
+
         </div>
     );
 };

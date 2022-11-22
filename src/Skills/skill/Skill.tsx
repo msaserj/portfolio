@@ -12,7 +12,7 @@ type SkillPropsType = {
 
 export const Skill = (props: SkillPropsType) => {
     return (
-        <Slide direction={"up"}>
+        <Slide triggerOnce direction={"up"}>
         <div className={css.skill}>
             <div className={css.icon}>{props.children}</div>
             <h3>{props.title}</h3>

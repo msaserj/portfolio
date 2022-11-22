@@ -5,62 +5,39 @@
   height: 100vh;
   background-color: $bgColor;
   .text {
-    width: 700px;
+    width: 600px;
     color: $fontColor;
+    .myName {
+      @include text($montserratFontFamily, 62px, 1.0, $fontWhiteColor);
+      .spanName {
+        color: $fontRedColor;
+      }
+      .spanProf {
+        font-size: 48px;
+      }
+    }
     p {
-      @include text($titleFontFamily, 26px, 1.3, $fontColor);
+      @include text($montserratFontFamily, 16px, 1.8, $fontColor);
     }
     .options {
+      margin-top: 50px;
       display: flex;
-      ul {
+      flex-direction: row;
+      justify-content: space-between;
+      .ul {
+        display: flex;
+        flex-direction: row;
         padding-left: 0;
-        .skill {
-          margin: 10px 10px;
-          line-height: 55px;
-          display: inline-block;
-          width: 60px;
-          height: 60px;
-          text-align: center;
-          font-size: 14px;
-          letter-spacing: 2px;
-          text-transform: uppercase;
-          border-radius: 6px;
-          background: $linearGradient_1;
-          box-shadow: $boxShadow_1;
-          transition: 0.3s;
-          position: relative;
-          z-index: 1;
-          cursor: pointer;
-          //transition: background 0.5s ease, 0.5s;
-          &::before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 6px;
-            top: 0;
-            left: 0;
-            background: $linearGradient_2;
-            opacity: 0;
-            transition: opacity 0.5s linear;
-            z-index: -1;
-          }
-          &:hover {
-            transform: translateY(-3px);
-            &::before {
-              opacity: 1;
-            }
-          }
-
+        .optionsHeader {
+          @include text($montserratFontFamily, 16px, 1.0, $fontColor);
         }
       }
-
     }
-
   }
   .photo {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 0;
     background-color: #1d2023;
   }
   @media screen and (max-width: 754px) {

@@ -4,8 +4,8 @@
 .skill {
   display: flex;
   padding: 35px 40px 35px 40px;
-  width: 300px;
-  height: min(300px);
+  width: 280px;
+  min-height: 280px;
   background: $linearGradient_1;
   box-shadow: $boxShadow_1;
   border-radius: 10px;
@@ -54,7 +54,7 @@
     align-items: center;
   }
   .description {
-    @include text($textFontFamily, 18px, 1.8, $fontColor);
+    @include text($textFontFamily, 18px, 1.5, $fontColor);
   }
 }
 
