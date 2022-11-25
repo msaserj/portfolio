@@ -17,12 +17,15 @@ export const Works = () => {
     return (
         <div className={css.worksBlock}>
             <div className={`${styleContainer.container} ${css.worksContainer}`}>
-                <Title title={"My works"}/>
+                <div>
+                    <span className={css.preHeader}>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
+                    <Title title={"My works"}/>
+                </div>
                 <div className={css.works}>
-                    <Work style={todoPic} title={"Form 1"} description={lorem}/>
-                    <Work style={todoPic} title={"Form 2"} description={lorem} />
-                    <Work style={todoPic} title={"Form 3"} description={lorem} />
-                    <Work style={todoPic} title={"Form 4"} description={lorem} />
+                    <Work image={todoPic} title={"Social Network"} />
+                    <Work image={todoPic} title={"Todolist with MUI"} />
+                    <Work image={todoPic} title={"Learning by Cards"} />
+                    <Work image={todoPic} title={"Awesome Project"} />
                 </div>
             </div>
         </div>

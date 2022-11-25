@@ -14,7 +14,11 @@ export const Skills = () => {
         <div className={css.skillsBlock}>
 
             <div className={`${styleContainer.container} ${css.skillsContainer}`}>
-                <Title title={"WHAT I DO"}/>
+                <div>
+                    <span className={css.preHeader}>FEATURES</span>
+                    <Title title={"WHAT I DO"}/>
+                </div>
+
 
                 <div className={css.skills}>
                     <Skill title={"HTML"} description={lorem}><TfiAlignJustify className={css.icon}/></Skill>

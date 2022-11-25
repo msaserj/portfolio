@@ -37,11 +37,9 @@
 
   &:hover {
     padding: 25px 40px 45px 40px;
-
     .arrow {
       opacity: 1;
     }
-
     &::before {
       opacity: 1;
     }

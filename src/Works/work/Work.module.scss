@@ -2,60 +2,104 @@
 @import "../../Common/styles/sass/mixins";
 
 .work {
-    width: 400px;
-    background-color: $bgColor;
+  width: 300px;
+  display: flex;
+  min-height: 100px;
+  padding: 35px 40px 35px 40px;
+  margin: 30px 20px;
+  @include flex(column, flex-start, left, wrap);
+  @include neumorph();
+  cursor: pointer;
+
+  .imgBlock {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .image {
+      width: 100%;
+      height: auto;
+      transition: 0.5s;
+      scale: 1.1;
+    }
+
+    .image:hover {
+      transform: scale(1.2);
+    }
+
+    //&::before {
+    //    position: absolute;
+    //    content: "";
+    //    background-color: #020202;
+    //    top: 0; bottom: 0; left: 0; right: 0;
+    //    opacity: 25%;
+    //}
+  }
+
+  .projectInfo {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 40px 20px;
-    .imgBlock {
-        position: relative;
-        height: 200px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        &::before {
-            position: absolute;
-            content: "";
-            background-color: #020202;
-            top: 0; bottom: 0; left: 0; right: 0;
-            opacity: 25%;
-        }
-        .button {
-            border: 1px solid $primaryColor;
-            border-radius: 3px;
-            padding: 0 20px;
-            width: auto;
-            height: 40px;
-            opacity: 40%;
-            background-color: #7ce791;
-            /*text-decoration-color: red;*/
-            transition: opacity 0.5s ease;
-            cursor: pointer;
-            &:hover {
-                opacity: 75%;
-                transition: opacity 0.5s ease;
-            }
-        }
+    justify-content: left;
+    margin-top: 20px;
+
+    .typeProject {
+      @include text($montserratFontFamily, 14px, 1.0, $fontRedColor);
+      letter-spacing: 1px;
     }
-    .projectInfo {
-        padding: 25px 20px;
+
+    .link {
+
+      text-decoration: none;
+
+      .projectTitle {
+        @include text($montserratFontFamily, 23px, 1.2, $fontColor);
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 1s;
+      }
+
+      .arrow {
+        opacity: 0;
+        padding-top: 0;
+        font-size: 40px;
+        color: $fontRedColor;
+        transition: opacity 0.5s;
+      }
+      &:hover {
         .projectTitle {
-            @include text($titleFontFamily, 18px, 1.2, $fontTitleColor);
-            letter-spacing: 1px;
-            margin: 0 0 5px;
+          color: $fontRedColor;
+          transition: 0.8s;
         }
-        .description {
-            @include text($textFontFamily, 14px, 1.8, $fontColor);
-            font-weight: 400;
+        .arrow {
+          opacity: 1;
         }
+
+      }
     }
+  }
+
+
+  &::before {
+    @include beforeNeumorph();
+  }
+
+  &:hover {
+    //padding: 25px 40px 45px 40px;
+
+    &::before {
+      opacity: 1;
+    }
+  }
 }
+
 
 
 
