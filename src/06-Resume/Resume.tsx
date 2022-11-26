@@ -5,6 +5,7 @@ import {Res} from "./res/Res";
 import {Title} from "../00-Common/components/title/Title";
 import { TfiAlignJustify } from "react-icons/tfi";
 import {Slide} from "react-awesome-reveal";
+import {ResumeNav} from "./ResumeNav/ResumeNav";
 
 export const Resume = () => {
     const lorem = 'Lorem ipsum dolor sit amet, ' +
@@ -18,6 +19,7 @@ export const Resume = () => {
                 <Slide triggerOnce direction={"up"}>
                 <Title description={"5 + years experience"} title={"MY RESUME"}/>
                 </Slide>
+                <ResumeNav/>
 
                 <div className={css.skills}>
                     <Res title={"HTML"} description={lorem}><TfiAlignJustify className={css.icon}/></Res>

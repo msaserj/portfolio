@@ -1,0 +1,91 @@
+@import "../../00-Common/styles/sass/variables";
+@import "../../00-Common/styles/sass/mixins";
+
+
+.navBlock {
+  height: 80px;
+  width: 95%;
+  padding: 0px;
+  margin: 30px 0;
+  @include flex(row, space-around, left, wrap);
+  @include neumorph();
+  cursor: pointer;
+  list-style-type: none;
+
+  .navItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    height: 100%;
+    list-style-type: none;
+    cursor: pointer;
+    margin: 0;
+    transition: 0.3s;
+    outline: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    @include text($montserratFontFamily, 13px, 1.1, $fontColor);
+    &:hover {
+      @include neumorph();
+      color: $fontRedColor;
+    }
+    &.active {
+      @include neumorph();
+      color: $fontWhiteColor;
+    }
+
+
+  }
+}
+
+.skill {
+  width: 300px;
+  min-height: 280px;
+  padding: 35px 40px 35px 40px;
+  margin: 30px 20px;
+  @include flex(column, flex-start, left, wrap);
+  @include neumorph();
+  cursor: pointer;
+
+  .icon {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .description {
+    @include text($textFontFamily, 18px, 1.5, $fontColor);
+    text-align: justify;
+  }
+
+  .arrow {
+    opacity: 0;
+    padding-top: 20px;
+    font-size: 40px;
+    color: $fontRedColor;
+    transition: opacity 0.5s;
+  }
+
+  &::before {
+    @include beforeNeumorph();
+  }
+
+  &:hover {
+    padding: 25px 40px 45px 40px;
+
+    .arrow {
+      opacity: 1;
+    }
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+

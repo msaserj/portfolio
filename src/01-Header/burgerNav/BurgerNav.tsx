@@ -4,7 +4,7 @@ import {Link} from "react-scroll";
 
 export const BurgerNav = () => {
     return (
-        <>
+        <div className={css.gg}>
             <ul className={css.nav}>
                 <li className={css.item}><a href="src/01-Header/Nav/Nav#home">HOME</a></li>
                 <li className={css.item}><a href="src/01-Header/Nav/Nav#skills">SKILLS</a></li>
@@ -22,7 +22,7 @@ export const BurgerNav = () => {
                       ignoreCancelEvents={false}
                       to={"contacts"}>CONTACTS</Link>
             </ul>
-        </>
+        </div>
 
     );
 };
