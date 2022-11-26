@@ -1,0 +1,33 @@
+@import "../../00-Common/styles/sass/variables";
+@import "./src/00-Common/styles/sass/mixins";
+
+.nav {
+  padding-left: 20px;
+  width: 450px;
+  margin-right: 60px;
+  @include flex(row, space-between, stretch, nowrap);
+
+  .item {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: 0.3s;
+    display: inline-block;
+    padding: 10px 5px;
+    outline: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    @include text($montserratFontFamily, 13px, 1.1, $fontColor);
+    &:hover {
+      color: $fontRedColor;
+    }
+    &.active {
+      color: $fontWhiteColor;
+    }
+  }
+  @media screen and (max-width: 750px){
+    display: none;
+  }
+}
