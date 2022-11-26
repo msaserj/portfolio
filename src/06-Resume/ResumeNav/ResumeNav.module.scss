@@ -5,7 +5,7 @@
 .navBlock {
   height: 80px;
   width: 95%;
-  padding: 0px;
+  padding: 0;
   margin: 30px 0;
   @include flex(row, space-around, left, wrap);
   @include neumorph();
@@ -28,64 +28,28 @@
     text-transform: uppercase;
     text-decoration: none;
     box-sizing: border-box;
-    @include text($montserratFontFamily, 13px, 1.1, $fontColor);
+
+    .link {
+      @include text($montserratFontFamily, 13px, 1.1, $fontColor);
+      padding: 30px 50px;
+      box-sizing: initial;
+      text-decoration: none;
+      &:hover {
+        color: $fontRedColor;
+      }
+    }
     &:hover {
       @include neumorph();
-      color: $fontRedColor;
+
     }
     &.active {
       @include neumorph();
       color: $fontWhiteColor;
     }
-
-
   }
 }
 
-.skill {
-  width: 300px;
-  min-height: 280px;
-  padding: 35px 40px 35px 40px;
-  margin: 30px 20px;
-  @include flex(column, flex-start, left, wrap);
-  @include neumorph();
-  cursor: pointer;
 
-  .icon {
-    display: flex;
-    height: 60px;
-    width: 100%;
-    justify-content: left;
-    align-items: center;
-  }
 
-  .description {
-    @include text($textFontFamily, 18px, 1.5, $fontColor);
-    text-align: justify;
-  }
 
-  .arrow {
-    opacity: 0;
-    padding-top: 20px;
-    font-size: 40px;
-    color: $fontRedColor;
-    transition: opacity 0.5s;
-  }
-
-  &::before {
-    @include beforeNeumorph();
-  }
-
-  &:hover {
-    padding: 25px 40px 45px 40px;
-
-    .arrow {
-      opacity: 1;
-    }
-
-    &::before {
-      opacity: 1;
-    }
-  }
-}
 

@@ -5,12 +5,14 @@
   background-color: $bgColor;
   padding: 0;
 
-  .skillsContainer {
+  .resumeContainer {
     flex-direction: column;
-    justify-content: flex-start;
-
-    .title {
-      background-color: #ffadad;
+    justify-content: center;
+    .contentBlock {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .skills {
