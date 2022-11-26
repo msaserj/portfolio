@@ -4,12 +4,20 @@
 .work {
   width: 300px;
   display: flex;
-  min-height: 100px;
-  padding: 35px 40px 35px 40px;
+  min-height: 300px;
+  padding: 35px 35px 20px 35px;
   margin: 30px 20px;
   @include flex(column, flex-start, left, wrap);
   @include neumorph();
   cursor: pointer;
+
+  &::before {
+    @include beforeNeumorph();
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
 
   .imgBlock {
     position: relative;
@@ -29,19 +37,13 @@
       height: auto;
       transition: 0.5s;
       scale: 1.1;
+      filter: brightness(0.7);
     }
 
     .image:hover {
       transform: scale(1.2);
+      filter: brightness(1);
     }
-
-    //&::before {
-    //    position: absolute;
-    //    content: "";
-    //    background-color: #020202;
-    //    top: 0; bottom: 0; left: 0; right: 0;
-    //    opacity: 25%;
-    //}
   }
 
   .projectInfo {
@@ -56,46 +58,38 @@
     }
 
     .link {
-
+      padding: 20px 0;
       text-decoration: none;
+      position: relative;
 
       .projectTitle {
         @include text($montserratFontFamily, 23px, 1.2, $fontColor);
         letter-spacing: 1px;
         font-weight: 600;
-        transition: 1s;
+        transition: 0.8s;
       }
 
       .arrow {
+        position: absolute;
+        bottom: 20px;
         opacity: 0;
-        padding-top: 0;
-        font-size: 40px;
+        padding: 0;
+        font-size: 26px;
         color: $fontRedColor;
         transition: opacity 0.5s;
+
       }
+
       &:hover {
         .projectTitle {
           color: $fontRedColor;
           transition: 0.8s;
         }
+
         .arrow {
           opacity: 1;
         }
-
       }
-    }
-  }
-
-
-  &::before {
-    @include beforeNeumorph();
-  }
-
-  &:hover {
-    //padding: 25px 40px 45px 40px;
-
-    &::before {
-      opacity: 1;
     }
   }
 }

@@ -39,10 +39,10 @@ export const Form = () => {
 
             </div>
             <form className={css.form} onSubmit={e => e}>
-                <input className={css.input} type="text" value={'Your name'}/>
-                <input className={css.input} type="email" value={'email'}/>
-                <input className={css.input} type="text" value={'subject'}/>
-                <textarea className={css.textArea} value={'your message'} onChange={e => e}>Your message</textarea>
+                <input className={css.input} type="text" placeholder={'Your name'}/>
+                <input className={css.input} type="email" placeholder={'email'}/>
+                <input className={css.input} type="text" placeholder={'subject'}/>
+                <textarea className={css.textArea} placeholder={'your message'} onChange={e => e}>Your message</textarea>
                 <button className={css.button}>Submit</button>
             </form>
         </div>
