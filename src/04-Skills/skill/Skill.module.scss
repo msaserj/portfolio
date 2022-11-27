@@ -3,7 +3,7 @@
 
 .skill {
   width: 300px;
-  min-height: 280px;
+  min-height: 150px;
   padding: 35px 35px 35px 35px;
   margin: 30px 20px;
   @include flex(column, flex-start, left, wrap);
