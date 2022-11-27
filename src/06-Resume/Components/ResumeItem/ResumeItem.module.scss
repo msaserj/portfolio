@@ -1,0 +1,107 @@
+@import "../../../00-Common/styles/sass/variables";
+@import "../../../00-Common/styles/sass/mixins";
+
+
+.treeBlock {
+  width: 80%;
+  position: relative;
+  z-index: 1;
+  margin-left: 40px;
+  //margin-top: 30px;
+  padding: 35px 30px;
+  @include flex(column, space-around, left, no-wrap);
+  @include neumorph();
+  color: $fontColor;
+  &::before {
+    @include beforeNeumorph();
+  }
+
+  &:hover::before {
+    box-sizing: border-box;
+    opacity: 1;
+  }
+  .inner {
+    position: relative;
+    .innerInfo {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .info {
+        margin-bottom: 40px;
+        h3 {
+          margin-top: 0;
+          @include  text($montserratFontFamily, 24px, 1, $fontColor);
+        }
+
+      }
+      .rate {
+        @include neumorph();
+        border-radius: 5px;
+        align-self: start;
+        padding: 7px;
+        @include  text($montserratFontFamily, 16px, 1.1, $fontRedColor);
+        font-weight: 600;
+        &::before {
+          @include beforeNeumorph();
+        }
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        background: #1a1a1a;
+        width: 100%;
+        height: 1px;
+        bottom: 20px;
+        //выровнять по середине
+        left: 50%;
+        transform: translate(-50%, 50%);
+      }
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      background: black;
+      width: 100%;
+      height: 1px;
+      bottom: -30px;
+      //выровнять по середине
+      left: 50%;
+      transform: translate(-50%, 50%);
+    }
+    p {
+      margin: 0;
+      text-align: justify;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 5px;
+      left: -70px;
+      top: 40px;
+      transform: translateY(-7px);
+      background: #1b1c1d;
+      z-index: 0;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      border: 5px solid #17191c;
+      border-radius: 100%;
+      left: -82px;
+      top: 33px;
+      transform: translateY(-7px);
+      background: #222529;
+      transition: 0.5s;
+
+    }
+    &:hover:after {
+      background: $fontRedColor;
+      transition: 0.5s;
+    }
+  }
+}

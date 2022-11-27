@@ -5,10 +5,10 @@ import {Title} from "../00-Common/components/title/Title";
 import {Slide} from "react-awesome-reveal";
 import {ResumeNav} from "./ResumeNav/ResumeNav";
 import {Route, Routes} from "react-router-dom";
-import {Education} from "./Education/Education";
 import {ProfSkills} from "./ProfSkills/ProfSkills";
 import {Experience} from "./Experience/Experience";
 import {Interview} from "./Interview/Interview";
+import {Education} from "./Education/Education";
 
 export const Resume = () => {
     // const lorem = 'Lorem ipsum dolor sit amet, ' +

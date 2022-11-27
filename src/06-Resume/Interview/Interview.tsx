@@ -1,9 +1,10 @@
 import React from 'react';
+import {UniversalBlock} from "../Components/UniversalBlock/UniversalBlock";
 
 export const Interview = () => {
     return (
-        <div>
-            <h1>Interview</h1>
-        </div>
+        <>
+            <UniversalBlock/>
+        </>
     );
 };
