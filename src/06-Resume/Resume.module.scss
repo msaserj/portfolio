@@ -1,19 +1,27 @@
 @import "../00-Common/styles/sass/variables";
 
-.skillsBlock {
+.resumeBlock {
   min-height: 100vh;
   background-color: $bgColor;
   padding: 0;
 
   .resumeContainer {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    .contentBlock {
-      width: 100%;
+    .contentContainer {
+
+      width: 95%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: inherit;
+      .contentBlock {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
     }
+
 
     .skills {
       //border: 4px solid #0056b9;
