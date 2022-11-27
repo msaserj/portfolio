@@ -1,21 +1,30 @@
 import React from 'react';
 import css from "./ResumeItem.module.scss";
 
-export const ResumeItem = () => {
+export type ResumeItemType = {
+    itemHeader: string
+    years: string
+    rate: string
+    itemDescription: string
+}
+
+export const ResumeItem: React.FC<ResumeItemType> = (
+    {itemHeader, years, rate, itemDescription}
+) => {
     return (
         <div className={css.treeBlock}>
             <div className={css.inner}>
                 <div className={css.innerInfo}>
                     <div className={css.info}>
-                        <h3>State University</h3>
-                        <span>2007-2010</span>
+                        <h3>{itemHeader}</h3>
+                        <span>{years}</span>
                     </div>
                     <div className={css.rate}>
-                        <span>3.90/50</span>
+                        <span>{rate}</span>
                     </div>
                 </div>
 
-                <p>adaddd</p>
+                <p>{itemDescription}</p>
             </div>
         </div>
     );

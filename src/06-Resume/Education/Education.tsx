@@ -1,10 +1,17 @@
 import React from 'react';
-import {UniversalBlock} from "../Components/UniversalBlock/UniversalBlock";
+import {UniversalBlock, UniversalBlockType} from "../Components/UniversalBlock/UniversalBlock";
 
-export const Education = () => {
+type EducationType = {
+    education: UniversalBlockType
+}
+
+export const Education: React.FC<EducationType> = (
+    {education}
+) => {
+    const {resumeItemData, LeftData, RightData} = education
     return (
         <>
-            <UniversalBlock/>
+            <UniversalBlock LeftData={LeftData} RightData={RightData}/>
         </>
     );
 };
