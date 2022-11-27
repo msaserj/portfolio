@@ -3,11 +3,11 @@
 
 
 .treeBlock {
-  width: 80%;
   position: relative;
   z-index: 1;
   margin-left: 40px;
   //margin-top: 30px;
+  align-items: stretch;
   padding: 35px 30px;
   @include flex(column, space-around, left, no-wrap);
   @include neumorph();

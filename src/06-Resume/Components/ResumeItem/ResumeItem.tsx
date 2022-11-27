@@ -15,8 +15,7 @@ export const ResumeItem = () => {
                     </div>
                 </div>
 
-                <p>Higher education is tertiary education leading to award of an academic degree.
-                    Higher education, also called post-secondary education.</p>
+                <p>adaddd</p>
             </div>
         </div>
     );

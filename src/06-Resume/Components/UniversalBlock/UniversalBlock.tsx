@@ -9,7 +9,7 @@ export const UniversalBlock = () => {
             <div className={css.content}>
                 <div className={css.columnTree}>
                     <TreeTitle description={"2007-2010"} title={"Company Education"}/>
-                    <div className={css.Tree}>
+                    <div className={css.tree}>
                         <ResumeItem/>
                         <ResumeItem/>
                         <ResumeItem/>
@@ -17,7 +17,7 @@ export const UniversalBlock = () => {
                 </div>
                 <div className={css.columnTree}>
                     <TreeTitle description={"2007-2010"} title={"Company Education"}/>
-                    <div className={css.Tree}>
+                    <div className={css.tree}>
                         <ResumeItem/>
                         <ResumeItem/>
                         <ResumeItem/>
