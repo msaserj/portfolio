@@ -3,15 +3,15 @@ import css from './TreeTitle.module.scss'
 
 type TitleProps = {
     title: string
-    description?: string
+    years: string
 }
 
-export const TreeTitle:FC<TitleProps> = ({title, description}) => {
+export const TreeTitle:FC<TitleProps> = ({title, years}) => {
 
     return (
         <div className={css.title}>
-            <span className={css.preHeader}>{description}</span>
-            <h2>{title}</h2>
+            <span className={css.preHeader}>{title}</span>
+            <h2>{years}</h2>
         </div>
 
     );
