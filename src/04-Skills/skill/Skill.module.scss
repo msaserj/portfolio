@@ -18,14 +18,15 @@
     align-items: center;
   }
 
+  h3 {
+    @include text($textFontFamily, 24px, 1.2, $fontColor);
+  }
 
   .description {
-    @include text($textFontFamily, 18px, 1.5, $fontColor);
+    @include text($textFontFamily, 16px, 1.5, $fontColor);
     text-align: justify;
   }
-  h3 {
-    @include text($textFontFamily, 14px, 1.5, $fontColor);
-  }
+
 
   .arrow {
     opacity: 0;

@@ -4,11 +4,11 @@ import {FiArrowUpRight} from "react-icons/fi";
 
 type WorkPropsType = {
     title: string
-
+    url: string
     image: string
 }
 
-export const Work: FC<WorkPropsType> = ({title, image}) => {
+export const Work: FC<WorkPropsType> = ({title, image, url}) => {
     return (
         <div className={css.work}>
             <div className={css.imgBlock}>
@@ -17,7 +17,7 @@ export const Work: FC<WorkPropsType> = ({title, image}) => {
             <div className={css.projectInfo}>
 
                 <span className={css.typeProject}>EXTERNAL LINK</span>
-                <a className={css.link} href="#">
+                <a className={css.link} href={url} target="_blank">
                     <span className={css.projectTitle}>{title} <FiArrowUpRight className={css.arrow}/></span>
                 </a>
 
