@@ -1,7 +1,7 @@
 import React, {ReactNode} from 'react';
 import css from './Skill.module.scss'
-import { FiArrowRight } from "react-icons/fi";
-import { Slide } from "react-awesome-reveal";
+import {FiArrowRight} from "react-icons/fi";
+import {Slide} from "react-awesome-reveal";
 
 
 type SkillPropsType = {
@@ -12,13 +12,13 @@ type SkillPropsType = {
 
 export const Skill = (props: SkillPropsType) => {
     return (
-        <Slide triggerOnce direction={"up"}>
-        <div className={css.skill}>
-            <div className={css.icon}>{props.children}</div>
-            <h3>{props.title}</h3>
-            <span className={css.description}>{props.description}</span>
-            <div><FiArrowRight className={css.arrow}/></div>
-        </div>
-            </Slide>
+        // <Slide triggerOnce direction={"up"}>
+            <div className={css.skill}>
+                <div className={css.icon}>{props.children}</div>
+                <h3>{props.title}</h3>
+                <span className={css.description}>{props.description}</span>
+                <div><FiArrowRight className={css.arrow}/></div>
+            </div>
+        // </Slide>
     );
 };
