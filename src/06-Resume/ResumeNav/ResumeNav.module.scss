@@ -34,6 +34,7 @@
       padding: 30px 50px;
       box-sizing: initial;
       text-decoration: none;
+      transition: 0.8s;
       &:hover {
         color: $fontRedColor;
       }
@@ -42,10 +43,7 @@
       @include neumorph();
 
     }
-    &.active {
-      @include neumorph();
-      color: $fontWhiteColor;
-    }
+
   }
 }
 
