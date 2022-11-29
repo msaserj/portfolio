@@ -31,8 +31,9 @@ export const ResumeBlock: React.FC<ResumeBlockType> = (
     return (
         <div className={css.mainResume}>
             <div className={css.content}>
-                <Slide triggerOnce direction={"left"}>
-                    <div className={css.columnTree}>
+
+                <div className={css.columnTree}>
+                    <Slide triggerOnce direction={"left"}>
                         <TreeTitle title={left.title} years={left.years}/>
                         <div className={css.tree}>
                             <ResumeItem description={left.items[0].description} rate={left.items[0].rate}
@@ -42,10 +43,12 @@ export const ResumeBlock: React.FC<ResumeBlockType> = (
                             <ResumeItem description={left.items[2].description} rate={left.items[2].rate}
                                         title={left.items[2].title} years={left.items[2].years}/>
                         </div>
-                    </div>
-                </Slide>
-                <Slide triggerOnce direction={"right"}>
-                    <div className={css.columnTree}>
+                    </Slide>
+                </div>
+
+
+                <div className={css.columnTree}>
+                    <Slide triggerOnce direction={"right"}>
                         <TreeTitle title={right.title} years={right.years}/>
                         <div className={css.tree}>
                             <ResumeItem description={right.items[0].description} rate={right.items[0].rate}
@@ -57,8 +60,9 @@ export const ResumeBlock: React.FC<ResumeBlockType> = (
                         </div>
                         <div className={css.tree}>
                         </div>
-                    </div>
-                </Slide>
+                    </Slide>
+                </div>
+
             </div>
         </div>
     );
