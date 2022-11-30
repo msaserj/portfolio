@@ -27,7 +27,7 @@ export const Resume = () => {
                     <ResumeNav/>
                     <div className={css.contentBlock}>
                         <Routes>
-                            <Route path="/education" element={<ResumeBlock resumeBlock={jsonState.resume.education}/>}/>
+                            <Route path="/" element={<ResumeBlock resumeBlock={jsonState.resume.education}/>}/>
                             <Route path="/profskills" element={<ProfSkills/>}/>
                             <Route path="/experience" element={<ResumeBlock resumeBlock={jsonState.resume.experience}/>}/>
                             <Route path="/interview" element={<ResumeBlock resumeBlock={jsonState.resume.interview}/>}/>

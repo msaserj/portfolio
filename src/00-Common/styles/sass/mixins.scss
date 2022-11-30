@@ -24,7 +24,7 @@
   background: $linearGradient_1;
   box-shadow: $boxShadow_1;
   border-radius: 10px;
-  transition: 0.2s all ease-in-out;
+  transition: 0.3s all ease-in-out;
   z-index: 1;
 }
 @mixin beforeNeumorph() {
@@ -37,6 +37,6 @@
   left: 0;
   background: $linearGradient_2;
   opacity: 0;
-  transition: opacity 0.2s linear;
+  transition: opacity 0.3s ease-in-out;
   z-index: -1;
 }

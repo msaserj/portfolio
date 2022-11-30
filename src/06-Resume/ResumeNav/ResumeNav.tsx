@@ -14,7 +14,7 @@ export const ResumeNav = () => {
        <>
            <ul className={css.navBlock}>
                <li className={css.navItem}>
-                   <NavLink style={setActive} className = {css.link} to="/education">Educational</NavLink></li>
+                   <NavLink  style={setActive} className = {css.link} to="/">Educational</NavLink></li>
                <li className={css.navItem}>
                    <NavLink  className = {css.link} to="/profskills">Professional Skills</NavLink></li>
                <li className={css.navItem}>

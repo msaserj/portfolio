@@ -9,7 +9,7 @@
   margin: 30px 20px;
   @include flex(column, flex-start, left, wrap);
   @include neumorph();
-  cursor: pointer;
+
 
   &::before {
     @include beforeNeumorph();
@@ -61,6 +61,7 @@
       padding: 20px 0;
       text-decoration: none;
       position: relative;
+      cursor: pointer;
 
       .projectTitle {
         @include text($montserratFontFamily, 23px, 1.2, $fontColor);

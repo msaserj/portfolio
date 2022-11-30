@@ -38,6 +38,7 @@
   }
   &:hover {
     transform: translateY(-3px);
+    color: $fontRedColor;
     &::before {
       opacity: 1;
     }

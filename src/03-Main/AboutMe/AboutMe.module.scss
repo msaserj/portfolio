@@ -17,7 +17,7 @@
     }
   }
   p {
-    @include text($montserratFontFamily, 16px, 1.8, $fontColor);
+    @include text($montserratFontFamily, 18px, 1.8, $fontColor);
     text-align: justify;
   }
   @media screen and (max-width: 750px) {

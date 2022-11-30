@@ -33,7 +33,7 @@
     padding-top: 20px;
     font-size: 40px;
     color: $fontRedColor;
-    transition: opacity 0.5s;
+    transition: opacity 0.5s ease-in-out;
   }
 
   &::before {
@@ -41,7 +41,8 @@
   }
 
   &:hover {
-    padding: 25px 35px 45px 35px;
+    //transform: translateY(-5px);
+    //padding: 25px 35px 45px 35px;
     .arrow {
       opacity: 1;
     }
