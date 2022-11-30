@@ -1,58 +1,50 @@
 import React from 'react';
-import css from "./ResumeBlock.module.scss"
+import css from "./SkillsBlock.module.scss"
 import {TreeTitle} from "../TreeTitle/TreeTitle";
-import {ResumeItem, ResumeItemType} from "../ResumeItem/ResumeItem";
 import { Slide } from 'react-awesome-reveal';
+import {SkillBar, SkillBarType} from "./SkillBar/SkillBar";
 
-
-
-export type ResumeBlockType = {
+export type SkillBlockType = {
     resumeBlock: {
         left: leftType
         right: rightType
     }
 }
-
 type leftType = {
     years: string
     title: string
-    items: Array<ResumeItemType>
+    items: Array<SkillBarType>
 }
 type rightType = {
     years: string
     title: string
-    items: Array<ResumeItemType>
+    items: Array<SkillBarType>
 }
 
-export const ResumeBlock: React.FC<ResumeBlockType> = (
+
+export const SkillsBlock: React.FC<SkillBlockType> = (
     {resumeBlock}
 ) => {
     const {left, right} = resumeBlock
 
     return (
-        <div className={css.mainResume}>
+        <div className={css.mainSkill}>
             <div className={css.content}>
-
                 <div className={css.columnTree}>
                     <Slide triggerOnce direction={"left"}>
                         <TreeTitle title={left.title} years={left.years}/>
-                        <div className={css.tree}>
-                            {left.items.map((item, key)=>
-                                <ResumeItem key={key} description={item.description} rate={item.rate} title={item.title} years={item.years}/>)}
-                        </div>
+                        {left.items.map((skill, key)=>
+                            <SkillBar key={key} title={skill.title} percent={skill.percent}/>)}
+
                     </Slide>
                 </div>
-
                 <div className={css.columnTree}>
                     <Slide triggerOnce direction={"right"}>
                         <TreeTitle title={right.title} years={right.years}/>
-                        <div className={css.tree}>
-                            {right.items.map((item, key)=>
-                                    <ResumeItem key={key} description={item.description} rate={item.rate} title={item.title} years={item.years}/>)}
-                        </div>
+                        {right.items.map((skill, key)=>
+                            <SkillBar key={key} title={skill.title} percent={skill.percent}/>)}
                     </Slide>
                 </div>
-
             </div>
         </div>
     );

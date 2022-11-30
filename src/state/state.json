@@ -149,6 +149,76 @@
           }
         ]
       }
+    },
+    "skills": {
+      "left": {
+        "years": "features",
+        "title": "Development Skills",
+        "items": [
+          {
+            "title": "HTML",
+            "percent": 90
+          },
+          {
+            "title": "CSS/SCSS",
+            "percent": 85
+          },
+          {
+            "title": "JS/TS",
+            "percent": 75
+          },
+          {
+            "title": "React",
+            "percent": 78
+          },
+          {
+            "title": "Redux/Redux-toolkit",
+            "percent": 72
+          },
+          {
+            "title": "MaterialUI",
+            "percent": 80
+          },
+          {
+            "title": "Formik",
+            "percent": 80
+          }
+        ]
+      },
+      "right": {
+        "years": "features",
+        "title": "Other Skills",
+        "items": [
+          {
+            "title": "Webstorm",
+            "percent": 75
+          },
+          {
+            "title": "VSCode",
+            "percent": 65
+          },
+          {
+            "title": "Git",
+            "percent": 80
+          },
+          {
+            "title": "Storybook",
+            "percent": 75
+          },
+          {
+            "title": "LinuxMint",
+            "percent": 75
+          },
+          {
+            "title": "Debian",
+            "percent": 70
+          },
+          {
+            "title": "NodeJS",
+            "percent": 60
+          }
+        ]
+      }
     }
   }
 }

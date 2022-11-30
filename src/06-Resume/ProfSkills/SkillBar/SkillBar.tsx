@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import css from "./SkillBarr.module.scss"
 
-type SkillBarType = {
+export type SkillBarType = {
     title: string
     percent: number
 }
@@ -14,6 +14,8 @@ export const SkillBar: React.FC<SkillBarType> = ({title, percent}) => {
     setTimeout(()=>{
         counter <= percent && setCounter(counter+1)
     }, 10)
+
+
     return (
         <div className={css.skillBar}>
             <span className={css.header}>{title}</span>

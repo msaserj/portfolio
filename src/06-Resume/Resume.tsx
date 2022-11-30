@@ -5,11 +5,10 @@ import {Title} from "../00-Common/components/title/Title";
 import {Slide} from "react-awesome-reveal";
 import {ResumeNav} from "./ResumeNav/ResumeNav";
 import {Route, Routes} from "react-router-dom";
-
-
 import jsonState from "../state/state.json"
 import {ResumeBlock} from "./ResumeBlock/ResumeBlock";
-import {ProfSkills} from "./ProfSkills/ProfSkills";
+import {SkillsBlock} from "./ProfSkills/SkillsBlock";
+
 
 export const Resume = () => {
     // const lorem = 'Lorem ipsum dolor sit amet, ' +
@@ -28,10 +27,11 @@ export const Resume = () => {
                     <div className={css.contentBlock}>
                         <Routes>
                             <Route path="/" element={<ResumeBlock resumeBlock={jsonState.resume.education}/>}/>
-                            <Route path="/profskills" element={<ProfSkills/>}/>
+                            <Route path="/profskills" element={<SkillsBlock resumeBlock={jsonState.resume.skills}/>}/>
                             <Route path="/experience" element={<ResumeBlock resumeBlock={jsonState.resume.experience}/>}/>
                             <Route path="/interview" element={<ResumeBlock resumeBlock={jsonState.resume.interview}/>}/>
                         </Routes>
+                        ResumeBlock
 
                     </div>
                 </div>

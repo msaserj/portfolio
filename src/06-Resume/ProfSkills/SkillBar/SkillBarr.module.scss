@@ -1,5 +1,13 @@
+@import "../../../00-Common/styles/sass/variables";
+@import "../../../00-Common/styles/sass/mixins";
+
 .skillBar {
   padding: 5px 0;
+  .header {
+    @include text($montserratFontFamily, 13px, 1.1, $fontColor);
+    letter-spacing: 2px;
+    text-transform: uppercase
+  }
   .progress {
     border-radius: 5px;
     padding: 2px;
@@ -20,9 +28,11 @@
       animation-duration: 5s;
 
       .percent {
-        bottom: 15px;
+        bottom: 20px;
         right: 10px;
         position: absolute;
+        @include text($montserratFontFamily, 14px, 1.1, $fontColor);
+        letter-spacing: 2px;
       }
       //@keyframes increase {
       //  10%   {width: 10%;}
