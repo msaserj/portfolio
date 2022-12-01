@@ -15,6 +15,7 @@
     .columnTree {
       width: 100%;
       padding: 0;
+
       .tree {
         display: flex;
         flex-direction: column;
@@ -24,6 +25,9 @@
         margin-right: 40px;
         border-left: 5px solid #17191c;
       }
+    }
+    @media screen and (max-width: 950px) {
+      flex-direction: column;
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import css from "./SkillsBlock.module.scss"
 import {TreeTitle} from "../TreeTitle/TreeTitle";
-import { Slide } from 'react-awesome-reveal';
+import {Fade} from 'react-awesome-reveal';
 import {SkillBar, SkillBarType} from "./SkillBar/SkillBar";
 
 export type SkillBlockType = {
@@ -31,19 +31,19 @@ export const SkillsBlock: React.FC<SkillBlockType> = (
         <div className={css.mainSkill}>
             <div className={css.content}>
                 <div className={css.columnTree}>
-                    <Slide triggerOnce direction={"left"}>
+                    <Fade delay={500} duration={3000} >
                         <TreeTitle title={left.title} years={left.years}/>
                         {left.items.map((skill, key)=>
                             <SkillBar key={key} title={skill.title} percent={skill.percent}/>)}
 
-                    </Slide>
+                    </Fade>
                 </div>
                 <div className={css.columnTree}>
-                    <Slide triggerOnce direction={"right"}>
+                    <Fade delay={500} duration={2000} >
                         <TreeTitle title={right.title} years={right.years}/>
                         {right.items.map((skill, key)=>
                             <SkillBar key={key} title={skill.title} percent={skill.percent}/>)}
-                    </Slide>
+                    </Fade>
                 </div>
             </div>
         </div>

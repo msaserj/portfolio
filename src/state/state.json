@@ -76,7 +76,7 @@
         ]
       },
       "right": {
-        "years": "2007-2016",
+        "years": "2007-2017",
         "title": "Self Education",
         "items": [
           {
@@ -126,7 +126,7 @@
         ]
       },
       "right": {
-        "years": "2007-2016",
+        "years": "2007-2018",
         "title": "Self Education",
         "items": [
           {
@@ -172,7 +172,7 @@
             "percent": 78
           },
           {
-            "title": "Redux/Redux-toolkit",
+            "title": "Redux",
             "percent": 72
           },
           {

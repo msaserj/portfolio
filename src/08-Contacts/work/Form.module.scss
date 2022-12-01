@@ -2,9 +2,10 @@
 @import "../../00-Common/styles/sass/mixins";
 
 .formBlock {
-  display: flex;
-  align-items: stretch;
-  @include flex(row, flex-start, space-betwen, wrap);
+
+
+  @include flex(row, flex-start, space-betwen, no-wrap);
+  align-items: center;
   .contacts {
     padding: 30px;
     width: 300px;
@@ -42,18 +43,16 @@
   }
   .form {
     min-width: 580px;
-    flex-direction: column;
-    text-align: center;
     margin: 40px 20px;
-    @include flex(column, column, center, wrap);
+    @include flex(column, flex-start, center, no-wrap);
     @include neumorph();
     padding: 30px;
     box-sizing: border-box;
 
     .input {
-      margin-bottom: 10px;
+
       height: 55px;
-      min-width: 550px;
+      width: 100%;
       border: 2px solid #191b1e;
       border-radius: 6px;
       background-color: #191b1e;
@@ -62,12 +61,13 @@
       padding: 0 15px;
       letter-spacing: 1px;
       color: #c4cfde !important;
+      margin-bottom: 15px;
       &:focus {
         border-color: blue;
       }
-      @media screen and (max-width: 750px) {
-        min-width: 280px;
-      }
+      //@media screen and (max-width: 750px) {
+      //  min-width: 280px;
+      //}
     }
 
     .textArea {
@@ -120,8 +120,10 @@
       margin: auto;
     }
   }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 950px) {
     flex-direction: column;
+    align-items: center;
+
   }
 
 }

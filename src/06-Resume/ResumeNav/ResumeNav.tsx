@@ -9,18 +9,18 @@ export const ResumeNav = () => {
     let activeStyle = {
         color: "#FF014FFF"
     };
-    const setActive = ({isActive}: {isActive: boolean}) => isActive ? activeStyle : activeStyle;
+    const setActive = ({isActive}: {isActive: boolean}) => isActive ? activeStyle : undefined;
     return (
        <>
            <ul className={css.navBlock}>
                <li className={css.navItem}>
-                   <NavLink  style={setActive} className = {css.link} to="/">Educational</NavLink></li>
+                   <NavLink style={setActive} className = {css.link} to="/">Education</NavLink></li>
                <li className={css.navItem}>
-                   <NavLink  className = {css.link} to="/profskills">Professional Skills</NavLink></li>
+                   <NavLink style={setActive}  className = {css.link} to="/profskills">Skills</NavLink></li>
                <li className={css.navItem}>
-                   <NavLink className = {css.link} to="/experience">Experience</NavLink></li>
+                   <NavLink style={setActive} className = {css.link} to="/experience">Experience</NavLink></li>
                <li className={css.navItem}>
-                   <NavLink  className = {css.link} to="/interview">Interview</NavLink></li>
+                   <NavLink style={setActive}  className = {css.link} to="/interview">Interview</NavLink></li>
            </ul>
        </>
     );

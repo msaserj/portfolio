@@ -1,7 +1,7 @@
 import React, {ReactNode} from 'react';
 import css from './Skill.module.scss'
 import {FiArrowRight} from "react-icons/fi";
-import {Slide} from "react-awesome-reveal";
+
 
 
 type SkillPropsType = {

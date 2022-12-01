@@ -31,8 +31,6 @@ export const Resume = () => {
                             <Route path="/experience" element={<ResumeBlock resumeBlock={jsonState.resume.experience}/>}/>
                             <Route path="/interview" element={<ResumeBlock resumeBlock={jsonState.resume.interview}/>}/>
                         </Routes>
-                        ResumeBlock
-
                     </div>
                 </div>
             </div>
