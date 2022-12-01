@@ -2,19 +2,20 @@
 @import "../00-Common/styles/sass/mixins";
 
 .contactsBlock {
-
   background-color: $bgColor;
   .contactsContainer {
-
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
     .contacts {
+      width: 90%;
       margin-top:  40px ;
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
+      @media screen and (max-width: 930px) {
+        flex-direction: column;
+      }
+
     }
   }
 }

@@ -25,9 +25,9 @@ export const ContactsBlock = () => {
             <div>
                 <h3>Find Me:</h3>
                 <ul className={css.links}>
-                    <LiBtn link={"https://www.linkedin.com/in/msaserj/"}><FiLinkedin /></LiBtn>
-                    <LiBtn link={"https://www.linkedin.com/in/msaserj/"}><FiFacebook /></LiBtn>
-                    <LiBtn link={"https://www.linkedin.com/in/msaserj/"}><FiTwitter /></LiBtn>
+                    <LiBtn pointer link={"https://www.linkedin.com/in/msaserj/"}><FiLinkedin /></LiBtn>
+                    <LiBtn pointer link={"https://www.linkedin.com/in/msaserj/"}><FiFacebook /></LiBtn>
+                    <LiBtn pointer link={"https://www.linkedin.com/in/msaserj/"}><FiTwitter /></LiBtn>
                 </ul>
             </div>
         </div>

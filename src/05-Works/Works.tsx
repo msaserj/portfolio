@@ -23,7 +23,7 @@ export const Works = () => {
             <div className={`${styleContainer.container} ${css.worksContainer}`}>
                 <Slide triggerOnce direction={"up"}>
                     <div>
-                        <Title description={"Visit my portfolio and keep your feedback"} title={"My works"}/>
+                        <Title description={"Visit my portfolio"} title={"My works"}/>
                     </div>
                 </Slide>
                 <div className={css.works}>

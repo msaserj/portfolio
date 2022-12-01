@@ -5,7 +5,7 @@
   min-height: 80px;
   background-color: rgba(33, 36, 40, 0.8705882353);
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -16,28 +16,37 @@
 
   .photoBlock {
     box-sizing: border-box;
-    margin-left: 60px;
-    width: 150px;
+    margin-left: 50px;
+    width: 100px;
 
     a {
       display: flex;
       align-items: center;
       justify-content: space-between;
       text-decoration: none;
+
       img {
         width: 60px;
+        margin: 10px;
         border-radius: 50%;
         border: 3px solid #12b602;
         //box-shadow: 10px 10px 10px #1c1e22, -10px -10px 10px #ff005e;
         box-shadow: 0 0 0.8em 0 #0e8600;
+        @media screen and (max-width: 930px) {
+          width: 40px;
+        }
       }
+
       span {
         font-size: 15px;
         font-weight: 600;
-        font-family:  $montserratFontFamily;
+        font-family: $montserratFontFamily;
         color: #c4cfde;
       }
     }
 
+    @media screen and (max-width: 930px) {
+      margin-left: 10px;
+    }
   }
 }

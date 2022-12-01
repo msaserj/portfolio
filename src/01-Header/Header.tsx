@@ -1,10 +1,9 @@
 import React from 'react';
 import css from './Header.module.scss'
-
 import photo from '../00-Common/assets/image/photo_fc.jpg'
 import {Slide} from "react-awesome-reveal";
 import {Nav} from "./Nav/Nav";
-import {BurgerNav} from "./burgerNav/BurgerNav";
+
 
 export const Header = () => {
     return (
@@ -16,7 +15,7 @@ export const Header = () => {
                 </a>
             </div>
             <Slide direction={"up"}>
-                <BurgerNav />
+                {/*<BurgerNav />*/}
                 <Nav/>
             </Slide>
 

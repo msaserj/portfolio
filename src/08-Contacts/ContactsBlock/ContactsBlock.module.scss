@@ -3,7 +3,7 @@
 
 .contacts {
   padding: 30px;
-  width: 300px;
+  width: 35%;
   min-height: 300px;
   position: relative;
   z-index: 1;
@@ -12,6 +12,9 @@
   color: $fontColor;
   @include flex(column, flex-start, left, wrap);
   @include neumorph();
+  @media screen and (max-width: 930px) {
+    width: 75%;
+  }
   .imageBlock {
     width: 100%;
     border-radius: 10px;

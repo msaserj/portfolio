@@ -24,8 +24,6 @@ function App() {
             <Remote/>
             <Contacts/>
             <Footer/>
-
-
             <Link spy activeClass={css.active} className={css.relative} smooth={true} delay={50} to={"home"}>
                 <div className={css.backToTop}>
                     <FiArrowUp/>

@@ -9,7 +9,7 @@ import {AboutMe} from "./AboutMe/AboutMe";
 export const Main = () => {
     return (
         <div id={"home"} className={css.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${css.mainContainer}`}>
                 <div>
                     <Slide triggerOnce direction={"left"}>
                         <AboutMe/>
@@ -20,6 +20,7 @@ export const Main = () => {
                     <div className={css.photo}>Photo</div>
                 </Slide>
             </div>
+
         </div>
     );
 };

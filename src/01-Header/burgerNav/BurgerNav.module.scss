@@ -2,7 +2,7 @@
 @import "./src/00-Common/styles/sass/mixins";
 
 .nav {
-  width: 150px;
+  width: 100px;
   margin-right: 60px;
   @include flex(column, space-between, stretch, nowrap);
 

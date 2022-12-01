@@ -2,26 +2,28 @@
 @import "../00-Common/styles/sass/mixins";
 
 .mainBlock {
-  height: 100vh;
+  min-height: 100vh;
   background-color: $bgColor;
-  padding: 0 50px;
 
-  .photo {
-    width: 400px;
-    height: 500px;
-    margin-bottom: 0;
-    background-color: #1d2023;
-  }
-  @media screen and (max-width: 754px) {
-    .text {
-      text-align: center;
-      margin: auto;
-      p {
-        @include text($titleFontFamily, 26px, 1.3, $fontColor);
-      }
+  .mainContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media screen and (max-width: 930px){
+      flex-direction: column-reverse;
     }
     .photo {
-      margin: auto;
+      margin-top: 100px;
+      width: 400px;
+      height: 500px;
+
+      background-color: #1d2023;
+      @media screen and (max-width: 930px){
+        margin-top: 100px;
+        width: 360px;
+        height: 400px;
+      }
     }
   }
 }

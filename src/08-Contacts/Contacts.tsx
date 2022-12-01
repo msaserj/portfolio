@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Contacts.module.scss'
 import styleContainer from '../00-Common/styles/Container.module.scss'
-import {Form} from "./work/Form";
+import {Form} from "./Form/Form";
 import {Title} from "../00-Common/components/title/Title";
 import {ContactsBlock} from "./ContactsBlock/ContactsBlock";
 

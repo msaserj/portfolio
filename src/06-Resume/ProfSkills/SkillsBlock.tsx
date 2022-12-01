@@ -31,7 +31,7 @@ export const SkillsBlock: React.FC<SkillBlockType> = (
         <div className={css.mainSkill}>
             <div className={css.content}>
                 <div className={css.columnTree}>
-                    <Fade delay={500} duration={3000} >
+                    <Fade delay={500} duration={2000} >
                         <TreeTitle title={left.title} years={left.years}/>
                         {left.items.map((skill, key)=>
                             <SkillBar key={key} title={skill.title} percent={skill.percent}/>)}
@@ -39,7 +39,7 @@ export const SkillsBlock: React.FC<SkillBlockType> = (
                     </Fade>
                 </div>
                 <div className={css.columnTree}>
-                    <Fade delay={500} duration={2000} >
+                    <Fade delay={1000} duration={2000} >
                         <TreeTitle title={right.title} years={right.years}/>
                         {right.items.map((skill, key)=>
                             <SkillBar key={key} title={skill.title} percent={skill.percent}/>)}
