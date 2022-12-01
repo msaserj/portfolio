@@ -1,24 +1,21 @@
 @import "../00-Common/styles/sass/variables";
+@import "../00-Common/styles/sass/mixins";
 
 .contactsBlock {
-    min-height: 600px;
-    background-color: $bgColor;
-    scroll-behavior: smooth;
-    .contactsContainer {
-        flex-direction: column;
-        justify-content: flex-start;
-        .title {
-            background-color: #ffadad;
-        }
-        .contacts {
-            //border: 4px solid #0056b9;
-            width: 100%;
-            box-sizing: border-box;
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-        }
-    }
 
+  background-color: $bgColor;
+  .contactsContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .contacts {
+      margin-top:  40px ;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  }
 }
 

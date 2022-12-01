@@ -1,132 +1,62 @@
 @import "../../00-Common/styles/sass/variables";
 @import "../../00-Common/styles/sass/mixins";
 
-.formBlock {
 
-
-  @include flex(row, flex-start, space-betwen, no-wrap);
-  align-items: center;
-  .contacts {
-    padding: 30px;
-    width: 300px;
-    min-height: 300px;
-    position: relative;
-    z-index: 1;
-    transition: 0.2s all ease-in-out;
-    margin: 40px 20px;
-    color: $fontColor;
-    @include flex(column, flex-start, left, wrap);
-    @include neumorph();
-    .imageBlock {
-      width: 100%;
-      border-radius: 10px;
-      overflow: hidden;
-      .image {
-        width: 100%;
-        height: auto;
-        transition: 0.5s;
-      }
-      .image:hover {
-        transform: scale(1.2);
-      }
-
-    }
-    .a {
-      color: $textColor;
-      text-decoration: none;
-      transition: 0.5s;
-      &:hover {
-        text-decoration: $fontRedColor;
-        color: $fontRedColor;
-      }
-    }
-  }
-  .form {
-    min-width: 580px;
-    margin: 40px 20px;
-    @include flex(column, flex-start, center, no-wrap);
-    @include neumorph();
-    padding: 30px;
+.form {
+  min-width: 580px;
+  margin: 40px 20px;
+  @include flex(column, flex-start, center, no-wrap);
+  @include neumorph();
+  padding: 30px;
+  box-sizing: border-box;
+  .input {
+    height: 55px;
+    width: 100%;
+    border: 2px solid #191b1e;
+    border-radius: 6px;
+    background-color: #191b1e;
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    font-size: 14px;
+    padding: 0 15px;
+    letter-spacing: 1px;
+    color: #c4cfde !important;
+    margin-bottom: 15px;
     box-sizing: border-box;
 
-    .input {
 
-      height: 55px;
-      width: 100%;
-      border: 2px solid #191b1e;
-      border-radius: 6px;
-      background-color: #191b1e;
-      box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
-      font-size: 14px;
-      padding: 0 15px;
-      letter-spacing: 1px;
-      color: #c4cfde !important;
-      margin-bottom: 15px;
-      &:focus {
-        border-color: blue;
-      }
-      //@media screen and (max-width: 750px) {
-      //  min-width: 280px;
-      //}
+    &:focus {
+      border-color: blue;
     }
 
-    .textArea {
-      margin: 5px;
-      min-width: 550px;
-      height: 250px;
-      border: 2px solid #191b1e;
-      border-radius: 6px;
-      background-color: #191b1e;
-      box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
-      font-size: 14px;
-      padding: 15px;
-      letter-spacing: 1px;
-      color: #c4cfde !important;
-      resize: none;
-      @media screen and (max-width: 750px) {
-        min-width: 280px;
-      }
-    }
+    //@media screen and (max-width: 750px) {
+    //  min-width: 280px;
+    //}
+  }
 
-    .button {
-      margin: 20px;
-      border: 1px solid red;
-      border-radius: 6px;
-      padding: 0 40px;
-      width: auto;
-      height: 50px;
-      background-color: #78fd91;
-      text-decoration-color: red;
-      transition: background-color 0.5s ease;
-      cursor: pointer;
-
-      &:hover {
-        background-color: #3ac545;
-        transition: background-color 0.5s ease;
-      }
-    }
+  .textArea {
+    margin: 5px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #191b1e;
+    border-radius: 6px;
+    background-color: #191b1e;
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    font-size: 14px;
+    padding: 15px;
+    letter-spacing: 1px;
+    color: #c4cfde !important;
+    resize: none;
+    box-sizing: border-box;
     @media screen and (max-width: 750px) {
-      min-width: 300px;
+      min-width: 280px;
     }
-
-  }
-  .links {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    .icon {
-      color: $fontColor;
-      font-size: 24px;
-      margin: auto;
-    }
-  }
-  @media screen and (max-width: 950px) {
-    flex-direction: column;
-    align-items: center;
-
   }
 
 }
+
+
+
+
 
 
 

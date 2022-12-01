@@ -1,0 +1,58 @@
+@import "../../00-Common/styles/sass/variables";
+@import "../../00-Common/styles/sass/mixins";
+
+.contacts {
+  padding: 30px;
+  width: 300px;
+  min-height: 300px;
+  position: relative;
+  z-index: 1;
+  transition: 0.2s all ease-in-out;
+  margin: 40px 20px;
+  color: $fontColor;
+  @include flex(column, flex-start, left, wrap);
+  @include neumorph();
+  .imageBlock {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    .image {
+      width: 100%;
+      height: auto;
+      transition: 0.5s;
+      scale: 1.1;
+    }
+    .image:hover {
+      transform: scale(1.2);
+    }
+  }
+  .description {
+    @include text($montserratFontFamily, 15px, 1.1, $fontGreyColor);
+  }
+  .text {
+    @include text($montserratFontFamily, 15px, 1.1, $fontGreyColor);
+    margin: 20px 0;
+  }
+  .span {
+    @include text($montserratFontFamily, 16px, 1.1, $fontGreyColor);
+    .a {
+      @include text($montserratFontFamily, 16px, 1.1, $fontGreyColor2);
+      text-decoration: none;
+      transition: 0.5s;
+      &:hover {
+        text-decoration: $fontRedColor;
+        color: $fontRedColor;
+      }
+    }
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    .icon {
+      color: $fontColor;
+      font-size: 24px;
+      margin: auto;
+    }
+  }
+}
