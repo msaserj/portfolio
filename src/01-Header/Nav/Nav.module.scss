@@ -2,6 +2,7 @@
 @import "./src/00-Common/styles/sass/mixins";
 
 .nav {
+
   padding-left: 20px;
   width: 450px;
   margin-right: 60px;
@@ -27,7 +28,10 @@
       color: $fontRedColor;
     }
   }
-  @media screen and (max-width: 750px){
+  @media screen and (max-width: 930px){
+    position: absolute;
     display: none;
+
+
   }
 }

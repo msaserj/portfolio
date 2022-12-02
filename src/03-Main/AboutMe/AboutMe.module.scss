@@ -2,30 +2,29 @@
 @import "../../00-Common/styles/sass/mixins";
 
 .text {
+  display: flex;
+  flex-direction: column;
   margin-top: 100px;
   padding: 20px;
-  width: 600px;
+  max-width: 600px;
   color: $fontColor;
+
   .welcome {
     letter-spacing: 5px;
   }
+
   .myName {
     @include text($montserratFontFamily, 62px, 1.0, $fontWhiteColor);
+
     .spanName {
       color: $fontRedColor;
     }
+
     .spanProf {
       font-size: 48px;
     }
-  }
-  p {
-    @include text($montserratFontFamily, 16px, 1.8, $fontColor);
-    text-align: justify;
-  }
-  @media screen and (max-width: 930px) {
-    border: 2px solid red;
-    width: 340px;
-    .myName {
+
+    @media screen and (max-width: 930px) {
       font-size: 52px;
       .spanName {
         color: $fontRedColor;
@@ -34,6 +33,13 @@
       .spanProf {
         font-size: 28px;
       }
+
     }
   }
+
+  p {
+    @include text($montserratFontFamily, 16px, 1.8, $fontColor);
+    text-align: justify;
+  }
+
 }

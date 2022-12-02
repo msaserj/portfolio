@@ -10,7 +10,7 @@ export const Form = () => {
                 <input className={css.input} type="email" placeholder={'email'}/>
                 <input className={css.input} type="text" placeholder={'subject'}/>
                 <textarea className={css.textArea} placeholder={'your message'} onChange={e => e}>Your message</textarea>
-                <Button buttonName={"Send message"}/>
+                <Button>ghgh</Button>
             </div>
     );
 };

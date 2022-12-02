@@ -10,15 +10,19 @@ export const Main = () => {
     return (
         <div id={"home"} className={css.mainBlock}>
             <div className={`${styleContainer.container} ${css.mainContainer}`}>
-                <div>
-                    <Slide triggerOnce direction={"left"}>
-                        <AboutMe/>
-                        <Options/>
-                    </Slide>
-                </div>
-                <Slide triggerOnce direction={"right"}>
+
+                <Slide triggerOnce direction={"up"}>
                     <div className={css.photo}>Photo</div>
                 </Slide>
+
+                <Slide triggerOnce direction={"up"}>
+                    <div className={css.aboutMe}>
+                        <AboutMe/>
+                        <Options/>
+                    </div>
+
+                </Slide>
+
             </div>
 
         </div>

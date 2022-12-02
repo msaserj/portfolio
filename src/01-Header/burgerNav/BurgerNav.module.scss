@@ -2,9 +2,24 @@
 @import "./src/00-Common/styles/sass/mixins";
 
 .nav {
-  width: 100px;
-  margin-right: 60px;
-  @include flex(column, space-between, stretch, nowrap);
+  position: fixed;
+  padding: 10px;
+  box-sizing: border-box;
+  left: 0;
+  top: 95px;
+  width: 70%;
+  height: 100vh;
+  @include flex(column, flex-start, flex-start, nowrap);
+  background-color: rgba(33, 36, 40, 0.9);
+  //background-color: rgba(25, 27, 30, 0.85);
+  backdrop-filter: blur(5px);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  z-index: 10;
+  .text {
+    @include  text($montserratFontFamily, 16px, 1.5, $fontGreyColor);
+    letter-spacing: 1px;
+    text-align: justify;
+  }
 
   .item {
     list-style-type: none;
@@ -24,8 +39,5 @@
     &.active {
       color: $fontWhiteColor;
     }
-  }
-  @media screen and (min-width: 750px){
-    display: none;
   }
 }

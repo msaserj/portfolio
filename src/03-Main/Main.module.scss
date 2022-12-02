@@ -8,12 +8,15 @@
   .mainContainer {
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: center;
     @media screen and (max-width: 930px){
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
     .photo {
+      order: 1;
       margin-top: 100px;
       width: 400px;
       height: 500px;
@@ -24,6 +27,12 @@
         width: 360px;
         height: 400px;
       }
+    }
+    .aboutMe{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
     }
   }
 }
