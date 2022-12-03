@@ -2,14 +2,13 @@
 @import "../../00-Common/styles/sass/mixins";
 
 .work {
-  width: 100%;
-  display: flex;
+
   min-height: 300px;
   padding: 30px 30px 20px 30px;
   margin: 30px 20px;
   @include flex(column, flex-start, left, wrap);
   @include neumorph();
-
+  flex-basis: 300px;
 
   &::before {
     @include beforeNeumorph();

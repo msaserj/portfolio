@@ -42,6 +42,7 @@ export const Header = () => {
             </div>
             {/*<ReactCSSTransitionGroup/>*/}
             {menu && <BurgerNav />}
+
         </>
 
     );
