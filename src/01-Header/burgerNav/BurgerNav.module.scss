@@ -39,14 +39,14 @@
     letter-spacing: 1px;
     text-align: justify;
     transition: all 5s ease;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #1a1a1a;
   }
   .nav {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #1a1a1a;
     .item {
       list-style-type: none;
       cursor: pointer;

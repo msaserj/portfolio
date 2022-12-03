@@ -3,12 +3,15 @@
 
 .work {
 
-  min-height: 300px;
+  min-height: 280px;
   padding: 30px 30px 20px 30px;
   margin: 30px 20px;
   @include flex(column, flex-start, left, wrap);
   @include neumorph();
-  flex-basis: 280px;
+  flex-basis: 320px;
+  @media screen and (max-width: 930px){
+    flex-basis: 270px;
+  }
 
   &::before {
     @include beforeNeumorph();
