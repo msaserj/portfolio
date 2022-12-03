@@ -9,7 +9,10 @@ export const Contacts = () => {
     return (
         <div id="contacts" className={css.contactsBlock}>
             <div className={`${styleContainer.container} ${css.contactsContainer}`}>
-                <Title description={"contacts"} title={"Contact With Me"}/>
+                <div>
+                    <Title description={"contacts"} title={"My Contacts"}/>
+                </div>
+
                 <div className={css.contacts}>
                     <ContactsBlock/>
                     <Form />

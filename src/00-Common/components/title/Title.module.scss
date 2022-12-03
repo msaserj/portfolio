@@ -17,7 +17,8 @@
     font-weight: 700;
     @include text($textFontFamily, 48px, 1.2, $fontColor);
     text-transform: capitalize;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+
     text-shadow: 1px 1px 2px #565656, 0 0 1em #006b17, 0 0 0.2em #2ee700;
 
   }

@@ -3,17 +3,19 @@
 
 .contacts {
   padding: 30px;
-  width: 35%;
+  //flex-grow: 1;
   min-height: 300px;
+  width: 400px;
   position: relative;
   z-index: 1;
   transition: 0.2s all ease-in-out;
-  margin: 40px 20px;
+  margin: 30px 20px;
   color: $fontColor;
+  box-sizing: border-box;
   @include flex(column, flex-start, left, wrap);
   @include neumorph();
   @media screen and (max-width: 930px) {
-    width: 75%;
+    width: 90%;
   }
   .imageBlock {
     width: 100%;
@@ -52,6 +54,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    flex-wrap: wrap;
     .icon {
       color: $fontColor;
       font-size: 24px;

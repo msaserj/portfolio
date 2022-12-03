@@ -31,9 +31,13 @@
 
     .link {
       @include text($montserratFontFamily, 14px, 1.1, $fontColor);
-      letter-spacing: 1px;
-      padding: 30px 30px;
-      box-sizing: initial;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      width: 100%;
+      height: 80px;
+
+      //box-sizing: initial;
       text-decoration: none;
       transition: 0.8s;
       &:hover {
