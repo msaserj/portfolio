@@ -2,9 +2,12 @@
 @import "../00-Common/styles/sass/mixins";
 
 .contactsBlock {
+  @include flex(column, center, center, "");
+  min-height: 300px;
   background-color: $bgColor;
+  box-sizing: border-box;
   .contactsContainer {
-    @include flex(column, flex-start, stretch, "");
+    @include flex(column, center, center, "");
     .contacts {
       @include flex(row, center, "", wrap);
       width: 100%;
