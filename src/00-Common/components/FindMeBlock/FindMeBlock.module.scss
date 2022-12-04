@@ -2,7 +2,7 @@
 @import "../../styles/sass/mixins";
 
 .header {
-  @include text($montserratFontFamily, 16px, 1, $fontGreyColor2);
+  @include text(16px, 1, $fontGreyColor2);
   text-transform: uppercase;
   letter-spacing: 2px;
 }

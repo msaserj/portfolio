@@ -1,13 +1,13 @@
 import React from 'react';
 import css from './App.module.scss';
 import {Header} from "./01-Header/Header";
-import {Main} from "./03-Main/Main";
-import {Skills} from "./04-Skills/Skills";
-import {Works} from "./05-Works/Works";
-import {Remote} from "./07-Remote/Remote";
-import {Contacts} from "./08-Contacts/Contacts";
-import {Footer} from "./09-Footer/Footer";
-import {Resume} from "./06-Resume/Resume";
+import {Main} from "./02-Main/Main";
+import {Skills} from "./03-Skills/Skills";
+import {Works} from "./04-Works/Works";
+import {Blog} from "./06-Blog/Blog";
+import {Contacts} from "./07-Contacts/Contacts";
+import {Footer} from "./08-Footer/Footer";
+import {Resume} from "./05-Resume/Resume";
 import {FiArrowUp} from "react-icons/fi";
 import {Link} from "react-scroll";
 
@@ -21,7 +21,7 @@ function App() {
             <Skills/>
             <Works/>
             <Resume/>
-            <Remote/>
+            <Blog/>
             <Contacts/>
             <Footer/>
             <Link spy activeClass={css.active} className={css.relative} smooth={true} delay={50} to={"home"}>

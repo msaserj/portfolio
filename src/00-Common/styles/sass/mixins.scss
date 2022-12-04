@@ -1,6 +1,6 @@
 @import "./variables";
-@mixin text($fontFamily, $fontSize, $lineHeight, $color) {
-  font-family: $fontFamily;
+@mixin text($fontSize, $lineHeight, $color) {
+  //font-family: $montserratFontFamily;
   font-size: $fontSize;
   line-height: $lineHeight;
   color: $color;
@@ -39,4 +39,25 @@
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   z-index: -1;
+}
+@mixin linkUnderline() {
+  position: relative;
+  text-decoration: none;
+  transition: 0.5s;
+  &::after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: $fontRedColor;
+    transition: 0.5s;
+  }
+  &:hover {
+    color: $fontRedColor;
+    &::after {
+      width: 100%;
+    }
+  }
 }

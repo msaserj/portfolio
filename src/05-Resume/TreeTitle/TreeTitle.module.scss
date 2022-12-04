@@ -1,0 +1,21 @@
+@import "../../00-Common/styles/sass/variables";
+@import "../../00-Common/styles/sass/mixins";
+
+.title {
+  margin: 20px 0 40px;
+  background-color: $bgColor;
+  .preHeader {
+    @include text (14px, 1.0, $fontRedColor);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  h2 {
+    margin: 10px 0;
+    font-weight: 700;
+    @include text(32px, 1.2, $fontColor);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  }
+}
+
+

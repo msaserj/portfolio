@@ -1,0 +1,34 @@
+@import "../00-Common/styles/sass/variables";
+@import "../00-Common/styles/sass/mixins";
+
+.mainBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .mainContainer {
+    @include flex(row-reverse, space-around, center, wrap);
+    min-height: 100vh;
+    @media screen and (max-width: 750px){
+      flex-direction: column;
+    }
+    .photo {
+      order: 1;
+      margin-top: 100px;
+      width: 400px;
+      height: 550px;
+      @include neumorph();
+      @media screen and (max-width: 930px){
+        margin-top: 100px;
+        width: 300px;
+        height: 400px;
+      }
+    }
+    .aboutMe{
+      @include flex(column, center, left, wrap);
+
+    }
+  }
+}
+
+
+

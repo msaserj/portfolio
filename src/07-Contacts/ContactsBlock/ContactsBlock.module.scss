@@ -1,0 +1,52 @@
+@import "../../00-Common/styles/sass/variables";
+@import "../../00-Common/styles/sass/mixins";
+
+.contacts {
+  @include flex(column, flex-start, left, wrap);
+  @include neumorph();
+  padding: 30px;
+  min-height: 300px;
+  width: 400px;
+  transition: 0.2s all ease-in-out;
+  margin: 30px 20px;
+  color: $fontColor;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  @media screen and (max-width: 930px) {
+    width: 90%;
+  }
+  .imageBlock {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    .image {
+      width: 100%;
+      height: auto;
+      transition: 0.5s;
+      scale: 1.1;
+    }
+    .image:hover {
+      transform: scale(1.2);
+    }
+  }
+  .description {
+    @include text(15px, 1.1, $fontGreyColor);
+  }
+  .text {
+    @include text(15px, 1.1, $fontGreyColor);
+    margin: 20px 0;
+  }
+  .span {
+    @include text(16px, 1.1, $fontGreyColor);
+    .a {
+      @include text(16px, 1.1, $fontGreyColor2);
+      text-decoration: none;
+      @include linkUnderline();
+    }
+  }
+
+}
+
+
+

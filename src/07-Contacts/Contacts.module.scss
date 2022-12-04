@@ -1,0 +1,19 @@
+@import "../00-Common/styles/sass/variables";
+@import "../00-Common/styles/sass/mixins";
+
+.contactsBlock {
+  background-color: $bgColor;
+  .contactsContainer {
+    @include flex(column, flex-start, stretch, "");
+    .contacts {
+      @include flex(row, center, "", wrap);
+      width: 100%;
+      margin-top:  40px ;
+      box-sizing: border-box;
+      @media screen and (max-width: 930px) {
+        flex-direction: column;
+      }
+    }
+  }
+}
+

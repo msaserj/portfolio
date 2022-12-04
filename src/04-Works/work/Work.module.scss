@@ -1,0 +1,90 @@
+@import "../../00-Common/styles/sass/variables";
+@import "../../00-Common/styles/sass/mixins";
+
+.work {
+  @include flex(column, flex-start, left, wrap);
+  @include neumorph();
+  min-height: 280px;
+  padding: 30px 30px 20px 30px;
+  margin: 30px 20px;
+  box-sizing: border-box;
+  flex-basis: 360px;
+  @media screen and (max-width: 930px){
+    flex-basis: 330px;
+  }
+  &::before {
+    @include beforeNeumorph();
+  }
+  &:hover::before {
+    opacity: 1;
+  }
+  .imgBlock {
+    @include flex(row, center, center, "");
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    .image {
+      width: 100%;
+      height: auto;
+      transition: 0.5s;
+      scale: 1.1;
+      filter: brightness(0.7);
+    }
+    .image:hover {
+      transform: scale(1.15);
+      filter: brightness(1);
+    }
+  }
+  .projectInfo {
+    @include flex(column, left, "", "");
+    margin-top: 20px;
+    .typeProject {
+      @include text(14px, 1.0, $fontRedColor);
+      letter-spacing: 1px;
+    }
+    .link {
+      padding: 20px 0;
+      text-decoration: none;
+      position: relative;
+      cursor: pointer;
+      .projectTitle {
+        @include text(23px, 1.2, $fontColor);
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.8s;
+      }
+      .arrow {
+        position: absolute;
+        bottom: 20px;
+        opacity: 0;
+        padding: 0;
+        font-size: 26px;
+        color: $fontRedColor;
+        transition: opacity 0.5s;
+      }
+      &:hover {
+        .projectTitle {
+          color: $fontRedColor;
+          transition: 0.8s;
+        }
+        .arrow {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

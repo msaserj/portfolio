@@ -8,7 +8,7 @@
   height: 60px;
   font-size: 18px;
   letter-spacing: 2px;
-  @include text($montserratFontFamily, 14px, 1, $fontGreyColor2);
+  @include text(14px, 1, $fontGreyColor2);
   text-transform: uppercase;
   @include neumorph();
   cursor: pointer;

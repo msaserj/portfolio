@@ -1,7 +1,7 @@
 import React from 'react';
 import css from "./FindMeBlock.module.scss";
 import {LiBtn} from "../LinkButton/LiBtn";
-import {FiGithub, FiLinkedin, FiTwitter} from "react-icons/fi";
+import {FiFacebook, FiGithub, FiLinkedin} from "react-icons/fi";
 
 export const FindMeBlock = () => {
     return (
@@ -10,7 +10,7 @@ export const FindMeBlock = () => {
             <ul className={css.links}>
                 <LiBtn title={"LinkedIn"} pointer link={"https://www.linkedin.com/in/msaserj/"}><FiLinkedin/></LiBtn>
                 <LiBtn title={"GitHub"} pointer link={"https://github.com/msaserj"}><FiGithub/></LiBtn>
-                <LiBtn title={"Facebook"} pointer link={"https://www.linkedin.com/in/msaserj/"}><FiTwitter/></LiBtn>
+                <LiBtn title={"Facebook"} pointer link={"https://www.facebook.com/msaserj"}><FiFacebook/></LiBtn>
             </ul>
         </div>
     );

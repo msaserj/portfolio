@@ -1,41 +1,33 @@
 @import "../00-Common/styles/sass/variables";
-
+@import "../00-Common/styles/sass/mixins";
 
 .header {
+  @include flex(row, space-between, center, nowrap);
   position: fixed;
   width: 100%;
-  min-height: 80px;
+  height: 80px;
   background-color: rgba(33, 36, 40, 0.8705882353);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   backdrop-filter: blur(5px);
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
   z-index: 10;
-  //animation: headerSlideDown 0.5s ease forwards;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   .photoBlock {
     box-sizing: border-box;
-    margin-left: 50px;
-
-
+    margin-left: 60px;
     a {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flex(row, space-between, center, nowrap);
       text-decoration: none;
-
       img {
-        width: 60px;
-        margin: 10px;
+        width: 50px;
+        margin: 0 10px;
         border-radius: 50%;
         border: 3px solid #12b602;
-        //box-shadow: 10px 10px 10px #1c1e22, -10px -10px 10px #ff005e;
         box-shadow: 0 0 0.8em 0 #0e8600;
         @media screen and (max-width: 930px) {
           width: 40px;
         }
       }
-
       span {
         font-size: 17px;
         font-weight: 600;
@@ -44,29 +36,20 @@
         letter-spacing: 1px;
       }
     }
-
     @media screen and (max-width: 930px) {
       margin-left: 10px;
     }
   }
-
   Button {
     display: none;
-
     @media screen and (max-width: 930px) {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: center;
+      @include flex(row, center, center, nowrap);
       margin-right: 20px;
       width: 50px;
       height: 50px;
       color: $fontRedColor;
       border-radius: 50%;
       font-size: 28px;
-
     }
-
   }
-
 }

@@ -1,0 +1,36 @@
+@import "../00-Common/styles/sass/variables";
+@import "../00-Common/styles/sass/mixins";
+
+.footerBlock {
+  @include flex(column, center, center, "");
+  min-height: 300px;
+  background-color: $bgColor;
+  box-sizing: border-box;
+  .footerContainer {
+    @include flex(column, center, "", "");
+    .title {
+      @include text(28px, 1, $fontColor)
+    }
+    .social {
+      @include flex(row, space-evenly, center, "");
+      width: 350px;
+      height: 50px;
+      a {
+        @include text(17px, 1, $fontGreyColor2);
+        position: relative;
+        text-decoration: none;
+        @include linkUnderline();
+      }
+    }
+    .rights {
+      @include text(17px, 1.5, $fontGreyColor);
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: $fontGreyColor2;
+        @include linkUnderline();
+      }
+    }
+  }
+}
+

@@ -1,0 +1,54 @@
+@import "../../00-Common/styles/sass/variables";
+@import "../../00-Common/styles/sass/mixins";
+
+.skill {
+  @include flex(column, flex-start, left, wrap);
+  @include neumorph();
+  min-height: 150px;
+  padding: 35px 35px 35px 35px;
+  margin: 30px 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  flex-basis: 360px;
+  @media screen and (max-width: 930px){
+    flex-basis: 330px;
+  }
+  .icon {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+  }
+
+  h3 {
+    @include text(24px, 1.2, $fontColor);
+    font-family: $textFontFamily;
+  }
+
+  .description {
+    @include text(16px, 1.5, $fontColor);
+    font-family: $textFontFamily;
+    text-align: justify;
+  }
+  .arrow {
+    opacity: 0;
+    padding-top: 20px;
+    font-size: 40px;
+    color: $fontRedColor;
+    transition: opacity 0.5s ease-in-out;
+  }
+  &::before {
+    @include beforeNeumorph();
+  }
+  &:hover {
+    padding: 25px 35px 45px 35px;
+    .arrow {
+      opacity: 1;
+    }
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
