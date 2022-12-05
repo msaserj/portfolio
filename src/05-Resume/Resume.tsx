@@ -5,9 +5,10 @@ import {Title} from "../00-Common/components/title/Title";
 import {Slide} from "react-awesome-reveal";
 import {ResumeNav} from "./ResumeNav/ResumeNav";
 import {Route, Routes} from "react-router-dom";
-import jsonState from "../state/state.json"
+
 import {ResumeBlock} from "./ResumeBlock/ResumeBlock";
 import {SkillsBlock} from "./ProfSkills/SkillsBlock";
+import jsonState from "../state/state"
 
 
 export const Resume = () => {
@@ -26,10 +27,10 @@ export const Resume = () => {
                     <ResumeNav/>
                     <div className={css.contentBlock}>
                         <Routes>
-                            <Route path="/" element={<ResumeBlock resumeBlock={jsonState.resume.education}/>}/>
-                            <Route path="/profskills" element={<SkillsBlock resumeBlock={jsonState.resume.skills}/>}/>
-                            <Route path="/experience" element={<ResumeBlock resumeBlock={jsonState.resume.experience}/>}/>
-                            <Route path="/interview" element={<ResumeBlock resumeBlock={jsonState.resume.interview}/>}/>
+                            <Route path="/" element={<ResumeBlock resumeBlock={jsonState.education}/>}/>
+                            <Route path="/profskills" element={<SkillsBlock resumeBlock={jsonState.skills}/>}/>
+                            <Route path="/experience" element={<ResumeBlock resumeBlock={jsonState.experience}/>}/>
+                            <Route path="/interview" element={<ResumeBlock resumeBlock={jsonState.interview}/>}/>
                         </Routes>
                     </div>
                 </div>

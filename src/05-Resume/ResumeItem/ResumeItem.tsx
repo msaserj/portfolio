@@ -23,7 +23,7 @@ export const ResumeItem: React.FC<ResumeItemType> = (
                         <span>{rate}</span>
                     </div>
                 </div>
-                <p>{description}</p>
+                <p className={css.description}>{description}</p>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ export const Button: React.FC<PropsType> = (
 ) => {
 
     return (
-        <button {...restProps} className={css.link}>{children}</button>
+        <button className={css.link} {...restProps} >{children}</button>
 
     );
 };

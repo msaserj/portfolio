@@ -34,6 +34,7 @@
       .rate {
         @include neumorph();
         @include  text(16px, 1.1, $fontRedColor);
+        white-space: nowrap;
         border-radius: 5px;
         align-self: start;
         padding: 7px;
@@ -54,9 +55,10 @@
         transform: translate(-50%, 50%);
       }
     }
-    p {
+    .description {
       margin: 0;
       text-align: justify;
+      color: $fontGreyColor;
     }
 
     &::before {
