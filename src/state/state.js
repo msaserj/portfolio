@@ -55,22 +55,31 @@ const resume = {
             title: "MY EXPERIENCE",
             items: [
                 {
-                    title: "KGSXA",
-                    years: "2004-2008",
-                    rate: "3.90 / 4",
-                    description: "Lorem Ipsum"
+                    title: "Motordetal-Kostroma",
+                    years: "A manufacturer of parts of the cylinder-piston group.",
+                    rate: "2011-2015",
+                    description: "Leading specialist in security systems." +
+                        "• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination." +
+                        "• Setting up network equipment and workstations running Windows OS, support for network users." +
+                        "• Administration of enterprise servers Windows Server 2003-2008." +
+                        "• Designed and implemented projects of fire and security alarms, video surveillance and access control systems. Documentation for the maintenance of security systems has been developed." +
+                        "• Negotiations with suppliers, verification of contractors, conclusion of contracts."
                 },
                 {
-                    title: "Energy Tech",
-                    years: "2006-2008",
-                    rate: "3.90 / 5",
-                    description: "Lorem Ipsum"
+                    title: "Motordetal-Kostroma",
+                    years: "A manufacturer of parts of the cylinder-piston group.",
+                    rate: "2015-2020",
+                    description: "Note. The information security department was reduced and merged with the administration and technical support department." +
+                        " Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system." +
+                        " Our team has implemented several projects: transferred terminal servers and user workstations to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual networks. The company's wireless network was upgraded using unify equipment. Also maintenance of enterprise security systems."
                 },
                 {
-                    title: "School",
-                    years: "2004-2015",
-                    rate: "3.40 / 4",
-                    description: "Lorem Ipsum"
+                    title: "Electrocentromontaj of Kostroma",
+                    years: "Electrical work of various levels of complexity",
+                    rate: "2020-2022",
+                    description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
+                        "Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. " +
+                        "The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia."
                 }
             ]
         },
