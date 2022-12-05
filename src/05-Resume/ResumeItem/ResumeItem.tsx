@@ -3,13 +3,13 @@ import css from "./ResumeItem.module.scss";
 
 export type ResumeItemType = {
     title: string
+    subtitle: string
     years: string
-    rate: string
     description: string
 }
 
 export const ResumeItem: React.FC<ResumeItemType> = (
-    {title, years, rate, description}
+    {title, subtitle, years, description}
 ) => {
     return (
         <div className={css.treeBlock}>
@@ -17,10 +17,10 @@ export const ResumeItem: React.FC<ResumeItemType> = (
                 <div className={css.innerInfo}>
                     <div className={css.info}>
                         <h3>{title}</h3>
-                        <span>{years}</span>
+                        <span>{subtitle}</span>
                     </div>
                     <div className={css.rate}>
-                        <span>{rate}</span>
+                        <span>{years}</span>
                     </div>
                 </div>
                 <p className={css.description}>{description}</p>

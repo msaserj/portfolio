@@ -6,20 +6,20 @@ const resume = {
             items: [
                 {
                     title: "Kostroma School of Secondary Education",
-                    years: "School of Secondary Education",
-                    rate: "2000-2003",
+                    subtitle: "School of Secondary Education",
+                    years: "2000-2003",
                     description: "School of Secondary Education"
                 },
                 {
                     title: "Kostroma Energy College named after F.V. Chizhov.",
-                    years: "Secondary vocational education.",
-                    rate: "2003-2006",
+                    subtitle: "Secondary vocational education.",
+                    years: "2003-2006",
                     description: " Installation, adjustment and operation of electrical equipment of industrial and civil buildings."
                 },
                 {
                     title: "Kostroma State Agricultural Academy.",
-                    years: "Higher education school",
-                    rate: "2006-2010",
+                    subtitle: "Higher education school",
+                    years: "2006-2010",
                     description: "Engineer specializing in electrification and automation of agriculture."
                 }
             ]
@@ -30,20 +30,20 @@ const resume = {
             items: [
                 {
                     title: "Circle of radio electronics",
-                    years: "Extracurricular educations",
-                    rate: "2000-2002",
+                    subtitle: "Extracurricular educations",
+                    years: "2000-2002",
                     description: "Radio electronics course."
                 },
                 {
                     title: "Udemy: The Complete 2020 Web Development Bootcamp",
-                    years: "SWeb Development Bootcamp",
-                    rate: "2020-2021",
+                    subtitle: "SWeb Development Bootcamp",
+                    years: "2020-2021",
                     description: "The main concepts of back-end and front-end web development are relevant for 2020."
                 },
                 {
                     title: "IT-Incubator",
-                    years: "IT-Incubator Minsk, Belarus.",
-                    rate: "2022-2022",
+                    subtitle: "IT-Incubator Minsk, Belarus.",
+                    years: "2022-2022",
                     description: "IT incubator is not IT courses, but an incubator. Not only study but also practical team development of your own project."
                 }
             ]
@@ -56,8 +56,8 @@ const resume = {
             items: [
                 {
                     title: "Motordetal-Kostroma",
-                    years: "A manufacturer of parts of the cylinder-piston group.",
-                    rate: "2011-2015",
+                    subtitle: "A manufacturer of parts of the cylinder-piston group.",
+                    years: "2011-2015",
                     description: "Leading specialist in security systems." +
                         "• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination." +
                         "• Setting up network equipment and workstations running Windows OS, support for network users." +
@@ -67,16 +67,16 @@ const resume = {
                 },
                 {
                     title: "Motordetal-Kostroma",
-                    years: "A manufacturer of parts of the cylinder-piston group.",
-                    rate: "2015-2020",
+                    subtitle: "A manufacturer of parts of the cylinder-piston group.",
+                    years: "2015-2020",
                     description: "Note. The information security department was reduced and merged with the administration and technical support department." +
                         " Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system." +
                         " Our team has implemented several projects: transferred terminal servers and user workstations to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual networks. The company's wireless network was upgraded using unify equipment. Also maintenance of enterprise security systems."
                 },
                 {
                     title: "Electrocentromontaj of Kostroma",
-                    years: "Electrical work of various levels of complexity",
-                    rate: "2020-2022",
+                    subtitle: "Electrical work of various levels of complexity",
+                    years: "2020-2022",
                     description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
                         "Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. " +
                         "The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia."
@@ -84,25 +84,25 @@ const resume = {
             ]
         },
         right: {
-            years: "2007-2017",
-            title: "Self Education",
+            years: "2011-2022",
+            title: "MY EXPERIENCE",
             items: [
                 {
-                    title: "gfgfgf",
-                    years: "2004-6565",
-                    rate: "3.90 / 10",
+                    title: "IT-Company",
+                    subtitle: "React Front-end Developer",
+                    years: "3.90 / 10",
                     description: "Lorem Ipsum dolor sit amet, consectetur adipiscing elit."
                 },
                 {
                     title: "Energy fgfgfgTech",
-                    years: "2006-2008",
-                    rate: "3.90 / 5",
+                    subtitle: "2006-2008",
+                    years: "3.90 / 5",
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
                 },
                 {
                     title: "School School",
-                    years: "2004-2015",
-                    rate: "3.40 / 4",
+                    subtitle: "2004-2015",
+                    years: "3.40 / 4",
                     description: "Lorem Ipsum"
                 }
             ]
@@ -115,20 +115,20 @@ const resume = {
             items: [
                 {
                     title: "KGSXA",
-                    years: "2004-2008",
-                    rate: "3.90 / 4",
+                    subtitle: "2004-2008",
+                    years: "3.90 / 4",
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
                 },
                 {
                     title: "Energy Tech",
-                    years: "2006-2008",
-                    rate: "3.90 / 5",
+                    subtitle: "2006-2008",
+                    years: "3.90 / 5",
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
                 },
                 {
                     title: "School",
-                    years: "2004-2015",
-                    rate: "3.40 / 4",
+                    subtitle: "2004-2015",
+                    years: "3.40 / 4",
                     description: "Lorem Ipsum"
                 }
             ]
@@ -139,20 +139,20 @@ const resume = {
             items: [
                 {
                     title: "gfgfgf",
-                    years: "2004-6565",
-                    rate: "3.90 / 10",
+                    subtitle: "2004-6565",
+                    years: "3.90 / 10",
                     description: "Lorem Ipsum"
                 },
                 {
                     title: "Energy fgfgfgTech",
-                    years: "2006-2008",
-                    rate: "3.90 / 5",
+                    subtitle: "2006-2008",
+                    years: "3.90 / 5",
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
                 },
                 {
                     title: "School School",
-                    years: "2004-2015",
-                    rate: "3.40 / 4",
+                    subtitle: "2004-2015",
+                    years: "3.40 / 4",
                     description: "Lorem Ipsum"
                 }
             ]
