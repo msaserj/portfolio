@@ -20,7 +20,7 @@ export const ResumeNav = () => {
                <li className={css.navItem}>
                    <NavLink style={setActive} className = {css.link} to="/experience">Experience</NavLink></li>
                <li className={css.navItem}>
-                   <NavLink style={setActive}  className = {css.link} to="/interview">Interview</NavLink></li>
+                   <NavLink style={setActive}  className = {css.link} to="/interview">Other Experience</NavLink></li>
            </ul>
        </>
     );

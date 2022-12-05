@@ -101,7 +101,7 @@ const resume = {
     },
     interview: {
         left: {
-            years: "2007-2222",
+            years: "2010-2022",
             title: "INTERVIEW",
             items: [
                 {
