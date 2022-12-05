@@ -55,7 +55,7 @@ const resume = {
             title: "MY EXPERIENCE",
             items: [
                 {
-                    title: "Motordetal-Kostroma",
+                    title: "Motordetal Kostroma",
                     subtitle: "A manufacturer of parts of the cylinder-piston group.",
                     years: "2011-2015",
                     description: "Leading specialist in security systems." +
@@ -66,45 +66,36 @@ const resume = {
                         "• Negotiations with suppliers, verification of contractors, conclusion of contracts."
                 },
                 {
-                    title: "Motordetal-Kostroma",
+                    title: "Motordetal Kostroma",
                     subtitle: "A manufacturer of parts of the cylinder-piston group.",
                     years: "2015-2020",
                     description: "Note. The information security department was reduced and merged with the administration and technical support department." +
                         " Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system." +
                         " Our team has implemented several projects: transferred terminal servers and user workstations to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual networks. The company's wireless network was upgraded using unify equipment. Also maintenance of enterprise security systems."
-                },
-                {
-                    title: "Electrocentromontaj of Kostroma",
-                    subtitle: "Electrical work of various levels of complexity",
-                    years: "2020-2022",
-                    description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
-                        "Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. " +
-                        "The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia."
                 }
             ]
         },
         right: {
             years: "2011-2022",
             title: "MY EXPERIENCE",
-            items: [
+            items: [{
+                    title: "of Kostroma",
+                    subtitle: "Electrical work of various levels of complexity",
+                    years: "2020-2022",
+                    description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
+                        "Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. " +
+                        "The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia."
+                },
                 {
                     title: "IT-Company",
                     subtitle: "React Front-end Developer",
-                    years: "3.90 / 10",
-                    description: "Lorem Ipsum dolor sit amet, consectetur adipiscing elit."
-                },
-                {
-                    title: "Energy fgfgfgTech",
-                    subtitle: "2006-2008",
-                    years: "3.90 / 5",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
-                },
-                {
-                    title: "School School",
-                    subtitle: "2004-2015",
-                    years: "3.40 / 4",
-                    description: "Lorem Ipsum"
+                    years: "2020-2022",
+                    description: "Team development of a training application for a ready-made API. Managed the development team." +
+                        "Technologies and tools used: React, Redux, TypeScript, ReduxThunk, RestApi, Axios, Formik, MaterialUI, SCSS etc." +
+                        "Development of a social network application" +
+                        "Development of the interface of the to-do list application using UnitTests and StoryBook"
                 }
+
             ]
         }
     },

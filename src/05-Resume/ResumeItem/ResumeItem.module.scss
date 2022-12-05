@@ -5,6 +5,7 @@
 .treeBlock {
   @include flex(column, space-around, left, no-wrap);
   @include neumorph();
+  border: 1px solid green;
   position: relative;
   margin-left: 40px;
   padding: 35px 30px;
