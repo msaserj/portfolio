@@ -57,9 +57,9 @@
       }
     }
     .description {
+      @include text(17px, 1.3, $fontGreyColor);
       margin: 0;
       text-align: justify;
-      color: $fontGreyColor;
     }
 
     &::before {

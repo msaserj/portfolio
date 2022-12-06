@@ -62,7 +62,8 @@ const resume = {
                         "• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination." +
                         "• Setting up network equipment and workstations running Windows OS, support for network users." +
                         "• Administration of enterprise servers Windows Server 2003-2008." +
-                        "• Designed and implemented projects of fire and security alarms, video surveillance and access control systems. Documentation for the maintenance of security systems has been developed." +
+                        "• Designed and implemented projects of fire and security alarms, video surveillance and access " +
+                        "control systems. Documentation for the maintenance of security systems has been developed." +
                         "• Negotiations with suppliers, verification of contractors, conclusion of contracts."
                 },
                 {
@@ -71,7 +72,10 @@ const resume = {
                     years: "2015-2020",
                     description: "Note. The information security department was reduced and merged with the administration and technical support department." +
                         " Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system." +
-                        " Our team has implemented several projects: transferred terminal servers and user workstations to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual networks. The company's wireless network was upgraded using unify equipment. Also maintenance of enterprise security systems."
+                        " Our team has implemented several projects: transferred terminal servers and user workstations " +
+                        "to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual" +
+                        " networks. The company's wireless network was upgraded using unify equipment. Also maintenance" +
+                        " of enterprise security systems."
                 }
             ]
         },
@@ -101,50 +105,29 @@ const resume = {
     },
     interview: {
         left: {
-            years: "2010-2022",
-            title: "INTERVIEW",
+            years: "2017-2019",
+            title: "Some experience",
             items: [
                 {
-                    title: "KGSXA",
-                    subtitle: "2004-2008",
-                    years: "3.90 / 4",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
-                },
-                {
-                    title: "Energy Tech",
-                    subtitle: "2006-2008",
-                    years: "3.90 / 5",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
-                },
-                {
-                    title: "School",
-                    subtitle: "2004-2015",
-                    years: "3.40 / 4",
-                    description: "Lorem Ipsum"
+                    title: "ParkRun",
+                    subtitle: "ParkRun Berendeyevka Kostroma",
+                    years: "2017-2019",
+                    description: "I am into long distance running. He took part in the organization of weekly park races" +
+                        " at a distance of 5 km for everyone and the creation of the Kostroma community of runners."
                 }
             ]
         },
         right: {
-            years: "2007-2018",
+            years: "2017-2019",
             title: "Self Education",
             items: [
                 {
-                    title: "gfgfgf",
-                    subtitle: "2004-6565",
-                    years: "3.90 / 10",
-                    description: "Lorem Ipsum"
-                },
-                {
-                    title: "Energy fgfgfgTech",
-                    subtitle: "2006-2008",
-                    years: "3.90 / 5",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac velit consequat, vestibulum purus eget, sodales leo. Fusce interdum ac arcu euismod tempus. "
-                },
-                {
-                    title: "School School",
-                    subtitle: "2004-2015",
-                    years: "3.40 / 4",
-                    description: "Lorem Ipsum"
+                    title: "TrailRan Event",
+                    subtitle: "Susanin Trail Forest Race",
+                    years: "2019",
+                    description: "Our Kostroma team of SusaninRan runners organized a city trail race for everyone who" +
+                        " wanted the name of the race. It was a very interesting and useful experience in organizing such events." +
+                        " They organized not just a boring race, but a running festival."
                 }
             ]
         }

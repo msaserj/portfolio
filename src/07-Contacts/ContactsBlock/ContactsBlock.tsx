@@ -14,7 +14,7 @@ export const ContactsBlock = () => {
                 <span className={css.description}>React Frontend Developer</span>
             </div>
             <div>
-                <p className={css.text}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p className={css.text}>I am available for work. Connect with me via and call in to my account.</p>
             </div>
             <div>
                 <span className={css.span}>Phone: <a className={css.a} href="tel: +123456789">+123456789</a></span>
