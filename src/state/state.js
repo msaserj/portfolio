@@ -56,7 +56,7 @@ const resume = {
             items: [
                 {
                     title: "Motordetal Kostroma",
-                    subtitle: "A manufacturer of parts of the cylinder-piston group.",
+                    subtitle: "Department of Information Security. Engineer",
                     years: "2011-2015",
                     description: "Leading specialist in security systems." +
                         "• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination." +
@@ -67,7 +67,7 @@ const resume = {
                 },
                 {
                     title: "Motordetal Kostroma",
-                    subtitle: "A manufacturer of parts of the cylinder-piston group.",
+                    subtitle: "Lead Technical Support Specialist, System Administrator.",
                     years: "2015-2020",
                     description: "Note. The information security department was reduced and merged with the administration and technical support department." +
                         " Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system." +
@@ -79,8 +79,8 @@ const resume = {
             years: "2011-2022",
             title: "MY EXPERIENCE",
             items: [{
-                    title: "of Kostroma",
-                    subtitle: "Electrical work of various levels of complexity",
+                    title: "JS Electrocentromontaj",
+                    subtitle: "System Administrator.",
                     years: "2020-2022",
                     description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
                         "Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. " +

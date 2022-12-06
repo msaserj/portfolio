@@ -25,7 +25,7 @@ export const Header = () => {
         <>
             <div className={css.header}>
                 <div className={css.photoBlock}>
-                    <a href="https://msaserj.com">
+                    <a href="https://msaserj.ru">
                         <img src={photo} alt="MyPhoto"/>
                         <span>MSASERJ</span>
                     </a>
