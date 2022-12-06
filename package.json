@@ -1,8 +1,8 @@
 {
-  "name": "it-inc-portfolio",
+  "name": "msaserj.ru",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://msaserj.github.io/it-inc-portfolio",
+  "homepage": "https://msaserj.ru",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@testing-library/jest-dom": "^5.14.1",
