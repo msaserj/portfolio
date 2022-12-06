@@ -11,9 +11,9 @@ import githubPic from "../00-Common/assets/image/github.webp"
 
 export const Works = () => {
 
-    const todoUrl = "https://msaserj.github.io/inc-todolist/"
-    const socialUrl = "https://msaserj.github.io/inc-socialnetwork/"
-    const cardsUrl = "https://msaserj.github.io/inc-fridayproj/"
+    const todoUrl = "https://msaserj.github.io/inc-todolist"
+    const socialUrl = "https://msaserj.github.io/inc-socialnetwork"
+    const cardsUrl = "https://msaserj.github.io/inc-fridayproj"
     const githubUrl = "https://github.com/msaserj"
 
     return (
