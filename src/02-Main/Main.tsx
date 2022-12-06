@@ -8,23 +8,18 @@ import {AboutMe} from "./AboutMe/AboutMe";
 
 export const Main = () => {
     return (
-        <div id={"home"} className={css.mainBlock}>
+        <section id={"home"} className={css.mainBlock}>
             <div className={`${styleContainer.container} ${css.mainContainer}`}>
-
                 <Slide triggerOnce direction={"down"}>
                     <div className={css.photo}>Photo</div>
                 </Slide>
-
                 <Slide triggerOnce direction={"down"}>
                     <div className={css.aboutMe}>
                         <AboutMe/>
                         <Options/>
                     </div>
-
                 </Slide>
-
             </div>
-
-        </div>
+        </section>
     );
 };

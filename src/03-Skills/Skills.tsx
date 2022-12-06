@@ -7,7 +7,6 @@ import {TfiAlignJustify, TfiBrush, TfiDesktop} from "react-icons/tfi";
 import {SiJest, SiLinux} from "react-icons/si";
 
 
-
 export const Skills = () => {
     const lorem = [
         {
@@ -38,22 +37,24 @@ export const Skills = () => {
 
     ]
     return (
-        <div id={"skills"} className={css.skillsBlock}>
-
+        <section id={"skills"} className={css.skillsBlock}>
             <div className={`${styleContainer.container} ${css.skillsContainer}`}>
                 <div>
                     <Title description={"Features"} title={"WHAT I DO"}/>
                 </div>
                 <div className={css.skills}>
-                    <Skill title={lorem[0].title} description={lorem[0].descr}><TfiAlignJustify className={css.icon}/></Skill>
-                    <Skill title={lorem[1].title} description={lorem[1].descr}><TfiDesktop className={css.icon}/></Skill>
+                    <Skill title={lorem[0].title} description={lorem[0].descr}><TfiAlignJustify
+                        className={css.icon}/></Skill>
+                    <Skill title={lorem[1].title} description={lorem[1].descr}><TfiDesktop
+                        className={css.icon}/></Skill>
                     <Skill title={lorem[2].title} description={lorem[2].descr}><TfiBrush className={css.icon}/></Skill>
-                    <Skill title={lorem[3].title} description={lorem[3].descr}><TfiDesktop className={css.icon}/></Skill>
+                    <Skill title={lorem[3].title} description={lorem[3].descr}><TfiDesktop
+                        className={css.icon}/></Skill>
                     <Skill title={lorem[4].title} description={lorem[4].descr}><SiJest className={css.icon}/></Skill>
                     <Skill title={lorem[5].title} description={lorem[5].descr}><SiLinux className={css.icon}/></Skill>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

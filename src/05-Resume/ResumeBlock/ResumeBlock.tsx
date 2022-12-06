@@ -35,25 +35,25 @@ export const ResumeBlock: React.FC<ResumeBlockType> = (
             <div className={css.content}>
 
                 <div className={css.columnTree}>
-                    {/*<Fade cascade>*/}
+                    <Fade cascade>
                         <TreeTitle title={left.title} years={left.years}/>
                         <div className={css.tree}>
                             {left.items.map((item, key) =>
                                 <ResumeItem key={key} description={item.description} title={item.title}
                                             years={item.years} subtitle={item.subtitle}/>)}
                         </div>
-                    {/*</Fade>*/}
+                    </Fade>
                 </div>
 
                 <div className={css.columnTree}>
-                    {/*<Fade cascade>*/}
+                    <Fade cascade>
                         <TreeTitle title={right.title} years={right.years}/>
                         <div className={css.tree}>
                             {right.items.map((item, key) =>
                                 <ResumeItem key={key} description={item.description} title={item.title}
                                             years={item.years} subtitle={item.subtitle}/>)}
                         </div>
-                    {/*</Fade>*/}
+                    </Fade>
                 </div>
 
             </div>

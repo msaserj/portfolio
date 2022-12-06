@@ -10,7 +10,7 @@ type PropsType = ButtonPropsType & {
 }
 
 export const Button: React.FC<PropsType> = (
-    {children, className,...restProps}
+    {children, className, ...restProps}
 ) => {
 
     return (

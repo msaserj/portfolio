@@ -1,10 +1,14 @@
 import React from 'react';
-import css from './Nav.module.scss'
+import css from './BurgerNav.module.scss'
 import {Link} from "react-scroll";
+import {FindMeBlock} from "../../00-Common/components/FindMeBlock/FindMeBlock";
 
-export const Nav = () => {
+export const BurgerNav = () => {
     return (
-
+        <div className={css.sideBlock}>
+            <div className={css.text}>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
             <ul className={css.nav}>
                 <Link spy activeClass={css.active} className={css.item} smooth={true} delay={50} to={"home"}>HOME</Link>
                 <Link spy activeClass={css.active} className={css.item} smooth={true} delay={50}
@@ -17,6 +21,8 @@ export const Nav = () => {
                 <Link spy activeClass={css.active} className={css.item} smooth={true} delay={50}
                       to={"contacts"}>CONTACTS</Link>
             </ul>
+            <FindMeBlock/>
+        </div>
 
 
     );

@@ -8,7 +8,6 @@ export const Options = () => {
         <div className={css.options}>
             <FindMeBlock/>
             <BestSkillsBlock/>
-
         </div>
     );
 };

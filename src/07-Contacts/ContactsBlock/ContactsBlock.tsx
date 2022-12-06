@@ -20,7 +20,8 @@ export const ContactsBlock = () => {
                 <span className={css.span}>Phone: <a className={css.a} href="tel: +123456789">+123456789</a></span>
             </div>
             <div>
-                <span className={css.span}>Email: <a className={css.a} href="mailto: serg.ks@gmail.com">serg.ks@gmail.com</a></span>
+                <span className={css.span}>Email: <a className={css.a}
+                                                     href="mailto: serg.ks@gmail.com">serg.ks@gmail.com</a></span>
             </div>
             <FindMeBlock/>
         </div>

@@ -17,13 +17,11 @@ export const Works = () => {
     const githubUrl = "https://github.com/msaserj"
 
     return (
-        <div id={"works"} className={css.worksBlock}>
+        <section id={"works"} className={css.worksBlock}>
             <div className={`${styleContainer.container} ${css.worksContainer}`}>
-
-                    <div>
-                        <Title description={"Visit my portfolio"} title={"My works"}/>
-                    </div>
-
+                <div>
+                    <Title description={"Visit my portfolio"} title={"My works"}/>
+                </div>
                 <div className={css.works}>
                     <Work image={socialPic} title={"Social Network"} url={socialUrl}/>
                     <Work image={todoPic} title={"Todolist with MUI"} url={todoUrl}/>
@@ -31,7 +29,7 @@ export const Works = () => {
                     <Work image={githubPic} title={"Awesome Project"} url={githubUrl}/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

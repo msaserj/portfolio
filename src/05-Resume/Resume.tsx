@@ -12,12 +12,8 @@ import jsonState from "../state/state"
 
 
 export const Resume = () => {
-    // const lorem = 'Lorem ipsum dolor sit amet, ' +
-    //     'consectetur adipiscing elit, ' +
-    //     'sed do eiusmod tempor incididunt ut ' +
-    //     'labore et dolore magna aliqua.'
     return (
-        <div id={"resume"} className={css.resumeBlock}>
+        <section id={"resume"} className={css.resumeBlock}>
 
             <div className={`${styleContainer.container} ${css.resumeContainer}`}>
                 <Slide triggerOnce direction={"up"}>
@@ -35,7 +31,7 @@ export const Resume = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

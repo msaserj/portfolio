@@ -6,7 +6,7 @@ type TitleProps = {
     years: string
 }
 
-export const TreeTitle:FC<TitleProps> = ({title, years}) => {
+export const TreeTitle: FC<TitleProps> = ({title, years}) => {
 
     return (
         <div className={css.title}>
