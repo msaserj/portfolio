@@ -15,13 +15,18 @@
       order: 1;
       margin-top: 100px;
       width: 400px;
-      height: 550px;
+      height: 535px;
+      padding: 25px;
       @include neumorph();
       @media screen and (max-width: 930px){
         margin-top: 100px;
         width: 300px;
         height: 400px;
       }
+    }
+    img {
+      height: 100%;
+      width: auto;
     }
     .aboutMe{
       @include flex(column, center, left, wrap);
