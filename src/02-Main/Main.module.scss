@@ -17,6 +17,7 @@
       width: 400px;
       height: 535px;
       padding: 25px;
+      box-sizing: border-box;
       @include neumorph();
       @media screen and (max-width: 930px){
         margin-top: 100px;
