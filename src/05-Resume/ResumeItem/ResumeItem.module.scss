@@ -25,6 +25,9 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      @media screen and (max-width: 750px) {
+        flex-direction: column-reverse;
+      }
       .info {
         margin-bottom: 40px;
         h3 {
@@ -39,6 +42,7 @@
         border-radius: 5px;
         align-self: start;
         padding: 7px;
+        margin: 15px 0;
         font-weight: 600;
         &::before {
           @include beforeNeumorph();

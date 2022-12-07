@@ -83,7 +83,7 @@ const resume = {
             years: "2011-2022",
             title: "MY EXPERIENCE",
             items: [{
-                    title: "JS Electrocentromontaj",
+                    title: "JS Electromontaj",
                     subtitle: "System Administrator.",
                     years: "2020-2022",
                     description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
