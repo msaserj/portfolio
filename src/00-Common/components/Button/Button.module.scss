@@ -30,5 +30,20 @@
       transition: 0s;
     }
   }
+  &:disabled {
+    transition: 0.5s;
+    cursor: default;
+    color: $fontGreyColor;
+    &:hover {
+      transform: translateY(0);
+
+
+    }
+    &::before {
+
+      opacity: 0;
+      transition: 0.5s;
+    }
+  }
 
 }

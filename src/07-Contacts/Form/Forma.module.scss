@@ -14,6 +14,7 @@
     min-width: 0;
     width: 90%;
   }
+
   .input {
     outline: none;
     height: 55px;
@@ -26,14 +27,25 @@
     padding: 0 15px;
     letter-spacing: 1px;
     color: $fontGreyColor;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     box-sizing: border-box;
     transition: 0.5s;
+
     &:focus {
       border: 2px solid $fontRedColor;
       transition: 0.5s;
     }
   }
+
+  span {
+    height: 15px;
+    margin: 0 0 10px;
+    display: block;
+    font-size: 15px;
+    color: $fontRedColor;
+
+  }
+
 
   .textArea {
     outline: none;
@@ -51,14 +63,18 @@
     resize: none;
     transition: 0.5s;
     box-sizing: border-box;
+    line-height: 1.5;
+
     &:focus {
       border: 2px solid $fontRedColor;
       transition: 0.5s;
     }
+
     @media screen and (max-width: 750px) {
       min-width: 280px;
     }
   }
+
   Button {
     &::before {
       @include beforeNeumorph();

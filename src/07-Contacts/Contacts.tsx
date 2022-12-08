@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Contacts.module.scss'
 import styleContainer from '../00-Common/styles/Container.module.scss'
-import {Form} from "./Form/Form";
+import {Forma} from "./Form/Forma";
 import {Title} from "../00-Common/components/title/Title";
 import {ContactsBlock} from "./ContactsBlock/ContactsBlock";
 import {Slide} from "react-awesome-reveal";
@@ -16,7 +16,7 @@ export const Contacts = () => {
                 <Slide triggerOnce direction={"up"}>
                     <div className={css.contacts}>
                         <ContactsBlock/>
-                        <Form/>
+                        <Forma/>
                     </div>
                 </Slide>
             </div>
