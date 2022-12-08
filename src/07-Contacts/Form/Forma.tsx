@@ -22,7 +22,7 @@ export const Forma = () => {
     }
 
     const sendHandler = async (name: string, email: string, subj: string, message: string) => {
-        await axios.post("http://localhost:3010/sendmessage",
+        await axios.post("https://msaserj.ru:3011/sendmessage",
             {
                 name, email, subj, message
             }).then(res => {
