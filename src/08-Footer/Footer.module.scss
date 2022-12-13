@@ -7,7 +7,7 @@
   background-color: $bgColor;
   box-sizing: border-box;
   .footerContainer {
-    padding: 50px 0 80px;
+    margin: 50px 0 80px;
     @include flex(column, center, "", "");
     .title {
       @include text(28px, 1, $fontColor)
