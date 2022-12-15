@@ -3,14 +3,34 @@
 
 .mainBlock {
   min-height: 100vh;
-  background-color: $bgColor;
+  //background-color: $bgColor;
+  position: relative;;
+  .bgp {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: $bgColor;
+
+    opacity: 80%;
+
+  }
 
   .mainContainer {
     @include flex(row-reverse, space-around, center, wrap);
     min-height: 100vh;
-    @media screen and (max-width: 750px){
+
+    @media screen and (max-width: 750px) {
       flex-direction: column;
     }
+
     .photo {
       order: 1;
       margin-top: 100px;
@@ -19,17 +39,19 @@
       padding: 25px;
       box-sizing: border-box;
       @include neumorph();
-      @media screen and (max-width: 930px){
+      @media screen and (max-width: 930px) {
         margin-top: 100px;
         width: 300px;
         height: 400px;
       }
     }
+
     img {
       height: 100%;
       width: auto;
     }
-    .aboutMe{
+
+    .aboutMe {
       @include flex(column, center, left, wrap);
 
     }
