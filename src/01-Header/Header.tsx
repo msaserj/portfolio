@@ -6,6 +6,7 @@ import {Nav} from "./Nav/Nav";
 import {Button} from "../00-Common/components/Button/Button";
 import {BurgerNav} from "./BurgerNav/BurgerNav";
 import {FiMenu} from "react-icons/fi";
+import {Link} from "react-scroll";
 
 
 export const Header = () => {
@@ -24,13 +25,13 @@ export const Header = () => {
         <>
             <header className={css.header}>
                 <div className={css.photoBlock}>
-                    <a href="https://msaserj.ru">
+                    <Link spy activeClass={css.active} className={css.relative} smooth={true} delay={50} to={"home"}>
                         <img src={photo} alt="MyPhoto"/>
                         <span>MSASERJ</span>
-                    </a>
+                    </Link>
                 </div>
                 <div>
-                    <Button onBlur={onBlurHandler} className={css.menuButton} onClick={menuHandler}><FiMenu/></Button>
+                    <Button round onBlur={onBlurHandler} className={css.menuButton} onClick={menuHandler}><FiMenu/></Button>
 
                     <Slide direction={"up"}>
                         <Nav/>

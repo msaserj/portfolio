@@ -1,7 +1,7 @@
 @import "../../styles/sass/variables";
 @import "../../styles/sass/mixins";
 
-.link {
+.button {
   border: none;
   margin: 20px 0;
   width: 100%;
@@ -16,8 +16,9 @@
   &::before {
     @include beforeNeumorph();
     opacity: 1;
-    border-radius: 50%;
+
   }
+
 
   &:hover {
     transform: translateY(-3px);
@@ -37,7 +38,6 @@
     &:hover {
       transform: translateY(0);
 
-
     }
     &::before {
 
@@ -46,4 +46,10 @@
     }
   }
 
+}
+.round {
+  border-radius: 50%;
+  &::before {
+    border-radius: 50%;
+  }
 }

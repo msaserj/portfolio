@@ -1,39 +1,36 @@
 @import "../../00-Common/styles/sass/variables";
 @import "../../00-Common/styles/sass/mixins";
 
-.text {
-  @include flex(column, center, left, wrap);
-  margin-top: 100px;
-  padding: 20px;
-  max-width: 600px;
-  color: $fontColor;
+.options {
+  @include flex(column, start, start, wrap);
+  margin-top: 30px;
+  width: 540px;
+  //height: 535px;
+  padding: 35px;
+  box-sizing: border-box;
+  @include neumorph();
+
   @media screen and (max-width: 930px) {
-    max-width: 400px;
+    min-width: 0;
+    width: 90%;
+    margin: 30px auto;
   }
-  .welcome {
-    letter-spacing: 5px;
-  }
-  .myName {
-    @include text(62px, 1.0, $fontWhiteColor);
-    .spanName {
-      color: $fontRedColor;
-    }
-    .spanProf {
-      font-size: 48px;
-    }
-    @media screen and (max-width: 930px) {
-      font-size: 52px;
-      .spanName {
-        color: $fontRedColor;
-        font-size: 42px;
-      }
-      .spanProf {
-        font-size: 28px;
-      }
-    }
+  .header {
+    margin: 0 0 10px 0;
+    padding-bottom: 20px;
+    width: 100%;
+    @include text(30px, 1.0, $fontWhiteColor);
+    border-bottom: 1px solid #131313;
   }
   p {
-    @include text(16px, 1.8, $fontColor);
+    @include text(17px, 1.5, $fontGreyColor);
     text-align: justify;
   }
+  .skills {
+    @include flex(row, space-between, center, wrap);
+
+  }
+  //@media screen and (max-width: 930px) {
+  //  flex-direction: column;
+  //}
 }

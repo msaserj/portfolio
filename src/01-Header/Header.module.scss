@@ -15,9 +15,12 @@
   .photoBlock {
     box-sizing: border-box;
     margin-left: 60px;
-    a {
+    .relative {
       @include flex(row, space-between, center, nowrap);
       text-decoration: none;
+      cursor: pointer;
+      transition: 1s;
+
       img {
         width: 50px;
         margin: 0 10px;
@@ -35,7 +38,12 @@
         color: #c4cfde;
         letter-spacing: 1px;
       }
+      &.active {
+        opacity: 0;
+        cursor: default;
+      }
     }
+
     @media screen and (max-width: 930px) {
       margin-left: 10px;
     }
@@ -48,7 +56,6 @@
       width: 50px;
       height: 50px;
       color: $fontRedColor;
-      border-radius: 50%;
       font-size: 28px;
     }
   }

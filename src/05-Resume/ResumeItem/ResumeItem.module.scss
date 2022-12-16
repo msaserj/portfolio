@@ -11,6 +11,11 @@
   padding: 35px 30px;
   color: $fontColor;
   z-index: 1;
+  @media screen and (max-width: 750px) {
+
+    min-width: 74%;
+
+  }
   &::before {
     @include beforeNeumorph();
   }

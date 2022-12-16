@@ -1,0 +1,60 @@
+@import "../../00-Common/styles/sass/variables";
+@import "../../00-Common/styles/sass/mixins";
+
+.text {
+  @include flex(column, center, left, wrap);
+  margin-top: 30px;
+  max-width: 600px;
+  color: $fontColor;
+  @media screen and (max-width: 930px) {
+    min-width: 0;
+    width: 85%;
+    margin: 90px auto 50px;
+  }
+  .photoBlock {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-bottom: 30px;
+    img {
+      width: 200px;
+      border-radius: 50%;
+      border: 5px solid #5b5b5b;
+      box-shadow: 0 0 0.8em 0 #2d2d2d;
+    }
+    @media screen and (max-width: 930px) {
+      margin-left: 10px;
+    }
+  }
+  .welcome {
+    letter-spacing: 5px;
+  }
+  .myName {
+    margin: 20px 0;
+    @include text(62px, 1.0, $fontWhiteColor);
+    .spanName {
+      color: $fontRedColor;
+    }
+    .spanProf {
+      font-size: 48px;
+    }
+    @media screen and (max-width: 930px) {
+      font-size: 52px;
+      .spanName {
+        color: $fontRedColor;
+        font-size: 42px;
+      }
+      .spanProf {
+        font-size: 28px;
+      }
+    }
+  }
+
+  p {
+    @include text(16px, 1.8, $fontColor);
+    text-align: justify;
+  }
+  .buttons {
+    @include flex(row, start, left, nowrap);
+
+  }
+}

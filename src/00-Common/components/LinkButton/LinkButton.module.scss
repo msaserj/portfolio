@@ -4,22 +4,28 @@
   margin: 10px 10px;
   line-height: 55px;
   display: flex;
-  width: 60px;
+  min-width: 60px;
+  padding: 0 15px 0;
+  box-sizing: border-box;
   height: 60px;
   text-align: center;
   font-size: 24px;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   border-radius: 6px;
   background: $linearGradient_1;
   box-shadow: $boxShadow_1;
   transition: 0.3s;
   position: relative;
   z-index: 1;
-  //cursor: pointer;
   vertical-align: auto;
   align-items: center;
   justify-content: center;
   color: $fontColor;
+  -webkit-user-select: none;
+  //-khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
   //transition: background 0.5s ease, 0.5s;
   &::before {

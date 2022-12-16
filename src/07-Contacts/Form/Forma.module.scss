@@ -76,13 +76,13 @@
     }
   }
 
-  Button {
-    &::before {
-      @include beforeNeumorph();
-      opacity: 1;
-      border-radius: 10px;
-    }
-  }
+  //Button {
+  //  &::before {
+  //    @include beforeNeumorph();
+  //    opacity: 1;
+  //    border-radius: 10px;
+  //  }
+  //}
 }
 
 

@@ -7,14 +7,15 @@ type ButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>
 
 type PropsType = ButtonPropsType & {
     children: ReactNode
+    round?: boolean
 }
 
 export const Button: React.FC<PropsType> = (
-    {children, className, ...restProps}
+    {children, className, round, ...restProps }
 ) => {
-
+    const cssClass = round && css.round
     return (
-        <button className={css.link} {...restProps} >{children}</button>
+        <button className={`${css.button} ${cssClass}`} {...restProps} >{children}</button>
 
     );
 };
