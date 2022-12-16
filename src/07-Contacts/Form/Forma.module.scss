@@ -75,14 +75,11 @@
       min-width: 220px;
     }
   }
-
-  //Button {
-  //  &::before {
-  //    @include beforeNeumorph();
-  //    opacity: 1;
-  //    border-radius: 10px;
-  //  }
-  //}
+  .sended {
+    color: #00d203;
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
 }
 
 

@@ -107,7 +107,7 @@ export const Forma = () => {
             <span>{formik.errors.message && formik.touched.message ? formik.errors.message : ''}</span>
             <Button type={'submit'} className={css.button}
                     disabled={!(formik.isValid && formik.dirty)}>{response ?
-                <strong style={{color: "red"}}>{response}</strong> : "Send message"}</Button>
+                <strong className={css.sended}>{response}</strong> : "Send message"}</Button>
 
         </form>
     );
