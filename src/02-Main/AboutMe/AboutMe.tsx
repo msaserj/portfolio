@@ -9,12 +9,12 @@ export const AboutMe = () => {
 
             <h3 className={css.header}>About Me</h3>
             <p>Hi I am a Front-End developer & I can build your website as you want.
-                I can customize plugin & wordpress theme.
-                And I have two years of experience in figma.
-                Now I am able to design your portfolio.</p>
+                I have two years of experience in Frontend and building a SPA with React/Redux/TypeScript in a
+                team, three years of experience with HTML, CSS, JavaScript.
+                5 years of commercial experience in IT.
+            </p>
             <p>
-                I have three years of experience with HTML, CSS, JavaScript.
-                And I can Design Your web application.
+                I can design and build business logic for Your web application.
             </p>
 
             {/*<div className={css.skills}>*/}

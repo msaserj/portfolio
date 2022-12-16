@@ -2,10 +2,9 @@
 @import "../../00-Common/styles/sass/mixins";
 
 .options {
-  @include flex(column, start, start, wrap);
-  margin-top: 30px;
+  @include flex(column, "", "", wrap);
+  margin: 40px 0 40px;
   width: 540px;
-  //height: 535px;
   padding: 35px;
   box-sizing: border-box;
   @include neumorph();
@@ -28,9 +27,5 @@
   }
   .skills {
     @include flex(row, space-between, center, wrap);
-
   }
-  //@media screen and (max-width: 930px) {
-  //  flex-direction: column;
-  //}
 }

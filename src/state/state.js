@@ -35,9 +35,9 @@ const resume = {
                     description: "Radio electronics course."
                 },
                 {
-                    title: "Udemy: The Complete 2020 Web Development Bootcamp",
-                    subtitle: "SWeb Development Bootcamp",
-                    years: "2020-2021",
+                    title: "Udemy: The Complete 2021-2022 Web Development Bootcamp",
+                    subtitle: "Web Development Bootcamp",
+                    years: "2021-2022",
                     description: "The main concepts of back-end and front-end web development are relevant for 2020."
                 },
                 {
@@ -52,7 +52,7 @@ const resume = {
     experience: {
         left: {
             years: "2011-2022",
-            title: "MY EXPERIENCE",
+            title: "commercial experience",
             items: [
                 {
                     title: "Motordetal Kostroma",
@@ -81,7 +81,7 @@ const resume = {
         },
         right: {
             years: "2011-2022",
-            title: "MY EXPERIENCE",
+            title: "commercial experience",
             items: [{
                     title: "JS Electromontaj",
                     subtitle: "System Administrator.",
@@ -106,28 +106,28 @@ const resume = {
     interview: {
         left: {
             years: "2017-2019",
-            title: "Some experience",
+            title: "running",
             items: [
                 {
                     title: "ParkRun",
                     subtitle: "ParkRun Berendeyevka Kostroma",
                     years: "2017-2019",
-                    description: "I am into long distance running. He took part in the organization of weekly park races" +
+                    description: "I am into long distance running. And I took part in the organization of weekly park races" +
                         " at a distance of 5 km for everyone and the creation of the Kostroma community of runners."
                 }
             ]
         },
         right: {
             years: "2017-2019",
-            title: "Self Education",
+            title: "running",
             items: [
                 {
-                    title: "TrailRan Event",
+                    title: "TrailRun Event",
                     subtitle: "Susanin Trail Forest Race",
                     years: "2019",
-                    description: "Our Kostroma team of SusaninRan runners organized a city trail race for everyone who" +
-                        " wanted the name of the race. It was a very interesting and useful experience in organizing such events." +
-                        " They organized not just a boring race, but a running festival."
+                    description: "Our Kostroma team of runners SusaninRun organized a race for everyone runners." +
+                        " It was a very interesting and useful experience in organizing such events." +
+                        " We organized not just a boring race, but a running festival."
                 }
             ]
         }

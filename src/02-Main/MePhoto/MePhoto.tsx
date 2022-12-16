@@ -5,7 +5,7 @@ import {LiBtn} from "../../00-Common/components/LinkButton/LiBtn";
 
 export const MePhoto = () => {
     return (
-        <div className={css.text}>
+        <div className={css.me}>
             <div className={css.photoBlock}>
                 <img src={photo} alt="MyPhoto"/>
             </div>
@@ -15,8 +15,9 @@ export const MePhoto = () => {
             </h1>
             <p>The world is full of adventure and opportunity.<br/> Let's improve it together!</p>
             <div className={css.buttons}>
-                <LiBtn pointer>Download My CV</LiBtn>
+                <LiBtn  link={"./static/SergeiMinkoCV.pdf"} pointer>Download My CV</LiBtn>
             </div>
+
         </div>
     );
 };

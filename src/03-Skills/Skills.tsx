@@ -5,6 +5,7 @@ import {Skill} from "./skill/Skill";
 import {Title} from "../00-Common/components/title/Title";
 import {TfiAlignJustify, TfiBrush, TfiDesktop} from "react-icons/tfi";
 import {SiJest, SiLinux} from "react-icons/si";
+import {FaPeopleCarry} from "react-icons/fa";
 
 
 export const Skills = () => {
@@ -23,8 +24,8 @@ export const Skills = () => {
                 "I will make the interface as user-friendly as possible. This will improve my design skills a bit."
         },
         {
-            title: "Business Logic App",
-            descr: "I feel that design and engineering should live harmoneously together."
+            title: "Team Development",
+            descr: "I have experience of working in a team and developing complex applications."
         },
         {
             title: "Unit Tests",
@@ -48,7 +49,7 @@ export const Skills = () => {
                     <Skill title={lorem[1].title} description={lorem[1].descr}><TfiDesktop
                         className={css.icon}/></Skill>
                     <Skill title={lorem[2].title} description={lorem[2].descr}><TfiBrush className={css.icon}/></Skill>
-                    <Skill title={lorem[3].title} description={lorem[3].descr}><TfiDesktop
+                    <Skill title={lorem[3].title} description={lorem[3].descr}><FaPeopleCarry
                         className={css.icon}/></Skill>
                     <Skill title={lorem[4].title} description={lorem[4].descr}><SiJest className={css.icon}/></Skill>
                     <Skill title={lorem[5].title} description={lorem[5].descr}><SiLinux className={css.icon}/></Skill>

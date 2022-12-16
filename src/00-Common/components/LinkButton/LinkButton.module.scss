@@ -1,52 +1,53 @@
 @import "../../styles/sass/variables";
 
-.link {
-  margin: 10px 10px;
-  line-height: 55px;
-  display: flex;
-  min-width: 60px;
-  padding: 0 15px 0;
-  box-sizing: border-box;
-  height: 60px;
-  text-align: center;
-  font-size: 24px;
-  //text-transform: uppercase;
-  border-radius: 6px;
-  background: $linearGradient_1;
-  box-shadow: $boxShadow_1;
-  transition: 0.3s;
-  position: relative;
-  z-index: 1;
-  vertical-align: auto;
-  align-items: center;
-  justify-content: center;
-  color: $fontColor;
-  -webkit-user-select: none;
-  //-khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-  //transition: background 0.5s ease, 0.5s;
-  &::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.a{
+  text-decoration: none;
+  .link {
+    margin: 10px 10px;
+    line-height: 55px;
+    display: flex;
+    min-width: 60px;
+    padding: 0 15px 0;
+    box-sizing: border-box;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    //text-transform: uppercase;
     border-radius: 6px;
-    top: 0;
-    left: 0;
-    background: $linearGradient_2;
-    opacity: 0;
-    transition: opacity 0.5s linear;
-    z-index: -1;
-  }
-  &:hover {
-    transform: translateY(-3px);
-    color: $fontRedColor;
+    background: $linearGradient_1;
+    box-shadow: $boxShadow_1;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+    vertical-align: auto;
+    align-items: center;
+    justify-content: center;
+    color: $fontColor;
+    -webkit-user-select: none;
+    //-khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     &::before {
-      opacity: 1;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      top: 0;
+      left: 0;
+      background: $linearGradient_2;
+      opacity: 0;
+      transition: opacity 0.5s linear;
+      z-index: -1;
     }
-  }
+    &:hover {
+      transform: translateY(-3px);
+      color: $fontRedColor;
+      &::before {
+        opacity: 1;
+      }
 
+    }
+ }
 }

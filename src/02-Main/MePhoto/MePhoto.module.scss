@@ -1,9 +1,9 @@
 @import "../../00-Common/styles/sass/variables";
 @import "../../00-Common/styles/sass/mixins";
 
-.text {
+.me {
   @include flex(column, center, left, wrap);
-  margin-top: 30px;
+  margin: 90px 0 60px;
   max-width: 600px;
   color: $fontColor;
   @media screen and (max-width: 930px) {
@@ -49,12 +49,13 @@
     }
   }
 
+
   p {
     @include text(16px, 1.8, $fontColor);
     text-align: justify;
   }
   .buttons {
-    @include flex(row, start, left, nowrap);
+    @include flex(row, "", left, nowrap);
 
   }
 }
