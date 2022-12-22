@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">My home page</h1>
+<h2 align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</h2>
 
-## Available Scripts
+<p align="center">
 
-In the project directory, you can run:
+[//]: # (<img src="https://img.shields.io/npm/dy/msaserj">)
 
-### `yarn start`
+<img src="https://img.shields.io/badge/made%20by-msaserj-blue.svg" >
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://img.shields.io/github/stars/msaserj/inc-portfolio.svg?style=flat">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="https://img.shields.io/badge/React-18.0.0-green.svg">
 
-### `yarn test`
+<img src="https://img.shields.io/github/languages/count/msaserj/inc-portfolio">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://img.shields.io/github/languages/top/msaserj/inc-portfolio.svg">
 
-### `yarn build`
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 align="center"><a  href="https:msaserj.ru">Live Demo</a></h2>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Description
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**My home page site**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="center"><img src="./src/00-Common/assets/image/screen_main.png" width="60%"></p>
+<p align="center"><img src="./src/00-Common/assets/image/screen_mobile.png" width="30%">
+<img src="./src/00-Common/assets/image/screen_about.png" width="30%"></p>
+<p align="center"><img src="./src/00-Common/assets/image/screen_skills.png" width="60%"></p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## About the project.
 
-## Learn More
+Portfolio project. Inspired by design https://themeforest.net/user/rainbow-themes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**React**,
+**TS**,
+**SCSS**.
+
+## Project setup
+
+```
+npm install
+npm run serve
+```
+#### use yarn
+```
+yarn
+yarn start
+```
+
+## Future scope
+
+- Add blog
+- Add description pages for my works
+
+## My Home Page
+
+[Sergei Minko aka msaserj](https://msaserj.ru)
