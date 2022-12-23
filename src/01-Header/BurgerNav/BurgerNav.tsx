@@ -7,7 +7,7 @@ export const BurgerNav = () => {
     return (
         <div className={css.sideBlock}>
             <div className={css.text}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p>Let's do something special and make this world a little better together!</p>
             </div>
             <ul className={css.nav}>
                 <Link spy activeClass={css.active} className={css.item} smooth={true} delay={50} to={"home"}>HOME</Link>
@@ -23,7 +23,5 @@ export const BurgerNav = () => {
             </ul>
             <FindMeBlock/>
         </div>
-
-
     );
 };

@@ -3,7 +3,7 @@ import css from './Skills.module.scss'
 import styleContainer from '../00-Common/styles/Container.module.scss'
 import {Skill} from "./skill/Skill";
 import {Title} from "../00-Common/components/title/Title";
-import {TfiAlignJustify, TfiBrush, TfiDesktop} from "react-icons/tfi";
+import {TfiAlignJustify, TfiLightBulb, TfiMobile} from "react-icons/tfi";
 import {SiJest, SiLinux} from "react-icons/si";
 import {FaPeopleCarry} from "react-icons/fa";
 
@@ -11,17 +11,16 @@ import {FaPeopleCarry} from "react-icons/fa";
 export const Skills = () => {
     const lorem = [
         {
-            title: "Business Logic for App",
-            descr: "I create the most optimal business logic for your app."
+            title: "Responsive",
+            descr: "My layouts will work on any device, big or small."
         },
         {
-            title: "Web App Development",
-            descr: "Designing user interfaces for interacting with your backend server."
+            title: "Business Logic App",
+            descr: "Business logic important aspect of development - it affects the speed of the application."
         },
         {
-            title: "Creativity",
-            descr: "If you don't have a layout for your application, " +
-                "I will make the interface as user-friendly as possible. This will improve my design skills a bit."
+            title: "Intuitive",
+            descr: "Strong preference for easy to use, intuitive UX/UI."
         },
         {
             title: "Team Development",
@@ -44,11 +43,11 @@ export const Skills = () => {
                     <Title description={"Features"} title={"WHAT I DO"}/>
                 </div>
                 <div className={css.skills}>
-                    <Skill title={lorem[0].title} description={lorem[0].descr}><TfiAlignJustify
+                    <Skill title={lorem[0].title} description={lorem[0].descr}><TfiMobile
                         className={css.icon}/></Skill>
-                    <Skill title={lorem[1].title} description={lorem[1].descr}><TfiDesktop
+                    <Skill title={lorem[1].title} description={lorem[1].descr}><TfiAlignJustify
                         className={css.icon}/></Skill>
-                    <Skill title={lorem[2].title} description={lorem[2].descr}><TfiBrush className={css.icon}/></Skill>
+                    <Skill title={lorem[2].title} description={lorem[2].descr}><TfiLightBulb className={css.icon}/></Skill>
                     <Skill title={lorem[3].title} description={lorem[3].descr}><FaPeopleCarry
                         className={css.icon}/></Skill>
                     <Skill title={lorem[4].title} description={lorem[4].descr}><SiJest className={css.icon}/></Skill>

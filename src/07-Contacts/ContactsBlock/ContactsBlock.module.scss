@@ -33,16 +33,16 @@
     }
   }
   .description {
-    @include text(15px, 1.1, $fontGreyColor);
+    @include text(18px, 1.1, $fontGreyColor);
   }
   .text {
-    @include text(15px, 1.1, $fontGreyColor);
+    @include text(18px, 1.3, $fontGreyColor);
     margin: 20px 0;
   }
   .span {
-    @include text(16px, 1.1, $fontGreyColor);
+    @include text(16px, 1.3, $fontGreyColor);
     .a {
-      @include text(16px, 1.1, $fontGreyColor2);
+      @include text(16px, 1.3, $fontGreyColor2);
       text-decoration: none;
       @include linkUnderline();
     }

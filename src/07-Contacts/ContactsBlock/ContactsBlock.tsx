@@ -6,7 +6,6 @@ export const ContactsBlock = () => {
     const picSrc = "https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/contact1.png"
     return (
         <div className={css.contacts}>
-
             <div className={css.imageBlock}>
                 <img className={css.image} src={picSrc} alt="connect"/></div>
             <div>
@@ -14,10 +13,14 @@ export const ContactsBlock = () => {
                 <span className={css.description}>React Frontend Developer</span>
             </div>
             <div>
-                <p className={css.text}>I am available for work. Connect with me via and call in to my account.</p>
+                <p className={css.text}>I am available for work.
+                    Contact me through the contact form or write to me on social networks.</p>
             </div>
             <div>
-                <span className={css.span}>Phone: <a className={css.a} href="tel: +123456789">+123456789</a></span>
+                <span className={css.span}>Location: <span style={{color: "#B0B3B4FF"}}>Georgia, Tbilisi</span></span>
+            </div>
+            <div>
+                <span className={css.span}>Phone: <a className={css.a} href="tel:+995598706084">+995-598-70-60-84</a></span>
             </div>
             <div>
                 <span className={css.span}>Email: <a className={css.a}

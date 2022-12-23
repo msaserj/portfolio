@@ -9,7 +9,6 @@ import {AboutMe} from "./AboutMe/AboutMe";
 export const Main = () => {
     return (
         <section id={"home"} className={css.mainBlock}>
-            {/*<img className={css.bgp} src={bgp} alt=""/>*/}
             <div className={`${styleContainer.container} ${css.mainContainer}`}>
                         <MePhoto/>
                 <Fade triggerOnce direction={"left"}>

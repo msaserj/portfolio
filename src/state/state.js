@@ -18,7 +18,7 @@ const resume = {
                 },
                 {
                     title: "Kostroma State Agricultural Academy.",
-                    subtitle: "Higher education school",
+                    subtitle: "Higher education school. Grade: master`s degree" ,
                     years: "2006-2010",
                     description: "Engineer specializing in electrification and automation of agriculture."
                 }
@@ -38,12 +38,12 @@ const resume = {
                     title: "Udemy: The Complete 2021-2022 Web Development Bootcamp",
                     subtitle: "Web Development Bootcamp",
                     years: "2021-2022",
-                    description: "The main concepts of back-end and front-end web development are relevant for 2020."
+                    description: "The main concepts of back-end and front-end web development are relevant for 2021."
                 },
                 {
                     title: "IT-Incubator",
                     subtitle: "IT-Incubator Minsk, Belarus.",
-                    years: "2022-2022",
+                    years: "2022-Present",
                     description: "IT incubator is not IT courses, but an incubator. Not only study but also practical team development of your own project."
                 }
             ]
@@ -55,7 +55,7 @@ const resume = {
             title: "commercial experience",
             items: [
                 {
-                    title: "Motordetal Kostroma",
+                    title: "«Kostromskoi zavod avtokomponentov» JSC",
                     subtitle: "Department of Information Security. Engineer",
                     years: "2011-2015",
                     description: "Leading specialist in security systems." +
@@ -67,7 +67,7 @@ const resume = {
                         "• Negotiations with suppliers, verification of contractors, conclusion of contracts."
                 },
                 {
-                    title: "Motordetal Kostroma",
+                    title: "«Kostromskoi zavod avtokomponentov» JSC",
                     subtitle: "Lead Technical Support Specialist, System Administrator.",
                     years: "2015-2020",
                     description: "Note. The information security department was reduced and merged with the administration and technical support department." +
@@ -83,7 +83,7 @@ const resume = {
             years: "2011-2022",
             title: "commercial experience",
             items: [{
-                    title: "JS Electromontaj",
+                    title: "«Electromontaj» JC",
                     subtitle: "System Administrator.",
                     years: "2020-2022",
                     description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
@@ -91,8 +91,8 @@ const resume = {
                         "The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia."
                 },
                 {
-                    title: "IT-Company",
-                    subtitle: "React Front-end Developer",
+                    title: "Frontend developer",
+                    subtitle: "React Front-end Developer | Part-time",
                     years: "2020-2022",
                     description: "Team development of a training application for a ready-made API. Managed the development team." +
                         "Technologies and tools used: React, Redux, TypeScript, ReduxThunk, RestApi, Axios, Formik, MaterialUI, SCSS etc." +
