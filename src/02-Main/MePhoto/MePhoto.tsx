@@ -1,6 +1,6 @@
 import React from 'react';
 import css from "./MePhoto.module.scss";
-import photo from "../../00-Common/assets/image/photo2.jpg";
+import photo from "../../00-Common/assets/image/PortfolioImages/me2.jpg";
 import {LiBtn} from "../../00-Common/components/LinkButton/LiBtn";
 
 export const MePhoto = () => {

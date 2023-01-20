@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import css from './Header.module.scss'
-import photo from '../00-Common/assets/image/photo.jpg'
+import photo from '../00-Common/assets/image/PortfolioImages/me.jpg'
 import {Slide} from "react-awesome-reveal";
 import {Nav} from "./Nav/Nav";
 import {Button} from "../00-Common/components/Button/Button";

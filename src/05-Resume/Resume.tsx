@@ -8,7 +8,7 @@ import {Route, Routes} from "react-router-dom";
 
 import {ResumeBlock} from "./ResumeBlock/ResumeBlock";
 import {SkillsBlock} from "./ProfSkills/SkillsBlock";
-import jsonState from "../state/state"
+import jsonState from "./00_ResumeData/ResumeData"
 
 
 export const Resume = () => {

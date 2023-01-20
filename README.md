@@ -29,10 +29,10 @@
 
 **My home page site**
 
-<p align="center"><img src="./src/00-Common/assets/image/screen_main.png" width="60%"></p>
-<p align="center"><img src="./src/00-Common/assets/image/screen_mobile.png" width="30%">
-<img src="./src/00-Common/assets/image/screen_about.png" width="30%"></p>
-<p align="center"><img src="./src/00-Common/assets/image/screen_skills.png" width="60%"></p>
+<p align="center"><img src="src/00-Common/assets/image/PortfolioImages/screen_main.png" width="60%"></p>
+<p align="center"><img src="src/00-Common/assets/image/PortfolioImages/screen_mobile.png" width="30%">
+<img src="src/00-Common/assets/image/PortfolioImages/screen_about.png" width="30%"></p>
+<p align="center"><img src="src/00-Common/assets/image/PortfolioImages/screen_skills.png" width="60%"></p>
 
 ## About the project.
 
@@ -59,7 +59,7 @@ yarn start
 ## Future scope
 
 - Add blog
-- Add description pages for my works
+- Add description modals for my works
 
 ## My Home Page
 

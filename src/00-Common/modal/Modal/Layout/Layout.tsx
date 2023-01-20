@@ -2,7 +2,7 @@ import React, {ReactNode, useEffect, useRef, useState} from "react";
 import {CSSTransition} from "react-transition-group";
 
 import {ANIMATION_TIME} from "./const";
-import styles from "./styles.module.scss";
+import styles from "./layout.module.scss";
 import animationStyles from "./animation.module.scss";
 
 const overlayAnimation = {
