@@ -1,206 +1,192 @@
-const resume = {
-    education: {
-        left: {
-            years: "2000-2010",
-            title: "State Education",
-            items: [
-                {
-                    title: "Kostroma School of Secondary Education",
-                    subtitle: "School of Secondary Education",
-                    years: "2000-2003",
-                    description: "School of Secondary Education"
-                },
-                {
-                    title: "Kostroma Energy College named after F.V. Chizhov.",
-                    subtitle: "Secondary vocational education.",
-                    years: "2003-2006",
-                    description: " Installation, adjustment and operation of electrical equipment of industrial and civil buildings."
-                },
-                {
-                    title: "Kostroma State Agricultural Academy.",
-                    subtitle: "Higher education school. Grade: master`s degree" ,
-                    years: "2006-2010",
-                    description: "Engineer specializing in electrification and automation of agriculture."
-                }
-            ]
+const works = {
+    work1: {
+        workImg: "https://msaserj.ru/portfolio/SocialNetwork/socialNetwork-tumb.jpg",
+        headerBlock: {
+            thumbImg: "https://msaserj.ru/portfolio/SocialNetwork/soc-main.png",
+            header: "Social Network",
+            description: "Social network project. It works with a real backend server.",
+            gitHubLink: "https://github.com/msaserj/inc-socialnetwork",
+            demoLink: "https://msaserj.github.io/inc-socialnetwork"
         },
-        right: {
-            years: "2000-2022",
-            title: "Self Education",
-            items: [
-                {
-                    title: "Circle of radio electronics",
-                    subtitle: "Extracurricular educations",
-                    years: "2000-2002",
-                    description: "Radio electronics course."
-                },
-                {
-                    title: "Udemy: The Complete 2021-2022 Web Development Bootcamp",
-                    subtitle: "Web Development Bootcamp",
-                    years: "2021-2022",
-                    description: "The main concepts of back-end and front-end web development are relevant for 2021."
-                },
-                {
-                    title: "IT-Incubator",
-                    subtitle: "IT-Incubator Minsk, Belarus.",
-                    years: "2022-Present",
-                    description: "IT incubator is not IT courses, but an incubator. Not only study but also practical team development of your own project."
-                }
-            ]
-        }
+        techDescription: {
+            technologies: [
+                "React",
+                "Redux",
+                "Redux-Thunk",
+                "Formik",
+                "Thunk",
+                "Axios",
+                "Web-Sockets"
+            ],
+            design: [
+                "Registration flow. Forms of registration, authorization, password recovery.",
+                "Viewing and searching for users, some sorting points, as well as subscribing to users.",
+                "Viewing the user's profile, a form for editing your profile, the ability to change the profile photo.",
+                "Implemented a small general chat for all users on web sockets.",
+                "As for the layout, I used grid-layout and flex for better responsibility, and preproc SCSS.",
+                "Video and audio players implemented.",
+            ],
+        },
+        resume: "Social network project. The interface was developed on the React library using the Formik library" +
+            " for working with forms, Redux was used as a state manager and Axios was used to interact with RestAPI. " +
+            "In the social network, you can interact with users, subscribe to them, communicate using a dialogue " +
+            "with private messages or with all users in a common chat on websockets. Newly added audio player " +
+            "and small library of audio tracks and streaming radio.",
+        gallery: [
+            "https://msaserj.ru/portfolio/SocialNetwork/soc-profile.png",
+            "https://msaserj.ru/portfolio/SocialNetwork/soc-users.png",
+            "https://msaserj.ru/portfolio/SocialNetwork/soc-chat.png",
+            "https://msaserj.ru/portfolio/SocialNetwork/soc-commonChat.png",
+            "https://msaserj.ru/portfolio/SocialNetwork/soc-video.png",
+            "https://msaserj.ru/portfolio/SocialNetwork/soc-music.png"
+        ],
+        addDescription: "Future scope: add test and storybook"
     },
-    experience: {
-        left: {
-            years: "2011-2022",
-            title: "commercial experience",
-            items: [
-                {
-                    title: "«Kostromskoi zavod avtokomponentov» JSC",
-                    subtitle: "Department of Information Security. Engineer",
-                    years: "2011-2015",
-                    description: "Leading specialist in security systems." +
-                        "• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination." +
-                        "• Setting up network equipment and workstations running Windows OS, support for network users." +
-                        "• Administration of enterprise servers Windows Server 2003-2008." +
-                        "• Designed and implemented projects of fire and security alarms, video surveillance and access " +
-                        "control systems. Documentation for the maintenance of security systems has been developed." +
-                        "• Negotiations with suppliers, verification of contractors, conclusion of contracts."
-                },
-                {
-                    title: "«Kostromskoi zavod avtokomponentov» JSC",
-                    subtitle: "Lead Technical Support Specialist, System Administrator.",
-                    years: "2015-2020",
-                    description: "Note. The information security department was reduced and merged with the administration and technical support department." +
-                        " Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system." +
-                        " Our team has implemented several projects: transferred terminal servers and user workstations " +
-                        "to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual" +
-                        " networks. The company's wireless network was upgraded using unify equipment. Also maintenance" +
-                        " of enterprise security systems."
-                }
-            ]
+    work2: {
+        workImg: "https://msaserj.ru/portfolio/ToDoList/toDo-tumb.jpg",
+        headerBlock: {
+            thumbImg: "https://msaserj.ru/portfolio/ToDoList/todolist.png",
+            header: "Todo List with MUI",
+            description: "ToDo List project. It works with a real backend server.",
+            gitHubLink: "https://github.com/msaserj/inc-todolist",
+            demoLink: "https://msaserj.github.io/inc-todolist"
         },
-        right: {
-            years: "2011-2022",
-            title: "commercial experience",
-            items: [{
-                    title: "«Electromontaj» JC",
-                    subtitle: "System Administrator.",
-                    years: "2020-2022",
-                    description: "System Administrator Administration of network infrastructure.Translation of users to a new domain controller. " +
-                        "Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. " +
-                        "The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia."
-                },
-                {
-                    title: "Frontend developer",
-                    subtitle: "React Front-end Developer | Part-time",
-                    years: "2020-2022",
-                    description: "Team development of a training application for a ready-made API. Managed the development team." +
-                        "Technologies and tools used: React, Redux, TypeScript, ReduxThunk, RestApi, Axios, Formik, MaterialUI, SCSS etc." +
-                        "Development of a social network application" +
-                        "Development of the interface of the to-do list application using UnitTests and StoryBook"
-                }
+        techDescription: {
+            technologies: [
+                "React",
+                "Redux",
+                "Redux-thunk",
+                "Redux-toolkit",
+                "Formik",
+                "Axios",
+                "Storybook",
+            ],
+            design: [
+                "Authorization.",
+                "CRUD operations with lists and todos.",
+                "Material UI layout.",
+                "Error processing.",
+            ],
+        },
+        resume: "This project is written on the React library using the auxiliary libraries Redax as a data manager, " +
+            "Formik for working with forms, Axios for interacting with RestAPI and UAI Material. Implemented testing" +
+            " of UAI components using the Storybook library, as well as written unit tests for reducers.",
+        gallery: [
+            "https://msaserj.ru/portfolio/ToDoList/todolist.png",
+            "https://msaserj.ru/portfolio/ToDoList/toDo-login.png",
+        ],
+        addDescription: "Future scope: Add registration flow, Rewrite all reducers to redux-toolkit, May be add drug and drop."
+    },
+    work3: {
+        workImg: "https://msaserj.ru/portfolio/LearnCards/learning-tumb.jpg",
+        headerBlock: {
+            thumbImg: "https://msaserj.ru/portfolio/LearnCards/cardList.png",
+            header: "Learning By Cards",
+            description: "Learning By Cards team project. It works with a real backend server.",
+            gitHubLink: "https://github.com/msaserj/inc-fridayproj",
+            demoLink: "https://msaserj.github.io/inc-fridayproj"
+        },
+        techDescription: {
+            technologies: [
+                "React",
+                "Redux",
+                "Redux-Thunk",
+                "Formik",
+                "Thunk",
+                "Axios"
+            ],
+            design: [
+                "Registration flow. Forms of registration, authorization, password recovery.",
+                "Viewing, searching, sorting decks and user cards by the number of cards in the deck using range slider and debounce.",
+                "CRUD operations for user cards and decks.",
+                "Viewing the user's profile, a form for editing your profile, the ability to change the profile photo.",
+                "The project has a library of generic components used in the project."
+            ],
+        },
+        resume: "This is a team project to develop an interface for learning and remembering information using flashcards." +
+            " You can learn, for example, foreign languages or questions and answers on the topic of your " +
+            "programming language using the cards of other users. You can also create your own cards and decks.",
+        gallery: [
+            "https://msaserj.ru/portfolio/LearnCards/cardList.png",
+            "https://msaserj.ru/portfolio/LearnCards/learning-packs.png",
+            "https://msaserj.ru/portfolio/LearnCards/learning-card.png",
+            "https://msaserj.ru/portfolio/LearnCards/learning-registr.png",
+            "https://msaserj.ru/portfolio/LearnCards/learning-components.png",
+        ],
+        addDescription: "Future Scope: Add documentation for components such as StoryBook, " +
+            "get rid of some materialUI components, " +
+            "get rid of business logic errors, add unit test for reducers, add some options for users."
+    },
+    work4: {
+        workImg: "https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg",
+        headerBlock: {
+            thumbImg: "https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg",
+            header: "OnLine Shop (in progress...)",
+            description: "Simple onlineShop",
+            gitHubLink: "",
+            demoLink: ""
+        },
+        techDescription: {
+            technologies: ["React", "Redux", "Formik", "Thunk", "Axios"],
+            design: [],
+        },
+        resume: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
+            "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
+            "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        gallery: [
+            "https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg",
+            "https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg",
+            "https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg",
+        ],
+        addDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
+            "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
+            "when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    work5: {
+        workImg: "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
+        headerBlock: {
+            thumbImg: "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
+            header: "Dashboard monitor (in progress...)",
+            description: "Dashboard monitor",
+            gitHubLink: "",
+            demoLink: ""
+        },
+        techDescription: {
+            technologies: ["React", "Redux", "Formik", "Thunk", "Axios"],
+            design: [],
+        },
+        resume: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
+            "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
+            "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        gallery: [
+            "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
+            "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
+            "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
+        ],
+        addDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
+            "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
+            "when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    work6: {
+        workImg: "https://msaserj.ru/portfolio/GitHub/github.webp",
+        headerBlock: {
+            thumbImg: "https://msaserj.ru/portfolio/GitHub/github.webp",
+            header: "All projects on github",
+            description: "You can see all project on my git hub",
+            gitHubLink: "https://github.com/msaserj",
+            demoLink: ""
+        },
+        techDescription: {
+            technologies: [],
+            design: [],
+        },
+        resume: "",
+        gallery: [
 
-            ]
-        }
+        ],
+        addDescription: ""
     },
-    interview: {
-        left: {
-            years: "2017-2019",
-            title: "running",
-            items: [
-                {
-                    title: "ParkRun",
-                    subtitle: "ParkRun Berendeyevka Kostroma",
-                    years: "2017-2019",
-                    description: "I am into long distance running. And I took part in the organization of weekly park races" +
-                        " at a distance of 5 km for everyone and the creation of the Kostroma community of runners."
-                }
-            ]
-        },
-        right: {
-            years: "2017-2019",
-            title: "running",
-            items: [
-                {
-                    title: "TrailRun Event",
-                    subtitle: "Susanin Trail Forest Race",
-                    years: "2019",
-                    description: "Our Kostroma team of runners SusaninRun organized a race for everyone runners." +
-                        " It was a very interesting and useful experience in organizing such events." +
-                        " We organized not just a boring race, but a running festival."
-                }
-            ]
-        }
-    },
-    skills: {
-        left: {
-            years: "features",
-            title: "Development Skills",
-            items: [
-                {
-                    title: "HTML",
-                    percent: 90
-                },
-                {
-                    title: "CSS/SCSS",
-                    percent: 85
-                },
-                {
-                    title: "JS/TS",
-                    percent: 75
-                },
-                {
-                    title: "React",
-                    percent: 78
-                },
-                {
-                    title: "Redux",
-                    percent: 72
-                },
-                {
-                    title: "MaterialUI",
-                    percent: 80
-                },
-                {
-                    title: "Formik",
-                    percent: 80
-                }
-            ]
-        },
-        right: {
-            years: "features",
-            title: "Other Skills",
-            items: [
-                {
-                    title: "Webstorm",
-                    percent: 75
-                },
-                {
-                    title: "VSCode",
-                    percent: 65
-                },
-                {
-                    title: "Git",
-                    percent: 80
-                },
-                {
-                    title: "Storybook",
-                    percent: 75
-                },
-                {
-                    title: "LinuxMint",
-                    percent: 75
-                },
-                {
-                    title: "Debian",
-                    percent: 70
-                },
-                {
-                    title: "NodeJS",
-                    percent: 60
-                }
-            ]
-        }
-    }
 }
-export default resume;
+
+
+export default works;

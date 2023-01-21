@@ -3,19 +3,15 @@
 
 
 .container {
+  @include flex(column, start, center, nowrap);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
   z-index: 10;
   //min-height: 100vh;
-
   .overlay {
     position: fixed;
     width: 100%;
@@ -37,7 +33,7 @@
     box-shadow: $boxShadow_1;
     border-radius: 10px;
     padding: 45px;
-    @media screen and (max-width: 930px){
+    @media screen and (max-width: 1050px){
       width: 80%;
     }
 

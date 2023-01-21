@@ -9,6 +9,7 @@
   margin: 30px 20px;
   box-sizing: border-box;
   flex-basis: 360px;
+  cursor: pointer;
   @media screen and (max-width: 930px){
     flex-basis: 330px;
   }
@@ -51,7 +52,7 @@
       padding: 20px 0;
       text-decoration: none;
       position: relative;
-      cursor: pointer;
+
       .projectTitle {
         @include text(23px, 1.2, $fontColor);
         letter-spacing: 1px;
