@@ -59,7 +59,7 @@ yarn start
 ## Future scope
 
 - Add blog
-- Add description modals for my works
+- Add description modals for my works (done!)
 
 ## My Home Page
 
