@@ -68,9 +68,9 @@ const works = {
                 "Error processing.",
             ],
         },
-        resume: "This project is written on the React library using the auxiliary libraries Redax as a data manager, " +
-            "Formik for working with forms, Axios for interacting with RestAPI and UAI Material. Implemented testing" +
-            " of UAI components using the Storybook library, as well as written unit tests for reducers.",
+        resume: "This project is written on the React library using the auxiliary libraries Redux as a data manager, " +
+            "Formik for working with forms, Axios for interacting with RestAPI and MaterialUI. Implemented testing" +
+            " of UI components using the Storybook library, as well as written unit tests for reducers.",
         gallery: [
             "https://msaserj.ru/portfolio/ToDoList/todolist.png",
             "https://msaserj.ru/portfolio/ToDoList/toDo-login.png",
