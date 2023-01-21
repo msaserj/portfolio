@@ -20,11 +20,11 @@ export const Works = () => {
                 </div>
                 <div className={css.works}>
                     <Work image={work1.workImg} title={work1.headerBlock.header} linkType={"Gallery"} data={work1}/>
-                    <Work image={work2.workImg} title={work1.headerBlock.header} linkType={"gallery"} data={work2}/>
-                    <Work image={work3.workImg} title={work1.headerBlock.header} linkType={"Gallery"} data={work3}/>
-                    <Work image={work4.workImg} title={work1.headerBlock.header} linkType={"Gallery"} data={work4}/>
-                    <Work image={work5.workImg} title={work1.headerBlock.header} linkType={"Gallery"} data={work5}/>
-                    <Work image={work6.workImg} title={work1.headerBlock.header} linkType={"External Link"} data={work6}/>
+                    <Work image={work2.workImg} title={work2.headerBlock.header} linkType={"gallery"} data={work2}/>
+                    <Work image={work3.workImg} title={work3.headerBlock.header} linkType={"Gallery"} data={work3}/>
+                    <Work image={work4.workImg} title={work4.headerBlock.header} linkType={"Gallery"} data={work4}/>
+                    <Work image={work5.workImg} title={work5.headerBlock.header} linkType={"Gallery"} data={work5}/>
+                    <Work image={work6.workImg} title={work6.headerBlock.header} linkType={"External Link"} data={work6}/>
                 </div>
             </div>
         </section>
