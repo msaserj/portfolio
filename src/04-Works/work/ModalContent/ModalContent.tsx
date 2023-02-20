@@ -19,8 +19,12 @@ export const ModalContent: React.FC<ContentModalType> = ({data}) => {
                     <div>
                     </div>
                     <div className={css.buttonBlock}>
-                        <LiBtn blank pointer link={data.headerBlock.gitHubLink}>View in Github</LiBtn>   {/*GitHub button*/}
-                        <LiBtn blank pointer link={data.headerBlock.demoLink}>View Demo</LiBtn> {/*View Demo*/}
+                        {data.headerBlock.gitHubLink && <LiBtn blank pointer link={data.headerBlock.gitHubLink}
+                        >View in Github</LiBtn>}   {/*GitHub button*/}
+                        {data.headerBlock.demoLink && <LiBtn blank pointer link={data.headerBlock.demoLink}
+                        >View Demo</LiBtn>} {/*View Demo*/}
+                        {data.headerBlock.storyBookLink && <LiBtn blank pointer link={data.headerBlock.storyBookLink}
+                        >Storybook</LiBtn>} {/*Storybook*/}
                     </div>
                 </div>
             </div>

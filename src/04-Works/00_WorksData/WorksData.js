@@ -6,7 +6,8 @@ const works = {
             header: "Social Network",
             description: "Social network project. It works with a real backend server.",
             gitHubLink: "https://github.com/msaserj/inc-socialnetwork",
-            demoLink: "https://msaserj.github.io/inc-socialnetwork"
+            demoLink: "https://msaserj.github.io/inc-socialnetwork",
+            storyBookLink: "https://socialnetwork-storybook.vercel.app"
         },
         techDescription: {
             technologies: [
@@ -49,7 +50,8 @@ const works = {
             header: "Todo List with MUI",
             description: "ToDo List project. It works with a real backend server.",
             gitHubLink: "https://github.com/msaserj/inc-todolist",
-            demoLink: "https://msaserj.github.io/inc-todolist"
+            demoLink: "https://msaserj.github.io/inc-todolist",
+            storyBookLink: "https://todolist-storybook.vercel.app"
         },
         techDescription: {
             technologies: [
@@ -84,7 +86,8 @@ const works = {
             header: "Learning By Cards",
             description: "Learning By Cards team project. It works with a real backend server.",
             gitHubLink: "https://github.com/msaserj/inc-fridayproj",
-            demoLink: "https://msaserj.github.io/inc-fridayproj"
+            demoLink: "https://msaserj.github.io/inc-fridayproj",
+            storyBookLink: ""
         },
         techDescription: {
             technologies: [
@@ -123,8 +126,9 @@ const works = {
             thumbImg: "https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg",
             header: "OnLine Shop (in progress...)",
             description: "Simple onlineShop",
-            gitHubLink: "",
-            demoLink: ""
+            gitHubLink: "https://github.com/msaserj/glider-shop",
+            demoLink: "", //"https://msaserj.github.io/glider-shop",
+            storyBookLink: ""
         },
         techDescription: {
             technologies: ["React", "Redux", "Formik", "Thunk", "Axios"],
@@ -149,7 +153,8 @@ const works = {
             header: "Dashboard monitor (in progress...)",
             description: "Dashboard monitor",
             gitHubLink: "",
-            demoLink: ""
+            demoLink: "",
+            storyBookLink: ""
         },
         techDescription: {
             technologies: ["React", "Redux", "Formik", "Thunk", "Axios"],
@@ -174,7 +179,8 @@ const works = {
             header: "All projects on github",
             description: "You can see all project on my git hub",
             gitHubLink: "https://github.com/msaserj",
-            demoLink: ""
+            demoLink: "",
+            storyBookLink: ""
         },
         techDescription: {
             technologies: [],
