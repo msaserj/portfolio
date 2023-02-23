@@ -11,5 +11,5 @@ deploy:
       rm -fr ~/site &&
       git clone https://gitlab.com/msaserj/inc-portfolio.git ~/site &&
       rm -fr /var/www/html/msaserj/ &&
-      cp ~/site/build /var/www/html/msaserj/
+      cp -r ~/site/build/ /var/www/html/msaserj/
       rm -fr ~/site "

@@ -15,7 +15,7 @@ export const MePhoto = () => {
             </h1>
             <p>The world is full of adventure and opportunity.<br/> Let's improve it together!</p>
             <div className={css.buttons}>
-                <LiBtn  link={"./static/SergeiMinkoCV.pdf"} pointer>Download My CV</LiBtn>
+                <LiBtn  link={"https://msaserj.ru/portfolio/SergeiMinkoCV.pdf"} pointer>Download My CV</LiBtn>
             </div>
 
         </div>
