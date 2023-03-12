@@ -164,6 +164,10 @@ const resume = {
                 {
                     title: "Formik",
                     percent: 80
+                },
+                {
+                    title: "ExpressJS",
+                    percent: 50
                 }
             ]
         },
@@ -198,6 +202,10 @@ const resume = {
                 {
                     title: "NodeJS",
                     percent: 60
+                },
+                {
+                    title: "Mongodb",
+                    percent: 50
                 }
             ]
         }

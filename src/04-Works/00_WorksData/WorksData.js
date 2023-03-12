@@ -147,26 +147,25 @@ const works = {
             "when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     work5: {
-        workImg: "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
+        workImg: "https://msaserj.ru/portfolio/Dndcalc/dnd-calc.png",
         headerBlock: {
-            thumbImg: "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
-            header: "Dashboard monitor (in progress...)",
-            description: "Dashboard monitor",
-            gitHubLink: "",
-            demoLink: "",
+            thumbImg: "https://msaserj.ru/portfolio/Dndcalc/dnd-calc.png",
+            header: "Dnd calc (in progress...)",
+            description: "Drag and drop calculator",
+            gitHubLink: "https://github.com/msaserj/dnd-calc",
+            demoLink: "https://msaserj.github.io/dnd-calc",
             storyBookLink: ""
         },
         techDescription: {
-            technologies: ["React", "Redux", "Formik", "Thunk", "Axios"],
+            technologies: ["React", "Redux", "Redux-toolkit"],
             design: [],
         },
         resume: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
             "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
             "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         gallery: [
-            "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
-            "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
-            "https://msaserj.ru/portfolio/DashboardMonitor/dashBoard-tumb.jpg",
+            "https://msaserj.ru/portfolio/Dndcalc/dnd-calc2.png",
+
         ],
         addDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
             "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
