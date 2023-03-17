@@ -16,6 +16,7 @@ function App() {
 
     return (
         <div className={css.App}>
+
             <Header/>
             <Main/>
             <Skills/>
