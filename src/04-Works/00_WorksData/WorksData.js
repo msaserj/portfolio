@@ -133,7 +133,7 @@ const works = {
     workImg: 'https://msaserj.ru/portfolio/Dndcalc/dnd_calc02.png',
     headerBlock: {
       thumbImg: 'https://msaserj.ru/portfolio/Dndcalc/dnd_calc02.png',
-      header: 'Dnd calc',
+      header: 'Drag and drop calculator',
       description: 'Drag and drop calculator',
       gitHubLink: 'https://github.com/msaserj/dnd-calc',
       demoLink: 'https://msaserj.github.io/dnd-calc',
@@ -152,9 +152,19 @@ const works = {
     resume:
       'Right screen is canvas. You can drop components from the palette onto the canvas. ' +
       'All elements thrown onto the canvas are laid out vertically. ' +
-      'Element is removed from canvas by dblclick. ' +
-      'Left screen - sidebar with a set of components: Display (on the canvas it can only be at the very top), ' +
-      'Digital block, Operation buttons, Button `=`',
+      'Element is removed from canvas by dblclick.<br> ' +
+      'Left screen - sidebar with a set of components:<br>' +
+      '<ul>' +
+      '<li>display (on the canvas it can only be at the very top);</li> ' +
+      '<li>digital block with buttons from `0` to `9` and `,` (fraction);</li> ' +
+      '<li>operation buttons: `x`, `/`, `+`, `-`;</li> ' +
+      '<li>and a separate button `=`.</li> </ul> <br>' +
+      'Switch between design mode and runtime.' +
+      '<ul>' +
+      '<li>in design mode, you can assemble the interface, but when you click on the buttons, they do nothing;</li> ' +
+      "<li>you can't drag anything in runtime mode (the sidebar is hidden)," +
+      ' but the calculator works (or what you have collected). We press the buttons and see the result on the display.</li> ' +
+      '<li>toggle resets the display state</li> </ul> <br>',
     gallery: [
       'https://msaserj.ru/portfolio/Dndcalc/dnd_calc03.png',
       'https://msaserj.ru/portfolio/Dndcalc/dnd_calc02.png',
@@ -169,7 +179,7 @@ const works = {
       header: 'All projects on github',
       description: 'You can see all project on my git hub',
       gitHubLink: 'https://github.com/msaserj',
-      demoLink: '',
+      demoLink: 'https://msaserj.github.io',
       storyBookLink: ''
     },
     techDescription: {

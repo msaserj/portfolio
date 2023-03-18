@@ -61,7 +61,7 @@ export const ModalContent: React.FC<ContentModalType> = ({ data }) => {
 
       {/*Resume for current project*/}
       <div className={css.resumeBlock}>
-        <p className={css.description}>{data.resume}</p>
+        <p className={css.description} dangerouslySetInnerHTML={{ __html: data.resume }} />
       </div>
       {/*Gallery: photos and screenshots */}
       <div className={css.galleryBlock}>

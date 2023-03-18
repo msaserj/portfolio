@@ -47,6 +47,7 @@
     .typeProject {
       @include text(14px, 1, $fontRedColor);
       letter-spacing: 1px;
+      text-transform: lowercase;
     }
     .link {
       padding: 20px 0;

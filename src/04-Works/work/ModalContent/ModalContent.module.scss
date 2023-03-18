@@ -88,6 +88,9 @@
       letter-spacing: 1px;
       line-height: 1.5;
     }
+    .description::first-letter {
+      margin-left: 40px;
+    }
   }
   .galleryBlock {
     @include flex(row, space-evenly, center, wrap);
@@ -126,6 +129,9 @@
       text-align: justify;
       letter-spacing: 1px;
       line-height: 1.5;
+    }
+    .description::first-letter {
+      margin-left: 40px;
     }
   }
 }

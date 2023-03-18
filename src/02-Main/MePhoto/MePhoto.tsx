@@ -13,7 +13,7 @@ export const MePhoto = () => {
       <h1 className={css.myName}>
         Hi, I`m <span className={css.spanName}>Sergei Minko</span>
         <br />
-        <span className={css.spanProf}>FrontEnd Developer</span>
+        <span className={css.spanProf}>Web Developer</span>
       </h1>
       <p>
         The world is full of adventure and opportunity.
