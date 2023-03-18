@@ -169,7 +169,7 @@ const works = {
       header: 'All projects on github',
       description: 'You can see all project on my git hub',
       gitHubLink: 'https://github.com/msaserj',
-      demoLink: 'https://msaserj.github.io',
+      demoLink: '',
       storyBookLink: ''
     },
     techDescription: {
