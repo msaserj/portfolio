@@ -1,16 +1,11 @@
-
-
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color:transparent;
-  font-family: "Montserrat", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Montserrat', sans-serif;
   color: #6c757d;
 }
-
-
-
 
 /*Обнуление*/
 /**{*/

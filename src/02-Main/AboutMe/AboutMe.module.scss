@@ -1,8 +1,8 @@
-@import "../../00-Common/styles/sass/variables";
-@import "../../00-Common/styles/sass/mixins";
+@import '../../00-Common/styles/sass/variables';
+@import '../../00-Common/styles/sass/mixins';
 
 .options {
-  @include flex(column, "", "", wrap);
+  @include flex(column, '', '', wrap);
   margin: 40px 0 40px;
   width: 540px;
   padding: 35px;
@@ -18,7 +18,7 @@
     margin: 0 0 10px 0;
     padding-bottom: 20px;
     width: 100%;
-    @include text(30px, 1.0, $fontWhiteColor);
+    @include text(30px, 1, $fontWhiteColor);
     border-bottom: 1px solid #131313;
   }
   p {

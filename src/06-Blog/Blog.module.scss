@@ -1,17 +1,15 @@
-@import "../00-Common/styles/sass/variables";
-@import "../00-Common/styles/sass/mixins";
+@import '../00-Common/styles/sass/variables';
+@import '../00-Common/styles/sass/mixins';
 
 .remoteBlock {
-  @include flex(row, center, center, "");
+  @include flex(row, center, center, '');
   min-height: 300px;
   background-color: $bgColor;
   .remoteContainer {
-
-    @include flex(column, center, "", "");
+    @include flex(column, center, '', '');
     .title {
       text-align: center;
       background-color: #ffadad;
     }
   }
 }
-

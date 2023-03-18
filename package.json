@@ -38,7 +38,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "pushdeploy": "git push --force gitlab2 master"
+    "pushdeploy": "git push --force gitlab2 master",
+    "pretty": "yarn prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -57,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.8.4"
   }
 }

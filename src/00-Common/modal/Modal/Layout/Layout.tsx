@@ -1,29 +1,29 @@
-import React, {ReactNode, useEffect, useRef, useState} from "react";
-import {CSSTransition} from "react-transition-group";
+import React, { ReactNode, useEffect, useRef, useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
 
-import {ANIMATION_TIME} from "./const";
-import styles from "./layout.module.scss";
-import animationStyles from "./animation.module.scss";
+import { ANIMATION_TIME } from './const';
+import styles from './layout.module.scss';
+import animationStyles from './animation.module.scss';
 
 const overlayAnimation = {
   enter: animationStyles.overlayEnter,
   enterActive: animationStyles.overlayEnterActive,
   exit: animationStyles.overlayExit,
-  exitActive: animationStyles.overlayExitActive,
+  exitActive: animationStyles.overlayExitActive
 };
 
 const contentAnimation = {
   enter: animationStyles.contentEnter,
   enterActive: animationStyles.contentEnterActive,
   exit: animationStyles.contentExit,
-  exitActive: animationStyles.contentExitActive,
+  exitActive: animationStyles.contentExitActive
 };
 
 type LayoutType = {
-    onClose: () => void
-    children: ReactNode
-    opened: boolean
-}
+  onClose: () => void;
+  children: ReactNode;
+  opened: boolean;
+};
 
 export const Layout: React.FC<LayoutType> = ({ onClose, children, opened }) => {
   const overlayRef = useRef<any>();

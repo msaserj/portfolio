@@ -1,5 +1,5 @@
-@import "../../../00-Common/styles/sass/variables";
-@import "../../../00-Common/styles/sass/mixins";
+@import '../../../00-Common/styles/sass/variables';
+@import '../../../00-Common/styles/sass/mixins';
 
 .modalContent {
   @include flex(column, '', center, nowrap);
@@ -10,12 +10,12 @@
     gap: 20px;
     padding-bottom: 45px;
     border-bottom: 1px solid #000;
-    @media screen and (max-width: 730px){
+    @media screen and (max-width: 730px) {
       flex-direction: column;
     }
 
     .imageBlock {
-      @include flex(row, center, center, "");
+      @include flex(row, center, center, '');
       position: relative;
       width: 100%;
       height: auto;
@@ -30,7 +30,6 @@
         width: 100%;
         height: auto;
         transition: 0.5s;
-
       }
     }
 
@@ -58,7 +57,7 @@
     border-bottom: 1px solid #000;
     width: 100%;
     padding-bottom: 15px;
-    @media screen and (max-width: 730px){
+    @media screen and (max-width: 730px) {
       flex-wrap: wrap;
     }
     .uList {
@@ -67,10 +66,10 @@
       .uListHeader {
         color: white;
       }
-      ul{
+      ul {
         padding-left: 18px;
       }
-      ul>li {
+      ul > li {
         margin: 10px 0;
         text-align: justify;
         letter-spacing: 1px;
@@ -96,11 +95,11 @@
     gap: 40px;
     padding-bottom: 45px;
     border-bottom: 1px solid #000;
-    @media screen and (max-width: 730px){
+    @media screen and (max-width: 730px) {
       flex-direction: column;
     }
     .imageBlock {
-      @include flex(row, center, center, "");
+      @include flex(row, center, center, '');
       position: relative;
       width: 27%;
       height: auto;
@@ -109,7 +108,7 @@
       background-repeat: no-repeat;
       border-radius: 5px;
       overflow: hidden;
-      @media screen and (max-width: 730px){
+      @media screen and (max-width: 730px) {
         width: 100%;
       }
 

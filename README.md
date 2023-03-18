@@ -5,7 +5,7 @@
 
 <p align="center">
 
-[//]: # (<img src="https://img.shields.io/npm/dy/msaserj">)
+[//]: # '<img src="https://img.shields.io/npm/dy/msaserj">'
 
 <img src="https://img.shields.io/badge/made%20by-msaserj-blue.svg" >
 
@@ -21,9 +21,7 @@
 
 </p>
 
-
 <h2 align="center"><a  href="https:msaserj.ru">Live Demo</a></h2>
-
 
 ## Description
 
@@ -50,7 +48,9 @@ Portfolio project. Inspired by design https://themeforest.net/user/rainbow-theme
 npm install
 npm run serve
 ```
+
 #### use yarn
+
 ```
 yarn
 yarn start

@@ -1,8 +1,8 @@
-@import "./00-Common/styles/sass/variables";
-@import "./00-Common/styles/sass/mixins";
+@import './00-Common/styles/sass/variables';
+@import './00-Common/styles/sass/mixins';
 
 .App {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
   .relative {
     position: relative;
@@ -26,12 +26,9 @@
       display: flex;
       text-align: center;
       font-size: 24px;
-
     }
     &.active {
       display: none;
     }
   }
-
 }
-

@@ -1,4 +1,4 @@
-@import "./variables";
+@import './variables';
 @mixin text($fontSize, $lineHeight, $color) {
   //font-family: $montserratFontFamily;
   font-size: $fontSize;
@@ -28,7 +28,7 @@
   z-index: 3;
 }
 @mixin beforeNeumorph() {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -48,7 +48,7 @@
     position: absolute;
     bottom: -1px;
     left: 0;
-    content: "";
+    content: '';
     width: 0;
     height: 1px;
     background-color: $fontRedColor;

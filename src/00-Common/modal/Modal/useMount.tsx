@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
-import { ANIMATION_TIME } from "./Layout/const";
+import { useEffect, useState } from 'react';
+import { ANIMATION_TIME } from './Layout/const';
 
 type MountType = {
-  opened: boolean
-}
-
+  opened: boolean;
+};
 
 export const useMount = (props: MountType) => {
   const [mounted, setMounted] = useState(false);
@@ -20,6 +19,6 @@ export const useMount = (props: MountType) => {
   }, [props.opened]);
 
   return {
-    mounted,
+    mounted
   };
 };

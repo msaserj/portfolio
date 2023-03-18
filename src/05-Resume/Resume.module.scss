@@ -1,20 +1,18 @@
-@import "../00-Common/styles/sass/variables";
-@import "../00-Common/styles/sass/mixins";
+@import '../00-Common/styles/sass/variables';
+@import '../00-Common/styles/sass/mixins';
 .resumeBlock {
   min-height: 100vh;
   background-color: $bgColor;
   padding: 0;
   .resumeContainer {
-    @include flex(column, "", "", "");
+    @include flex(column, '', '', '');
     .contentContainer {
-      @include flex(column, "", "", "");
+      @include flex(column, '', '', '');
       width: 90%;
       .contentBlock {
-        @include flex(column, center, "", "");
+        @include flex(column, center, '', '');
         width: 100%;
       }
     }
   }
 }
-
-

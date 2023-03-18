@@ -1,12 +1,11 @@
-@import "../../00-Common/styles/sass/variables";
-@import "../../00-Common/styles/sass/mixins";
-
+@import '../../00-Common/styles/sass/variables';
+@import '../../00-Common/styles/sass/mixins';
 
 .form {
   @include flex(column, flex-start, center, no-wrap);
   @include neumorph();
   flex-grow: 1;
-  min-width: 500px;;
+  min-width: 500px;
   margin: 30px 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -44,9 +43,7 @@
     display: block;
     font-size: 15px;
     color: $fontRedColor;
-
   }
-
 
   .textArea {
     outline: none;
@@ -81,13 +78,3 @@
     letter-spacing: 5px;
   }
 }
-
-
-
-
-
-
-
-
-
-

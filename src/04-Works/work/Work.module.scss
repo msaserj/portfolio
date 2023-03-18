@@ -1,5 +1,5 @@
-@import "../../00-Common/styles/sass/variables";
-@import "../../00-Common/styles/sass/mixins";
+@import '../../00-Common/styles/sass/variables';
+@import '../../00-Common/styles/sass/mixins';
 
 .work {
   @include flex(column, flex-start, left, wrap);
@@ -10,7 +10,7 @@
   box-sizing: border-box;
   flex-basis: 360px;
   cursor: pointer;
-  @media screen and (max-width: 930px){
+  @media screen and (max-width: 930px) {
     flex-basis: 330px;
   }
   &::before {
@@ -20,7 +20,7 @@
     opacity: 1;
   }
   .imgBlock {
-    @include flex(row, center, center, "");
+    @include flex(row, center, center, '');
     position: relative;
     height: 200px;
     width: 100%;
@@ -42,10 +42,10 @@
     }
   }
   .projectInfo {
-    @include flex(column, left, "", "");
+    @include flex(column, left, '', '');
     margin-top: 20px;
     .typeProject {
-      @include text(14px, 1.0, $fontRedColor);
+      @include text(14px, 1, $fontRedColor);
       letter-spacing: 1px;
     }
     .link {
@@ -80,12 +80,3 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,5 @@
-@import "../../00-Common/styles/sass/variables";
-@import "./src/00-Common/styles/sass/mixins";
+@import '../../00-Common/styles/sass/variables';
+@import './src/00-Common/styles/sass/mixins';
 
 .nav {
   padding-left: 20px;
@@ -27,7 +27,7 @@
       color: $fontRedColor;
     }
   }
-  @media screen and (max-width: 930px){
+  @media screen and (max-width: 930px) {
     position: absolute;
     display: none;
   }

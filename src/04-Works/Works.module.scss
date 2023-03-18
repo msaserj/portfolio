@@ -1,5 +1,5 @@
-@import "../00-Common/styles/sass/variables";
-@import "../00-Common/styles/sass/mixins";
+@import '../00-Common/styles/sass/variables';
+@import '../00-Common/styles/sass/mixins';
 
 .worksBlock {
   min-height: 100vh;
@@ -8,13 +8,10 @@
     flex-direction: column;
     justify-content: flex-start;
     .works {
-      @include flex(row, space-evenly, "", wrap);
+      @include flex(row, space-evenly, '', wrap);
       margin-top: 30px;
       width: 100%;
       box-sizing: border-box;
     }
   }
 }
-
-
-

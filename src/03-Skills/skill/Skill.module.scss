@@ -1,5 +1,5 @@
-@import "../../00-Common/styles/sass/variables";
-@import "../../00-Common/styles/sass/mixins";
+@import '../../00-Common/styles/sass/variables';
+@import '../../00-Common/styles/sass/mixins';
 
 .skill {
   @include flex(column, flex-start, left, wrap);
@@ -9,7 +9,7 @@
   margin: 30px 20px;
   box-sizing: border-box;
   flex-basis: 360px;
-  @media screen and (max-width: 930px){
+  @media screen and (max-width: 930px) {
     flex-basis: 330px;
   }
   .icon {
@@ -50,4 +50,3 @@
     }
   }
 }
-

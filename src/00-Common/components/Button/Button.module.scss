@@ -1,5 +1,5 @@
-@import "../../styles/sass/variables";
-@import "../../styles/sass/mixins";
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
 
 .button {
   @include flex(row, center, center, nowrap);
@@ -18,14 +18,11 @@
   &::before {
     @include beforeNeumorph();
     opacity: 1;
-
   }
-
 
   &:hover {
     transform: translateY(-3px);
     color: $fontRedColor;
-
   }
   &:active {
     &::before {
@@ -39,15 +36,12 @@
     color: $fontGreyColor;
     &:hover {
       transform: translateY(0);
-
     }
     &::before {
-
       opacity: 0;
       transition: 0.5s;
     }
   }
-
 }
 .round {
   border-radius: 50%;

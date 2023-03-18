@@ -1,5 +1,5 @@
-@import "../../00-Common/styles/sass/variables";
-@import "../../00-Common/styles/sass/mixins";
+@import '../../00-Common/styles/sass/variables';
+@import '../../00-Common/styles/sass/mixins';
 
 .me {
   @include flex(column, center, left, wrap);
@@ -31,7 +31,7 @@
   }
   .myName {
     margin: 20px 0;
-    @include text(62px, 1.0, $fontWhiteColor);
+    @include text(62px, 1, $fontWhiteColor);
     .spanName {
       color: $fontRedColor;
     }
@@ -50,13 +50,11 @@
     }
   }
 
-
   p {
     @include text(16px, 1.8, $fontColor);
     text-align: justify;
   }
   .buttons {
-    @include flex(row, "", left, nowrap);
-
+    @include flex(row, '', left, nowrap);
   }
 }

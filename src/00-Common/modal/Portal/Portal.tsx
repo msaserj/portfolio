@@ -1,12 +1,12 @@
-import React, {ReactNode, useEffect, useState} from "react";
-import ReactDOM from "react-dom";
+import React, { ReactNode, useEffect, useState } from 'react';
+import ReactDOM from 'react-dom';
 
 type PortalType = {
-  children: ReactNode
-}
+  children: ReactNode;
+};
 
 const Portal: React.FC<PortalType> = ({ children }) => {
-  const [container] = useState(() => document.createElement("div"));
+  const [container] = useState(() => document.createElement('div'));
 
   useEffect(() => {
     document.body.appendChild(container);
