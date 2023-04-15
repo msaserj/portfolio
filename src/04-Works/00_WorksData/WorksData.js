@@ -164,7 +164,7 @@ const works = {
       '<li>in design mode, you can assemble the interface, but when you click on the buttons, they do nothing;</li> ' +
       "<li>you can't drag anything in runtime mode (the sidebar is hidden)," +
       ' but the calculator works (or what you have collected). We press the buttons and see the result on the display.</li> ' +
-      '<li>toggle resets the display state</li> </ul> <br>',
+      '<li>toggle resets the display state.</li> </ul> <br>',
     gallery: [
       'https://msaserj.ru/portfolio/Dndcalc/dnd_calc03.png',
       'https://msaserj.ru/portfolio/Dndcalc/dnd_calc02.png',
