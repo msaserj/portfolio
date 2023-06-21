@@ -1,5 +1,30 @@
 const works = {
-  work1: {
+  work7: {
+    workImg: 'https://msaserj.ru/portfolio/avsharingapp/avsharingapp.jpg',
+    headerBlock: {
+      thumbImg: 'https://msaserj.ru/portfolio/avsharingapp/avsharingapp.png',
+      header: 'Service for sharing photos and videos',
+      description: 'dev in progress...',
+      gitHubLink: 'https://github.com/Stemmy287/inctagram',
+      demoLink: 'https://inctagram-woad.vercel.app/',
+      storyBookLink: ''
+    },
+    techDescription: {
+      technologies: ['NextJS', 'Redux', 'Redux-Toolkit', 'React-Hook-Form', 'Thunk', 'RTK-Query'],
+      design: [
+        'Lorem'
+      ]
+    },
+    resume:
+        'Lorem',
+    gallery: [
+      'https://msaserj.ru/portfolio/avsharingapp/avsharingapp02.jpg',
+      'https://msaserj.ru/portfolio/avsharingapp/avsharingapp03.jpg',
+      'https://msaserj.ru/portfolio/avsharingapp/avsharingapp04.jpg',
+    ],
+    addDescription: ''
+  },
+  work6: {
     workImg: 'https://msaserj.ru/portfolio/SocialNetwork/socialNetwork-tumb.jpg',
     headerBlock: {
       thumbImg: 'https://msaserj.ru/portfolio/SocialNetwork/soc-main.png',
@@ -36,7 +61,7 @@ const works = {
     ],
     addDescription: 'Future scope: add test and storybook'
   },
-  work2: {
+  work5: {
     workImg: 'https://msaserj.ru/portfolio/LearnCards/learning-tumb.jpg',
     headerBlock: {
       thumbImg: 'https://msaserj.ru/portfolio/LearnCards/cardList.png',
@@ -72,7 +97,7 @@ const works = {
       'get rid of some materialUI components, ' +
       'get rid of business logic errors, add unit test for reducers, add some options for users.'
   },
-  work3: {
+  work4: {
     workImg: 'https://msaserj.ru/portfolio/ToDoList/toDo-tumb.jpg',
     headerBlock: {
       thumbImg: 'https://msaserj.ru/portfolio/ToDoList/todolist.png',
@@ -97,7 +122,7 @@ const works = {
     addDescription:
       'Future scope: Add registration flow, Rewrite all reducers to redux-toolkit, May be add drug and drop.'
   },
-  work4: {
+  work3: {
     workImg: 'https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg',
     headerBlock: {
       thumbImg: 'https://msaserj.ru/portfolio/OnlineShop/onlineShop-tumb.jpg',
@@ -129,7 +154,7 @@ const works = {
     ],
     addDescription: ''
   },
-  work5: {
+  work2: {
     workImg: 'https://msaserj.ru/portfolio/Dndcalc/dnd_calc02.png',
     headerBlock: {
       thumbImg: 'https://msaserj.ru/portfolio/Dndcalc/dnd_calc02.png',
@@ -172,7 +197,7 @@ const works = {
     ],
     addDescription: ''
   },
-  work6: {
+  work1: {
     workImg: 'https://msaserj.ru/portfolio/GitHub/github.webp',
     headerBlock: {
       thumbImg: 'https://msaserj.ru/portfolio/GitHub/github.webp',
