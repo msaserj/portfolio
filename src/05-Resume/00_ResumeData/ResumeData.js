@@ -5,10 +5,10 @@ const resume = {
       title: 'State Education',
       items: [
         {
-          title: 'Kostroma School of Secondary Education',
-          subtitle: 'School of Secondary Education',
-          years: '2000-2003',
-          description: 'School of Secondary Education'
+          title: 'Kostroma State Agricultural Academy.',
+          subtitle: 'Higher education school. Grade: master`s degree',
+          years: '2006-2010',
+          description: 'Engineer specializing in electrification and automation of agriculture.'
         },
         {
           title: 'Kostroma Energy College named after F.V. Chizhov.',
@@ -18,11 +18,11 @@ const resume = {
             ' Installation, adjustment and operation of electrical equipment of industrial and civil buildings.'
         },
         {
-          title: 'Kostroma State Agricultural Academy.',
-          subtitle: 'Higher education school. Grade: master`s degree',
-          years: '2006-2010',
-          description: 'Engineer specializing in electrification and automation of agriculture.'
-        }
+          title: 'Kostroma School of Secondary Education',
+          subtitle: 'School of Secondary Education',
+          years: '2000-2003',
+          description: 'School of Secondary Education'
+        },
       ]
     },
     right: {
@@ -30,10 +30,11 @@ const resume = {
       title: 'Self Education',
       items: [
         {
-          title: 'Circle of radio electronics',
-          subtitle: 'Extracurricular educations',
-          years: '2000-2002',
-          description: 'Radio electronics course.'
+          title: 'IT-Incubator',
+          subtitle: 'IT-Incubator Minsk, Belarus.',
+          years: '2022-Present',
+          description:
+              'IT incubator is not IT courses, but an incubator. Not only study but also practical team development of your own project.'
         },
         {
           title: 'Udemy: The Complete 2021-2022 Web Development Bootcamp',
@@ -42,11 +43,10 @@ const resume = {
           description: 'The main concepts of back-end and front-end web development are relevant for 2021.'
         },
         {
-          title: 'IT-Incubator',
-          subtitle: 'IT-Incubator Minsk, Belarus.',
-          years: '2022-Present',
-          description:
-            'IT incubator is not IT courses, but an incubator. Not only study but also practical team development of your own project.'
+          title: 'Circle of radio electronics',
+          subtitle: 'Extracurricular educations',
+          years: '2000-2002',
+          description: 'Radio electronics course.'
         }
       ]
     }
@@ -57,29 +57,28 @@ const resume = {
       title: 'commercial experience',
       items: [
         {
-          title: '«Kostromskoi zavod avtokomponentov» JSC',
-          subtitle: 'Department of Information Security. Engineer',
-          years: '2011-2015',
-          description:
-            'Leading specialist in security systems.' +
-            '• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination.' +
-            '• Setting up network equipment and workstations running Windows OS, support for network users.' +
-            '• Administration of enterprise servers Windows Server 2003-2008.' +
-            '• Designed and implemented projects of fire and security alarms, video surveillance and access ' +
-            'control systems. Documentation for the maintenance of security systems has been developed.' +
-            '• Negotiations with suppliers, verification of contractors, conclusion of contracts.'
-        },
-        {
-          title: '«Kostromskoi zavod avtokomponentov» JSC',
+          title: '«Kostroma plant of auto components» JSC',
           subtitle: 'Lead Technical Support Specialist, System Administrator.',
           years: '2015-2020',
           description:
-            'Note. The information security department was reduced and merged with the administration and technical support department.' +
             ' Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system.' +
             ' Our team has implemented several projects: transferred terminal servers and user workstations ' +
             'to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual' +
             " networks. The company's wireless network was upgraded using unify equipment. Also maintenance" +
             ' of enterprise security systems.'
+        },
+        {
+          title: '«Kostroma plant of auto components» JSC',
+          subtitle: 'Department of Information Security. Engineer',
+          years: '2011-2015',
+          description:
+              'Leading specialist in security systems.' +
+              '• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination.' +
+              '• Setting up network equipment and workstations running Windows OS, support for network users.' +
+              '• Administration of enterprise servers Windows Server 2003-2008.' +
+              '• Designed and implemented projects of fire and security alarms, video surveillance and access ' +
+              'control systems. Documentation for the maintenance of security systems has been developed.' +
+              '• Negotiations with suppliers, verification of contractors, conclusion of contracts.'
         }
       ]
     },
@@ -88,23 +87,24 @@ const resume = {
       title: 'commercial experience',
       items: [
         {
-          title: '«Electromontaj» JC',
+          title: 'Frontend developer',
+          subtitle: 'React Front-end Developer | Part-time',
+          years: '2022-Present',
+          description:
+            'I am developing applications using the following technology stack: ' +
+              'React, NextJS Redux, Redux-Toolkit, Formik, Axios, Material-UI, Typescript, React-Router-dom, ' +
+              'React-hook-form, Node.JS, Express.JS, MongoDB. ' +
+              'Currently, together with the development team, we are developing a service for sharing photos and' +
+              ' videos on social networks using the NextJS framework.'
+        },
+        {
+          title: '«Elektrocentromontazh»',
           subtitle: 'System Administrator.',
           years: '2020-2022',
           description:
-            'System Administrator Administration of network infrastructure.Translation of users to a new domain controller. ' +
-            'Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. ' +
-            'The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia.'
-        },
-        {
-          title: 'Frontend developer',
-          subtitle: 'React Front-end Developer | Part-time',
-          years: '2020-2022',
-          description:
-            'Team development of a training application for a ready-made API. Managed the development team.' +
-            'Technologies and tools used: React, Redux, TypeScript, ReduxThunk, RestApi, Axios, Formik, MaterialUI, SCSS etc.' +
-            'Development of a social network application' +
-            'Development of the interface of the to-do list application using UnitTests and StoryBook'
+              'System Administrator Administration of network infrastructure.Translation of users to a new domain controller. ' +
+              'Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. ' +
+              'The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia.'
         }
       ]
     }
