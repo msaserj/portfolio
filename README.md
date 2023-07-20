@@ -9,13 +9,13 @@
 
 <img src="https://img.shields.io/badge/made%20by-msaserj-blue.svg" >
 
-<img src="https://img.shields.io/github/stars/msaserj/inc-portfolio.svg?style=flat">
+<img src="https://img.shields.io/github/stars/msaserj/portfolio.svg?style=flat">
 
 <img src="https://img.shields.io/badge/React-18.0.0-green.svg">
 
-<img src="https://img.shields.io/github/languages/count/msaserj/inc-portfolio">
+<img src="https://img.shields.io/github/languages/count/msaserj/portfolio">
 
-<img src="https://img.shields.io/github/languages/top/msaserj/inc-portfolio.svg">
+<img src="https://img.shields.io/github/languages/top/msaserj/portfolio.svg">
 
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
 
