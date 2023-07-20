@@ -1,8 +1,8 @@
 const works = {
   work7: {
-    workImg: 'https://msaserj.ru/portfolio/avsharingapp/avsharingapp.jpg',
+    workImg: 'https://msaserj.ru/portfolio/incapp/incapp.png',
     headerBlock: {
-      thumbImg: 'https://msaserj.ru/portfolio/avsharingapp/avsharingapp.png',
+      thumbImg: 'https://msaserj.ru/portfolio/incapp/incapp.png',
       header: 'Service for sharing photos and videos',
       description: 'dev in progress...',
       gitHubLink: 'https://github.com/Stemmy287/inctagram',
@@ -18,9 +18,9 @@ const works = {
     resume:
         'Lorem',
     gallery: [
-      'https://msaserj.ru/portfolio/avsharingapp/avsharingapp02.jpg',
-      'https://msaserj.ru/portfolio/avsharingapp/avsharingapp03.jpg',
-      'https://msaserj.ru/portfolio/avsharingapp/avsharingapp04.jpg',
+      'https://msaserj.ru/portfolio/incapp/incapp02.jpg',
+      'https://msaserj.ru/portfolio/incapp/incapp03.jpg',
+      'https://msaserj.ru/portfolio/incapp/incapp04.jpg',
     ],
     addDescription: ''
   },
