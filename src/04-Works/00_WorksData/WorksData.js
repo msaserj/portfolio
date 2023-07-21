@@ -30,8 +30,8 @@ const works = {
       thumbImg: 'https://msaserj.ru/portfolio/SocialNetwork/soc-main.png',
       header: 'Social Network',
       description: 'Social network project. It works with a real backend server.',
-      gitHubLink: 'https://github.com/msaserj/inc-socialnetwork',
-      demoLink: 'https://msaserj.github.io/inc-socialnetwork',
+      gitHubLink: 'https://github.com/msaserj/socialnetwork',
+      demoLink: 'https://msaserj.github.io/socialnetwork',
       storyBookLink: 'https://socialnetwork-storybook.vercel.app'
     },
     techDescription: {
@@ -103,8 +103,8 @@ const works = {
       thumbImg: 'https://msaserj.ru/portfolio/ToDoList/todolist.png',
       header: 'Todo List with MUI',
       description: 'ToDo List project. It works with a real backend server.',
-      gitHubLink: 'https://github.com/msaserj/inc-todolist',
-      demoLink: 'https://msaserj.github.io/inc-todolist',
+      gitHubLink: 'https://github.com/msaserj/todolist',
+      demoLink: 'https://msaserj.github.io/todolist',
       storyBookLink: 'https://todolist-storybook.vercel.app'
     },
     techDescription: {
