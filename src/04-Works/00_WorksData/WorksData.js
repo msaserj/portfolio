@@ -7,16 +7,21 @@ const works = {
       description: 'dev in progress...',
       gitHubLink: 'https://github.com/Stemmy287/inctagram',
       demoLink: 'https://inctagram-woad.vercel.app/',
-      storyBookLink: ''
+      storyBookLink: 'https://storybook.msaserj.ru'
     },
     techDescription: {
       technologies: ['NextJS', 'Redux', 'Redux-Toolkit', 'React-Hook-Form', 'Thunk', 'RTK-Query'],
       design: [
-        'Lorem'
+        'The app allows users to upload media that can be edited with filters and organized by ' +
+        'hashtags and geographical tagging. Posts can be shared publicly or with preapproved ' +
+        'followers. Users can browse other users\' content by tag and location, view trending' +
+        ' content, like photos, and follow other users to add their content to a personal feed. '
       ]
     },
     resume:
-        'Lorem',
+        'This project is developed using the Next.js library, along with various helper ' +
+        'libraries such as React Hook Form, Axios, RTK-Query, and Redux. In addition, we ' +
+        'utilize Jest for unit testing, and Storybook for documenting our UI components.',
     gallery: [
       'https://msaserj.ru/portfolio/incapp/incapp02.jpg',
       'https://msaserj.ru/portfolio/incapp/incapp03.jpg',
