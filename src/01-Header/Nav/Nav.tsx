@@ -17,9 +17,9 @@ export const Nav = () => {
       <Link spy activeClass={css.active} className={css.item} smooth={true} delay={50} to={'resume'}>
         RESUME
       </Link>
-      <Link spy activeClass={css.active} className={css.item} smooth={true} delay={50} to={'blog'}>
-        BLOG
-      </Link>
+      {/*<Link spy activeClass={css.active} className={css.item} smooth={true} delay={50} to={'blog'}>*/}
+      {/*  BLOG*/}
+      {/*</Link>*/}
       <Link spy activeClass={css.active} className={css.item} smooth={true} delay={50} to={'contacts'}>
         CONTACTS
       </Link>

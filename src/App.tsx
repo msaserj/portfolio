@@ -19,7 +19,7 @@ function App() {
       <Skills />
       <Works />
       <Resume />
-      <Blog />
+      {/*<Blog />*/}
       <Contacts />
       <Footer />
       <Link spy activeClass={css.active} className={css.relative} smooth={true} delay={50} to={'home'}>
