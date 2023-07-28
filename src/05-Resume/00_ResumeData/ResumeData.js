@@ -70,7 +70,7 @@ const resume = {
         {
           title: '«Kostroma plant of auto components» JSC',
           subtitle: 'Department of Information Security. Engineer',
-          years: '2011-2015',
+          years: '2012-2015',
           description:
               'Leading specialist in security systems.' +
               '• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination.' +
@@ -91,20 +91,22 @@ const resume = {
           subtitle: 'React Front-end Developer | Part-time',
           years: '2022-Present',
           description:
-            'I am developing applications using the following technology stack: ' +
-              'React, NextJS Redux, Redux-Toolkit, Formik, Axios, Material-UI, Typescript, React-Router-dom, ' +
-              'React-hook-form, Node.JS, Express.JS, MongoDB. ' +
-              'Currently, together with the development team, we are developing a service for sharing photos and' +
-              ' videos on social networks using the NextJS framework.'
+            'My main development direction is applications using the following ' +
+              'technology stack: React, Next.JS, Redux, Redux-Toolkit, Material-UI, ' +
+              'TypeScript, SCSS, HTML5. At the stage of studying: Node.JS, ' +
+              'Express.JS, MongoDB. Currently, together with the development team, we are developing ' +
+              'a service for sharing photos and videos on social networks using the Next.JS framework.'
         },
         {
-          title: '«Elektrocentromontazh»',
-          subtitle: 'System Administrator.',
+          title: '«Power industry enterprise»',
+          subtitle: 'System Administrator, Web-developer',
           years: '2020-2022',
           description:
-              'System Administrator Administration of network infrastructure.Translation of users to a new domain controller. ' +
-              'Implementation of the Zabbix monitoring system. Implemented the Unifi wireless network. ' +
-              'The network infrastructure is put in order. Support for users in the office and in remote areas in the cities of Russia.'
+              'Realized a web interface for access control system. Creating a report on the passage of' +
+              ' employees to the enterprise through the turnstile. MSSQL, Node.JS, React, JavaScript. ' +
+              'The enterprise network infrastructure was modernised and put in order, monitoring of network ' +
+              'nodes was set up with the help of Zabbix. ' +
+              'Support for users in the office and in remote areas in the cities of Russia.'
         }
       ]
     }
@@ -147,7 +149,7 @@ const resume = {
       items: [
         {
           title: 'HTML',
-          percent: 90
+          percent: 85
         },
         {
           title: 'CSS/SCSS',
@@ -167,7 +169,7 @@ const resume = {
         },
         {
           title: 'MaterialUI',
-          percent: 80
+          percent: 75
         },
         {
           title: 'Formik',
@@ -185,11 +187,11 @@ const resume = {
       items: [
         {
           title: 'Webstorm',
-          percent: 75
+          percent: 85
         },
         {
           title: 'VSCode',
-          percent: 65
+          percent: 75
         },
         {
           title: 'Git',
@@ -209,11 +211,11 @@ const resume = {
         },
         {
           title: 'NodeJS',
-          percent: 60
+          percent: 55
         },
         {
           title: 'Mongodb',
-          percent: 50
+          percent: 60
         }
       ]
     }
