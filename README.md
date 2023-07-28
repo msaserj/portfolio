@@ -1,8 +1,5 @@
 <h1 align="center">My home page</h1>
-<h2 align="center">
-
-</h2>
-
+<h2 align="center"></h2>
 <p align="center">
 
 [//]: # '<img src="https://img.shields.io/npm/dy/msaserj">'
