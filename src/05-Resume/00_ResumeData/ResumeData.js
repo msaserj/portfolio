@@ -207,7 +207,7 @@ const resume = {
         },
         {
           title: 'Debian',
-          percent: 70
+          percent: 75
         },
         {
           title: 'NodeJS',
