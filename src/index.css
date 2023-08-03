@@ -7,6 +7,14 @@ body {
   color: #929ea8;
 }
 
+ul {
+  margin: 0;
+  padding-left: 15px;
+}
+li {
+  margin: 0;
+}
+
 /*Обнуление*/
 /**{*/
 /*  padding: 0;*/

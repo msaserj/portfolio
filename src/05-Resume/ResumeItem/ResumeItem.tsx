@@ -21,7 +21,7 @@ export const ResumeItem: React.FC<ResumeItemType> = ({ title, subtitle, years, d
             <span>{years}</span>
           </div>
         </div>
-        <p className={css.description}>{description}</p>
+        <p className={css.description} dangerouslySetInnerHTML={{ __html: description }} />
       </div>
     </div>
   );

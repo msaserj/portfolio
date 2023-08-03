@@ -34,7 +34,7 @@ const resume = {
           subtitle: 'IT-Incubator Minsk, Belarus.',
           years: '2022-Present',
           description:
-              'IT incubator is not IT courses, but an incubator. Not only study but also practical team development of your own project.'
+            'IT incubator is not IT courses, but an incubator. Not only study but also practical team development of your own project.'
         },
         {
           title: 'Udemy: The Complete 2021-2022 Web Development Bootcamp',
@@ -61,24 +61,25 @@ const resume = {
           subtitle: 'Lead Technical Support Specialist, System Administrator.',
           years: '2015-2020',
           description:
-            ' Administration of network infrastructure with a fleet of 500+ workstations, Windows/Linux in the ProxMox virtualization system.' +
-            ' Our team has implemented several projects: transferred terminal servers and user workstations ' +
-            'to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual' +
-            " networks. The company's wireless network was upgraded using unify equipment. Also maintenance" +
-            ' of enterprise security systems.'
+            '<ul>' +
+            '<li>Modernized enterprise wireless network based on UniFi equipment. This made it possible to organize a new product accounting system using interactive kiosks and terminals and reduce paperwork.</li>' +
+            '<li>Our team has implemented several projects: transferred terminal servers and user workstations to Windows OS, implemented a project to divide the enterprise network into separate VLAN virtual networks.</li>' +
+            '<li>Administration of network infrastructure with a fleet of 500+ workstations and Windows/Linux virtual servers.</li>' +
+            '<li>Negotiations with suppliers, verification of contractors, conclusion of contracts.</li>' +
+            '</ul>'
         },
         {
           title: '«Kostroma plant of auto components» JSC',
           subtitle: 'Department of Information Security. Engineer',
           years: '2012-2015',
           description:
-              'Leading specialist in security systems.' +
-              '• Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance Domination.' +
-              '• Setting up network equipment and workstations running Windows OS, support for network users.' +
-              '• Administration of enterprise servers Windows Server 2003-2008.' +
-              '• Designed and implemented projects of fire and security alarms, video surveillance and access ' +
-              'control systems. Documentation for the maintenance of security systems has been developed.' +
-              '• Negotiations with suppliers, verification of contractors, conclusion of contracts.'
+            '<ul>' +
+            '<li>Leading specialist in security systems. Installation of security systems: OPS Orion Pro, ACS Parsec, video surveillance.</li>' +
+            '<li>Setting up network equipment and workstations running Windows OS, support for network users. Administration of enterprise servers Windows Server 2003-2008.</li>' +
+            '<li>Designed and implemented projects of fire and security alarms, video surveillance and access control systems.</li>' +
+            '<li>Documentation for the maintenance of security systems has been developed.</li>' +
+            '</ul>'
+
         }
       ]
     },
@@ -91,22 +92,25 @@ const resume = {
           subtitle: 'React Front-end Developer | Part-time',
           years: '2022-Present',
           description:
-            'My main development direction is applications using the following ' +
-              'technology stack: React, Next.JS, Redux, Redux-Toolkit, Material-UI, ' +
-              'TypeScript, SCSS, HTML5. At the stage of studying: Node.JS, ' +
-              'Express.JS, MongoDB. Currently, together with the development team, we are developing ' +
-              'a service for sharing photos and videos on social networks using the Next.JS framework.'
+            'My main development direction is applications using the following technology stack:' +
+            ' React, Next.JS, Redux, Redux-Toolkit, Material-UI, TypeScript, SCSS, HTML5. ' +
+            'At the stage of studying: Node.JS, Express.JS, MongoDB. ' +
+            'Currently, together with the development team, we are developing a service for sharing photos and ' +
+            'videos on social networks. We use the latest tools, practices and methodologies in this project: ' +
+            'Next.JS as a main framework, RTK-Query, Jest for unit-tests, ' +
+            'Storybook for documenting application components, Git-flow.'
         },
         {
           title: '«Power industry enterprise»',
           subtitle: 'System Administrator, Web-developer',
           years: '2020-2022',
           description:
-              'Realized a web interface for access control system. Creating a report on the passage of' +
-              ' employees to the enterprise through the turnstile. MSSQL, Node.JS, React, JavaScript. ' +
-              'The enterprise network infrastructure was modernised and put in order, monitoring of network ' +
-              'nodes was set up with the help of Zabbix. ' +
-              'Support for users in the office and in remote areas in the cities of Russia.'
+            '<ul>' +
+            '<li>Realized a web interface for access control system. Creating a report on the passage of employees to the enterprise through the turnstile. MSSQL, Node.JS, React, JavaScript.</li>' +
+            '<li>The enterprise network infrastructure was modernised and put in order, monitoring of network nodes was set up with the help of Zabbix.</li><li></li>' +
+            '<li>Support for users in the office and in remote areas in the cities of Russia.</li>' +
+            '</ul>'
+
         }
       ]
     }
